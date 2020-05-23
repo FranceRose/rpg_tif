@@ -3,12 +3,9 @@ import random
 import math
 import rpg_config as config
 
-def get_time_in_hours(time, end=22, print_bool=True):
-	#TODO: fix the case with print_bool
-	if print_bool:
-		return (end - time//60, time % 60)
-	return end - time / 60
 
+def time2hours(time):
+	return f"{time//60}h{time%60:02d}"
 
 def shifumi():
 	choice = int(input("Pierre [0], Papier [1], Ciseaux [2]?"))
@@ -31,11 +28,11 @@ def shifumi():
 
 
 
-menu_choice = {0: "Faire amener un hamac pour piéger Daoult [Obligatoire] (temps estimé: 15mn)", 
-			   1: "Diplôme de thèse [Obligatoire] (temps estimé: 1h sans alexis, 15mn avec Alexis) Réaliser avant 18h. Impossible de réaliser entre 12h et 14h sauf si Alexis est présent.",
-               2: "Organiser un tournoi de babyfoot [Obligatoire] (temps estimé: 1h)",
-	           3: "Manger [Facultatif] (20 mn) (possible jusque 15h)",
-			   4: "Sieste"}
+menu_choice = {0: "Faire amener un hamac pour piéger Daoult [Obligatoire]", 
+			   1: "Diplôme de thèse [Obligatoire] Réaliser avant 18h.",
+               2: "Organiser un tournoi de babyfoot [Obligatoire]",
+	           3: "Manger [Facultatif] Possible jusque 15h.",
+			   4: "Sieste [Facultatif]"}
 
 def display_menu(time, hamac, diploma, babyfoot, eaten):
 	to_display = dict(menu_choice)
@@ -43,13 +40,26 @@ def display_menu(time, hamac, diploma, babyfoot, eaten):
 		del to_display[0]
 	if diploma:
 		del to_display[1]
-	elif get_time_in_hours(time, print_bool=False) > config.diploma_deadaline:
+	elif time > config.diploma_deadline * 60:
 		del to_display[1]
 	if babyfoot:
 		del to_display[2]
 	if eaten:
 		del to_display[3]
-	elif get_time_in_hours(time, print_bool=False) > config.lunch_deadline:
+	elif time > config.lunch_deadline * 60:
 		del to_display[3]
 	return to_display
 
+
+def daoult_attack(covid, hamac, fungus):
+	to_display = {0: "covid",
+				  1: "hamac",
+				  2: "champignon"}
+	if not covid:
+		del to_display[0]
+	if not hamac:
+		del to_display[1]
+	if not fungus:
+		del to_display[2]
+	txt = "Tu attaques Daoult avec le " + ','.join([f'{value} [{key}]' for key, value in to_display.items()])
+	return txt
