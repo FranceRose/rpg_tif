@@ -1,4 +1,6 @@
-[GREEN]Tiphaine[DEFAULT] refuse d'aller faire [RED]caca[DEFAULT] pour se concentrer sur sa [BLUE]mission[DEFAULT]
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] n'est pas allée faire [RED]caca[DEFAULT] pour se concentrer sur sa [BLUE]mission[DEFAULT]
 
 Par accident, elle lâche un petit [RED]pet silencieux[DEFAULT] sur le [GREEN]pauvre Alexis[DEFAULT]
 
@@ -6,10 +8,7 @@ Il ouvre la fenêtre à la hâte pour ne pas se faire gazer, mais a failli [RED]
 Pour ça, Tiphaine ne lui a clairement pas manqué !
 Pas sûr qu'il soit enclin à l'aider après un tel [RED]coup fourré[DEFAULT]...
 
---------------------------------------------------------------------------------
-
-[BOLD]1 - [YELLOW]Oups ![DEFAULT]
+[BOLD][YELLOW]Oups ![DEFAULT]
 
 --------------------------------------------------------------------------------
 
-Continuer

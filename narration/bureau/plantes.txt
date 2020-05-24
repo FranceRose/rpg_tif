@@ -4,8 +4,3 @@ Elles sont en train de crever de soif !
 
 Les arroser prendra un peu de [GREEN]TEMPS[DEFAULT], mais elles en ont bien besoin.
 
---------------------------------------------------------------------------------
-
-1 - [BOLD][BLUE] Arroser[DEFAULT]
-
---------------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+[DEFAULT]
+
+[BOLD][BLUE]Alexis[DEFAULT] s'approche de la fenêtre, prend une respiration d'air frais et se remet au
+travail.
+
+[BOLD]Bonne chance Tiphaine ![DEFAULT]

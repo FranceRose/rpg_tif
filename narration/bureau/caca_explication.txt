@@ -1,3 +1,5 @@
+[DEFAULT]
+
 [GREEN]Tiphaine[DEFAULT] a bien besoin de faire [RED]caca[DEFAULT].
 
 Après tout, c'est humain.
@@ -16,11 +18,14 @@ des toilettes de l'IBENS semble toujours à l'oeuvre. Les toilettes sont [RED]d�
 
 --------------------------------------------------------------------------------
 
-[BOLD][UNDERLINE]Comment gérer ces toilettes dégueulasses ?[DEFAULT]
-[BOLD]
-1 - [RED]Ecrire un mail à tout allbio[DEFAULT]
-2 - [GREEN]Passer outre[DEFAULT]
+[GREEN]UN MAIL @ALLBIO :[DEFAULT]
+Afficher ce malotru ! Tu ne peux résister !
+
+[RED]PASSER OUTRE :[DEFAULT]
+Tu rages, mais autant se concentrer sur des choses constructives. Plus vite c'est
+fait, plus vite tu pourras retrouver tes chèvres.
 
 --------------------------------------------------------------------------------
 
-[BOLD]1 ou 2 ?[DEFAULT]
+Un mail @allbio ? (T/F)
+

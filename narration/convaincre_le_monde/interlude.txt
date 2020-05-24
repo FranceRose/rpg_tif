@@ -1,0 +1,15 @@
+[DEFAULT]
+
+Maintenant que [GREEN][BOLD]Tiphaine[DEFAULT] a des éléments solides pour affirmer que le [RED][BOLD]corona-cola[DEFAULT]
+est dangereux est inutile, il est urgent qu’elle se trouve des alliés. Elle
+choisit d’abord d’en parler à son voisin [BLUE][BOLD]Alexis[DEFAULT].
+
+[BLUE][BOLD]Alexis[DEFAULT] écoute [GREEN][BOLD]Tiphaine[DEFAULT] silencieusement tout en écrivant son prochain
+livre de JDR: [UNDERLINE]“Donjons et Labos”[DEFAULT]. Le personnage principal de son histoire est
+un cheval qui rêve d’être un zèbre. Il répond distraitement à Tiphaine qu’il n’a
+pas forcément beaucoup de conseils pour cette histoire de [RED][BOLD]corona-cola[DEFAULT] mais par
+contre lui il a eu [BOLD][YELLOW]plein de problèmes administratifs[DEFAULT] à son retour, et que c’était
+bien relou. Il informe Tiphaine qu’elle aura sûrement du mal avec l’administration
+aussi, et qu’elle ne peut pas espérer d’entrevue avec [RED][BOLD]Daoult[DEFAULT] tant qu’elle n’a pas
+régularisé sa situation administrative d’ex-doctorante. Il va falloir qu’elle
+[BOLD]recontacte l’administration pour obtenir le formulaire A38 via le laisser-passer A39.[DEFAULT]

@@ -1,3 +1,5 @@
+[DEFAULT]
+
 [GREEN]Tiphaine[DEFAULT] a fini par comprendre avec le temps que [RED]s'énerver[DEFAULT] ne mène jamais loin.
 
 Il vaut mieux [GREEN]passer outre[DEFAULT] le fait que quelqu'un a encore tué les chiottes.

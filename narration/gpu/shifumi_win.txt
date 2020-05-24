@@ -1,0 +1,5 @@
+[DEFAULT]
+
+Ca y est ! [BOLD]Tu as enfin un créneau sur les GPUs ![DEFAULT] Vite vite, il faut faire ces
+analyses pour aider à coincer [RED][BOLD]Daoult[DEFAULT].
+

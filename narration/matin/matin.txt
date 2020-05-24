@@ -20,10 +20,10 @@ De votre choix dépendra votre [YELLOW]#NRJ[DEFAULT]
 
 --------------------------------------------------------------------------------
 
-[RED]SNOOZE :[DEFAULT]
+[GREEN]SNOOZE :[DEFAULT]
 8h ? C'est pas interdit par la convention de Genève de se lever à 8h ?
 
-[GREEN]SE LEVER:[DEFAULT]
+[RED]SE LEVER:[DEFAULT]
 Ca va faire 2 ans que je me lève à 4h du matin. Allez, je me lève ! [BOLD][YELLOW][50% succès][DEFAULT]
 
 --------------------------------------------------------------------------------

@@ -27,6 +27,6 @@ Elle doit désormais en convaincre ses collègues. Et avertir le monde.
 
 ### Launch Game
 
-* ptyhon 3.6 or later
+* python 3.6 or later
 
 * `python rpg.py`

@@ -16,22 +16,29 @@ def time2hours(time):
 	return f"{time//60}h{time%60:02d}"
 
 def shifumi():
-	choice = int(input("Pierre [0], Papier [1], Ciseaux [2]?"))
+	choice = int(check_input(p_color("narration/gpu/shifumi_play.txt"),
+							 ['0', '1', '2']))
 	choice_lisa = random.randint(0, 2)
 	choice_raphael = random.randint(0, 2)
-	m_ = max(config.shifumi_truth_table[choice][choice_lisa], config.shifumi_truth_table[choice][choice_raphael])
+	m_ = max(config.shifumi_truth_table[choice][choice_lisa],
+			 config.shifumi_truth_table[choice][choice_raphael])
+
 	while m_ == -1:
 		# ex-aequo
-		choice = int(input("Ax-aequo.\nPierre [0], Papier [1], Ciseaux [2]?"))
+		print("Ex-aequo.")
+		choice = int(check_input(p_color("narration/gpu/shifumi_play.txt"),
+								 ['0', '1', '2']))
 		choice_lisa = random.randint(0, 2)
 		choice_raphael = random.randint(0, 2)
-		m_ = max(config.shifumi_truth_table[choice][choice_lisa], config.shifumi_truth_table[choice][choice_raphael])
+		m_ = max(config.shifumi_truth_table[choice][choice_lisa],
+				 config.shifumi_truth_table[choice][choice_raphael])
 
 	if m_ == 0:
 		# Tif looses
-		print('Tu as perdu !')
+		print(p_color("narration/gpu/shifumi_loose.txt"))
 		return False
-	print('Tu as gagne !')
+
+	print(p_color("narration/gpu/shifumi_win.txt"))
 	return True
 
 
@@ -70,3 +77,58 @@ def daoult_attack(covid, hamac, fungus):
 		del to_display[2]
 	txt = "Tu attaques Daoult avec le " + ','.join([f'{value} [{key}]' for key, value in to_display.items()])
 	return txt
+
+def clear_screen():
+    # if name == 'nt':
+    #     _ = system('cls')
+    #
+    # else:
+    #     _ = system('clear')
+    pass
+
+
+class bbcolors:
+    PURPLE = '\033[95m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    DEFAULT = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
+def p_color(input, file=True):  # Afficher avec une couleur
+    if file:
+        input = open(input, 'r').read()
+    string = input.replace("[BLUE]", bbcolors.BLUE) \
+        .replace("[GREEN]", bbcolors.GREEN) \
+        .replace("[YELLOW]", bbcolors.YELLOW) \
+        .replace("[RED]", bbcolors.RED) \
+        .replace("[DEFAULT]", bbcolors.DEFAULT) \
+        .replace("[BOLD]", bbcolors.BOLD) \
+        .replace("[UNDERLINE]", bbcolors.UNDERLINE)
+    return string
+
+
+def print_INFO(time, energy):
+    print('*'*80)
+    print('** ', end='          ')
+    print(p_color(f"Il est [GREEN][BOLD]{time2hours(time)}[DEFAULT]. Il te reste [BOLD][YELLOW]{energy} d'#NRJ[DEFAULT].",
+                  file=False))
+    print('*' * 80)
+    return
+
+def print_result_action(dt, de):
+    txt = f"Cette action t'a pris [GREEN][BOLD]{dt} minutes[DEFAULT] et "
+    if de > 0:
+        txt += "tu as gagné "
+    else:
+        txt += "tu as perdu "
+    txt += f"[YELLOW][BOLD]{de} point(s) d'#NRJ[DEFAULT]."
+
+    print('*' * 80)
+    print('** ', end='          ')
+    print(p_color(txt, file=False))
+    print('*' * 80)
+    return

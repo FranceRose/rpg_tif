@@ -128,4 +128,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 resources/S51/
-README.md

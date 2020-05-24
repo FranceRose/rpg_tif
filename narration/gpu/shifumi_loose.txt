@@ -1,0 +1,5 @@
+[DEFAULT]
+
+Après ce temps d'attente, tu as de nouveau le droit de tenter ta chance pour avoir
+accès aux GPUs, il s'agit maintenant de ne pas perdre !
+

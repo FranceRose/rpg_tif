@@ -36,7 +36,7 @@ daoult_talk_dt            = 10
 daoult_fight_dt           = 10 # about SUVs
 daoult_fight_de           = -5
 daoult_test_mbti_proba    = 0.7
-daoult_test_mbti_dt       = -10
+daoult_test_mbti_dt       = 10
 
 # Swann encounter
 swann_beer_dt             = 45
@@ -75,7 +75,7 @@ auguste_email_answer_dt   = 5
 floor7_dt                 = 30
 
 # Shifumi
-shifumi_between_games_de  = -2
+shifumi_between_games_dt  = -5
 # pierre, feuille, ciseaux
 shifumi_truth_table       = [[-1, 0,  1],
 							 [1, -1,  0],

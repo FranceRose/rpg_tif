@@ -10,8 +10,9 @@ réchauffement climatique sûrement.
 
 En plus, votre génération ne respecte pas les gestes barrières et la sécurité des
 mots de passe. Les majors ont bien dit de désinfecter son clavier 4 fois par jour
-et de faire des sauvegardes sur [UNDELINE]osiris[DEFAULT] et non [UNDERLINE]hapis[DEFAULT].
+et de faire des sauvegardes sur [UNDERLINE]osiris[DEFAULT] et non [UNDERLINE]hapis[DEFAULT].
 
 --------------------------------------------------------------------------------
 
 Fiouf, il aura fallu un peu de [BOLD][GREEN]TEMPS[DEFAULT], mais au moins tu as ton [BLUE]badge.[DEFAULT]
+

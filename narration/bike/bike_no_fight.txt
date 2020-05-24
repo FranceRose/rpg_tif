@@ -1,7 +1,5 @@
 [DEFAULT]
 
---------------------------------------------------------------------------------
-
 [GREEN]Tu laisses couler...[DEFAULT] Pas facile facile. Mais pas de temps à perdre !
 
 En partant, tu ne résistes pas à l'envie de [BOLD]mettre un coup de pied dans le rétro.[DEFAULT]

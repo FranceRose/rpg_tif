@@ -1,4 +1,4 @@
-Tiphaine arrive à l'IBENS [BOLD][UNDERLINE] Avant 10 h !!![DEFAULT]
+Tiphaine arrive à l'IBENS [BOLD][UNDERLINE] Avant 9 h !!![DEFAULT]
 
 Mais quelle mouche l'a piquée ?
 
@@ -12,7 +12,7 @@ C'est [RED]Daoult[DEFAULT] !
 
 Il a l'air très surpris de croiser une doctorante de si bonne heure.
 D'habitude il n'y a personne...
-[RED]Daoult[DEFAULT] accoste Tiphaine, en lui parlant un peu comme une [RED]merde[DEFAULT]
+[RED]Daoult[DEFAULT] accoste Tiphaine, en lui parlant un peu comme une [RED]merde[DEFAULT].
 
 --------------------------------------------------------------------------------
 
@@ -34,4 +34,3 @@ vous voulez mon avis... C'est jamais qu'une grosse [RED]GRIPPE[DEFAULT]...
 Quoi qu'il en soit le [GREEN]TEMPS[DEFAULT] presse, et vous feriez bien d'y 
 mettre un peu d'[YELLOW]#NRJ[DEFAULT].
 
---------------------------------------------------------------------------------

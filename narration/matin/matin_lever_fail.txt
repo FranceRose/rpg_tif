@@ -1,9 +1,7 @@
 [DEFAULT]
 
---------------------------------------------------------------------------------
-
 Mmmh, tu as présumé de tes forces... Tu n'as jamais été du matin.
 Et puis ce jetlag :/
 
 Tu [RED]échoues[DEFAULT] lamentablement !
-Ton réveil étant désormais [RED]éteint[DEFAULT], tu ne te réveilleras qu'en [RED]panique[DEFAULT] à 10h.
+Ton réveil étant désormais [RED]éteint[DEFAULT], tu ne te réveilleras qu'en [RED]panique[DEFAULT] à 9h.

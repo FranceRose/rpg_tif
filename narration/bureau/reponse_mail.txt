@@ -1,3 +1,5 @@
+[DEFAULT]
+
 [GREEN]Tiphaine[DEFAULT] se fend d'un long mail à tout [BLUE]allbio[DEFAULT].
 
 Elle met une [BLUE]photo[DEFAULT] en pièce jointe, et rappelle à tout le monde que l'effaçage

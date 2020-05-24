@@ -1,0 +1,4 @@
+[DEFAULT]
+
+[BOLD]Pierre [0], Papier [1], Ciseaux [2] ?[DEFAULT]
+

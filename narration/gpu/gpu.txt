@@ -1,0 +1,8 @@
+[DEFAULT]
+
+De retour au labo la compétition est rude ! Les [BOLD]GPUs seront départagés par un
+tournoi de Pierre-Feuille-Papier-Ciseaux[DEFAULT] entre [GREEN][BOLD]Tiphaine[DEFAULT], [BLUE][BOLD]Raphaël, et Lisa[DEFAULT].
+Seulement deux d'entre elleux pourront accéder aux GPUs.
+
+Tiphaine se concentre pour cette épreuve mentale.
+
