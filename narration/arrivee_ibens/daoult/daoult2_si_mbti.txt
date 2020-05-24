@@ -1,10 +1,12 @@
 [GREEN]Tiphaine[DEFAULT] ne se laisse pas impressionner par le vieux [RED]Daoult[DEFAULT].
 
-Pour ne pas perdre de [GREEN]TEMPS[DEFAULT] ni d'[YELLOW]#NRJ[DEFAULT], elle décide même
-d'abonder dans le sens de [RED]Daoult[DEFAULT].
+Pour ne pas perdre de [GREEN]TEMPS[DEFAULT] ni d'[YELLOW]#NRJ[DEFAULT]
 
-Après tout, est-ce que les transports individuels ne sont pas préférables dans 
-le cadre du plan [BLUE]CovIBENS[DEFAULT] ?
+Elle entame la conversation sur le [BLUE]vélo[DEFAULT]. [RED]Daoult[DEFAULT] lui répond
+qu'il vient en [RED]voiture[DEFAULT]. Elle décide de ne pas relever.
+
+Elle abonde même dans son sens: Après tout, est-ce que les transports 
+individuels ne sont pas préférables dans le cadre du plan [BLUE]CovIBENS[DEFAULT] ?
 
 [RED]Daoult[DEFAULT] est très impressionné. Il demande à [GREEN]Tiphaine[DEFAULT]
 s'il peut faire quelque chose pour elle.

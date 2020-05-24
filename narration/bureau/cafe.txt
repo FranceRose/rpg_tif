@@ -1,0 +1,18 @@
+[GREEN][BOLD]Aaaah ! ÇA FAIT DU BIEN ![DEFAULT]
+
+Enfin un bon [GREEN]café[DEFAULT].
+
+[GREEN]Tiphaine[DEFAULT] se sent [YELLOW]BOOSTEE A MORT[DEFAULT] !
+
+Mais le café... Ça donne un peu envie de faire [RED]caca[DEFAULT] non ?
+
+--------------------------------------------------------------------------------
+
+[BOLD][UNDERLINE]Réagir au café[DEFAULT]:
+
+1 - J'ai une [BLUE]mission[DEFAULT] importante. Pas le temps de faire [RED]caca[DEFAULT].
+2 - J'ai un [RED]caca[DEFAULT] important. Pas le temps de faire ma [BLUE]mission[DEFAULT].
+
+--------------------------------------------------------------------------------
+
+[BOLD] 1 ou 2 ? [DEFAULT]

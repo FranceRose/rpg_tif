@@ -1,0 +1,18 @@
+[GREEN]Tiphaine[DEFAULT] arrive au [BLUE]bureau[DEFAULT]. Les plantes ont soif. Comme d'hab ! Personne
+ne s'en occupe jamais si elle n'est pas là de toute façon...
+
+Un peu de [GREEN]procrastination[DEFAULT] s'impose.
+
+--------------------------------------------------------------------------------
+
+[BOLD][UNDERLINE]Par où commencer cette journée de travail intensive ?[DEFAULT]
+[BOLD]
+
+1 - [GREEN]Arroser les plantes[DEFAULT]
+2 - [BLUE]Prendre un café[DEFAULT]
+3 - [RED]Faire caca[DEFAULT]
+[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BOLD]1, 2 ou 3 ?[DEFAULT]
