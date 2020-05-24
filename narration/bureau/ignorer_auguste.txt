@@ -1,0 +1,8 @@
+[DEFAULT]
+
+[RED]Auguste[DEFAULT] n'a vraiment pas changé...
+
+Mais [RED]se plaindre[DEFAULT] ne servirait à rien.
+
+Elle est fatiguée, dommage qu'il n'y ait pas de [YELLOW]HAMAC[DEFAULT] dans ce labo !
+Il faut vraiment qu'elle en fasse sa [BLUE]PRIORITE ABSOLUE[DEFAULT].

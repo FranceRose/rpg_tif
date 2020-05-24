@@ -1,0 +1,28 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] [RED]déboule[DEFAULT] dans le bureau d'[RED]Auguste[DEFAULT].
+
+[BOLD]"Non mais ça va pas d'envoyer des mails comme ça ?"[DEFAULT]
+
+Auguste [RED]tousse[DEFAULT] énormément. [BOLD][UNDERLINE]Si Tiphaine n'avait pas déja le COVID,
+elle l'attrappe maintenant.[DEFAULT]
+
+[RED]Auguste[DEFAULT] lui répond qu'il est [GREEN]factuel[DEFAULT] comme il l'a été dans la lettre de
+recommandation. [GREEN]Tiphaine[DEFAULT] n'a manifestement [RED]rien glandé[DEFAULT] ce matin.
+
+[GREEN]Tiphaine[DEFAULT] gaspille un peu de [GREEN]TEMPS[DEFAULT] et d'[YELLOW]#NRJ[DEFAULT] à se défendre pour rien.
+
+[RED]Auguste[DEFAULT] lui répond simplement qu'elle devrait [GREEN]travailler[DEFAULT] au lieu de 
+[RED]se plaindre[DEFAULT]. Il avait oublié comment Tiphaine était [RED]chiante[DEFAULT].
+
+Heureusement qu'il y a aussi des [GREEN]workaholic[DEFAULT] au labo
+Comme [GREEN]Lisa[DEFAULT] par exemple, dont elle devrait [BLUE]s'inspirer[DEFAULT].
+
+[GREEN]Tiphaine[DEFAULT] est [RED]dégoutée[DEFAULT]. C'est du temps [RED]totalement perdu[DEFAULT].
+
+[BOLD]Elle s'en va[DEFAULT]. En partant, elle se met aussi à [RED]tousser[DEFAULT].
+C'est décidément une journée de [RED]merde[DEFAULT].
+
+Elle est fatiguée, dommage qu'il n'y ait pas de [YELLOW]HAMAC[DEFAULT] dans ce labo !
+Bien qu'elle doive [RED]travailler[DEFAULT] elle se dit qu'il faut vraiment faire du [YELLOW]HAMAC[DEFAULT]
+sa [BLUE]PRIORITE ABSOLUE[DEFAULT].
