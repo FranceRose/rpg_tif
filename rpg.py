@@ -113,8 +113,6 @@ def game(DEBUG=False):
 		UI.print_result_action(config.non_bike_fight_dt, config.non_bike_fight_de)
 
 		print(UI.p_color("narration/bike/bike_no_fight.txt"))
-		UI.print_INFO(time, energy)
-		UI.clear()
 
 	UI.print_INFO(time, energy)
 	input()
@@ -195,6 +193,7 @@ def game(DEBUG=False):
 			UI.print_result_action(config.bilel_dt,0)
 
 	UI.print_INFO(time, energy)
+	input()
 	UI.clear()
 
 
@@ -205,7 +204,7 @@ def game(DEBUG=False):
 		energy += config.auguste_meeting_de
 		covid = True
 
-		print(UI.p_color("narration/sixth_floor_kitchen/meting_auguste.txt"))
+		print(UI.p_color("narration/sixth_floor_kitchen/meeting_auguste.txt"))
 		UI.print_result_action(config.auguste_meeting_dt,
 							   config.auguste_meeting_de)
 
@@ -292,10 +291,12 @@ def game(DEBUG=False):
 
 	# 7th FLOOR
 	time += config.floor7_dt
+	print(UI.p_color("narration/seventh_floor/seventh_floor_data.txt"))
+	UI.print_result_action(config.floor7_dt, 0)
 
-	if DEBUG:
-		print('\n7th FLOOR')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
+	UI.print_INFO(time, energy)
+	input()
+	UI.clear()
 
 
 	# Analysis
@@ -371,6 +372,10 @@ def game(DEBUG=False):
 	##########################################
 
 	while (time < config.end_hour * 60 and energy > 0) and ((not diploma) or (not hamac_quest) or (not babyfoot)): #TODO: check constraints
+
+		if DEBUG:
+			print(f"time = {time}, energy = {energy}")
+			print(f"diplome = {diploma}, hamac_quest = {hamac_quest}, babyfoot = {babyfoot}")
 
 		to_display_menu = display_menu(time, hamac_quest, diploma, babyfoot, eaten)
 		menu_choice = input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n')

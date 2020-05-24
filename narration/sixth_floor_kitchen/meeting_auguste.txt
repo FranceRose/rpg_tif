@@ -19,3 +19,5 @@ pas en placer une... [GREEN][BOLD]Tiphaine[DEFAULT] hoche la tête en attendant 
 
 [BOLD]Pendant cette réunion, la distance de 1 mètre n'est pas respectée. Cette toux d'
 Auguste est bien le signe du Covid-22 et [GREEN]Tiphaine[DEFAULT] est [RED]contaminée[DEFAULT].
+
+
