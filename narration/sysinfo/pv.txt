@@ -1,5 +1,5 @@
 [DEFAULT][BOLD]
-Impossible d’accéder à son bureau sans badge.[DEFAULT]
+Impossible d’accéder à son bureau sans [BLUE]badge.[DEFAULT]
 
 --------------------------------------------------------------------------------
 
@@ -8,6 +8,8 @@ de [BLUE][BOLD]SYSINFO[DEFAULT].
 
 Arrivée à [BLUE][BOLD]SYSINFO[DEFAULT], elle croise [RED][BOLD]Pierre Vincens[DEFAULT]. Il ne veut pas ouvrir la porte
 pour respecter les gestes barrières.
+
+D'ailleurs, il y a littéralement une [RED]barrière[DEFAULT] pour bloquer le passage.
 
 
 --------------------------------------------------------------------------------

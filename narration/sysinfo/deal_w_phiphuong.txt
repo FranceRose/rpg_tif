@@ -1,6 +1,7 @@
 [DEFAULT]
 
-Arg, c'est maintenant [RED][BOLD]Phi-Phuong[DEFAULT] qui s'approche de la porte. Ah non pas lui...
+Arg, c'est maintenant [RED][BOLD]Phi-Phuong[DEFAULT] qui s'approche de la porte.
+Ah non pas lui...
 
 --------------------------------------------------------------------------------
 

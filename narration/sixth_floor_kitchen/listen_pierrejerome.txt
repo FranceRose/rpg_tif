@@ -1,6 +1,6 @@
 [DEFAULT]
 
-[BOLD][BLUE]Jérôme et Pierre[DEFAULT] sont dans la [GREEN][BOLD][UNDERLINED]RESISTANCE[DEFAULT] ! Ils ont de très forts soupçons contre
+[BOLD][BLUE]Jérôme et Pierre[DEFAULT] sont dans la [GREEN][BOLD][UNDERLINE]RESISTANCE[DEFAULT] ! Ils ont de très forts soupçons contre
 le [BOLD][RED]corona-cola[DEFAULT]. [RED][BOLD]Daoult[DEFAULT] cherche juste à se remplir les poches et faire la une des
 journeaux.
 

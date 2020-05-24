@@ -1,12 +1,14 @@
 [DEFAULT]
 
-Il faut bien comprendre que la technologie GHW34X des nouveaux boitiers d'acces
+[RED]Phi-phuong[DEFAULT]:
+
+"Il faut bien comprendre que la technologie GHW34X des nouveaux boitiers d'acces
 est incomptabible avec les badges 2019. Vous devriez le savoir quand meme ! Il
 s'agit d'une technologie de pointe qui utilise les protocles proches du bluetooth.
 Et oui, norme de communication permettant l'échange bidirectionnel de données à
 très courte distance en utilisant des ondes radio UHF sur une bande de fréquence
-de 2,4 GHz. Sa destination est de simplifier les connexions entre les appareils
-électroniques en supprimant des liaisons filaires.
+de 2,4 GHz. Sa vocation est de simplifier les connexions entre les appareils
+électroniques en supprimant des liaisons filaires."
 
 Mais, ah oui, où on en était ? Ton badge !
 
@@ -14,4 +16,4 @@ Attends, il faut que je retrouve mon script de mise à jour...
 
 --------------------------------------------------------------------------------
 
-[BOLD][GREEN]Fiouf, bon au moins, tu as ton badge.[DEFAULT]
+[BOLD][GREEN]Fiouf[DEFAULT], il aura fallu du [GREEN]TEMPS[DEFAULT] mais bon au moins, tu as ton badge.[DEFAULT]
