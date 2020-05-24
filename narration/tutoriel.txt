@@ -1,0 +1,12 @@
+[BOLD][GREEN]TUTORIEL:
+
+[DEFAULT]Tiphaine a beaucoup de courage. Mais Tiphaine n'a pas beaucoup d'[YELLOW]#NRJ[DEFAULT]. Ou,
+pour être plus précis, Tiphaine a besoin de [BOLD]SIESTER[DEFAULT] souvent pour avoir de
+l'[YELLOW]#NRK[DEFAULT].
+
+Au cours de son aventure, Tiphaine pourrait mourir d'épuisement si elle ne fait
+pas suffisamment attention à son [YELLOW]#NRJ[DEFAULT]. Tandis qu'elle vient d'arriver à Paris,
+elle doit contre-carrer les plans de [RED]Daoult[DEFAULT] concernant le [RED]corona-cola[DEFAULT].
+
+Elle doit faire attention au [GREEN]#TEMPS[DEFAULT], car elle ne dispose pour cela que d'une
+journée. Cette journée commence à 8h.

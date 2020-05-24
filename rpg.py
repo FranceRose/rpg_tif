@@ -4,6 +4,42 @@ import rpg_config as config
 from rpg_functools import *
 import random
 
+from os import system, name
+import UI
+
+def clear():
+
+    if name == 'nt':
+        _ = system('cls')
+
+    else:
+        _ = system('clear')
+
+class bcolors:
+    PURPLE = '\033[95m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    DEFAULT = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+def p_color(string): # Afficher avec une couleur
+	string = string.replace(
+		"[BLUE]","{"+bbcolors.BLUE+"}").replace(
+		"[GREEN]","{"+bbcolors.GREEN+"}").replace(
+		"[YELLOW]","{"+bbcolors.YELLOW+"}").replace(
+		"[RED]","{"+bbcolors.RED+"}").replace(
+		"[DEFAULT]","{"+bbcolors.DEFAULT+"}").replace(
+		"[BOLD]","{"+bbcolors.BOLD+"}").replace(
+		"[UNDERLINE]","{"+bbcolors.UNDERLINE+"}")
+
+	print(f"{string}")
+
+
+def print_INFO(life,time):
+	print('\')
 
 def game(DEBUG=False):
 
@@ -288,7 +324,7 @@ def game(DEBUG=False):
 	##########################################
 
 	while (time < config.end_hour * 60 and energy > 0) and ((not diploma) or (not hamac_quest) or (not babyfoot)): #TODO: check constraints
-		
+
 		to_display_menu = display_menu(time, hamac_quest, diploma, babyfoot, eaten)
 		menu_choice = input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n')
 
@@ -297,7 +333,7 @@ def game(DEBUG=False):
 		if menu_choice == '0':
 			if ('France' in hamac_votes) and not ('Guillaume' in hamac_votes):
 				hamac_votes.append('Guillaume')
-			
+
 			# TODO: verify hamac_votes has no redundacy
 			assert len(hamac_votes) == len(set(hamac_votes))
 
@@ -400,14 +436,14 @@ def game(DEBUG=False):
 			hamac_votes.extend(['nikita', 'maxime'])
 
 			if resistance:
-				#TBD: verify she has high chances to get resistance: 
+				#TBD: verify she has high chances to get resistance:
 				# - from talk with pierre and jerome
 				# - from paloetti signature
 				daoult_password = True
 
 			time += config.baby_dt
 
-			if resistance: 
+			if resistance:
 				# choose between paoletti and holcman
 				paoletti_vs_holcman = input('De Pierre Paloetti et David Holcman, qui choisis-tu comme allie contre Daoult? [0/1]')
 				if paoletti_vs_holcman == '0':
@@ -434,7 +470,7 @@ def game(DEBUG=False):
 				# eat with Solene and Elise
 				hamac_votes.extend(['elise', 'raphael', 'solene'])
 				# cure fungal infection?
-				fungal_choice = input("Pour ton champignon, tu suis le conseil d'Elise [0] ou de Solene[1] ?") 
+				fungal_choice = input("Pour ton champignon, tu suis le conseil d'Elise [0] ou de Solene[1] ?")
 				if fungal_choice == '0':
 					# elise: the fungal infection grows worse
 					fungus = True
@@ -458,7 +494,7 @@ def game(DEBUG=False):
 			if DEBUG:
 				print('\nNAP')
 				print(f'time = {time2hours(time)}; energy={energy}\n')
-		
+
 
 	if time >= config.end_hour * 60 or energy < 0:
 		print('GAME OVER ! Recommence !')
@@ -495,8 +531,8 @@ def game(DEBUG=False):
 		else:
 			print("Ton allie Holmcan est mechant")
 			energy += allie_is_evil_de
-	
-	if office_check != '3':	
+
+	if office_check != '3':
 		time += config.whistleblower_dt
 		if DEBUG:
 			print('\nWHISTLEBLOWER')
@@ -578,7 +614,7 @@ def game(DEBUG=False):
 
 		if energy < 0:
 			print("GAME OVER! Recommence !")
-			return	
+			return
 
 		if huel:
 			huel_choice = input("Veux-tu un peu de huel? [T/F]")
@@ -596,7 +632,7 @@ def game(DEBUG=False):
 				# fight both
 				# not enough energy!
 				print("GAME OVER! Recommence !")
-				return	
+				return
 
 		else:
 			# no more allie
@@ -619,5 +655,3 @@ def game(DEBUG=False):
 
 if __name__ == '__main__':
 	game(DEBUG=True)
-
-
