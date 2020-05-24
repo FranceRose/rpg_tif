@@ -5,8 +5,9 @@ Rappelons que [GREEN]Tiphaine[DEFAULT] est [BLUE]Princesse Cystite[DEFAULT] !
 
 Elle va donc aux toilettes.
 
-Elle perd préalablement un peu de [GREEN]TEMPS[DEFAULT] à expliquer à tout le monde
-ses problèmes intestinaux, puis un peu d'[YELLOW]#NRJ[DEFAULT] à cause d'une constipation.
+Elle y perd un peu d'[YELLOW]#NRJ[DEFAULT] à cause d'une [RED]constipation[DEFAULT]
+
+C'est étrange, elle n'a pourtant pas mangé de [RED]poivron[DEFAULT]...
 
 Surtout, elle [RED]s'énerve[DEFAULT] car 2 ans n'y ont rien changé: Le destructeur
 des toilettes de l'IBENS semble toujours à l'oeuvre. Les toilettes sont [RED]dégueues[DEFAULT].
