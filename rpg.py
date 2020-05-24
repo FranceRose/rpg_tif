@@ -306,11 +306,18 @@ def game(DEBUG=False):
 	input()
 	clear_screen()
 
+	# email auguste
+	answer_email_auguste = check_input(p_color("narration/bureau/mail_auguste.txt"),
+									   ['T', 'F'])
 
-	answer_email_auguste = input("Repondre au mail d'Auguste de facon enervee ? [T/F]")
 	if answer_email_auguste == 'T':
 		time += config.auguste_email_answer_dt
 		covid = True
+
+		print(p_color("narration/bureau/engueuler_auguste.txt"))
+		print_result_action(config.auguste_email_answer_dt, 0)
+	else:
+		print(p_color("narration/bureau/ignorer_auguste.txt"))
 
 	if DEBUG:
 		print('\nLAB')
@@ -335,7 +342,7 @@ def game(DEBUG=False):
 	shifumi_output = shifumi()
 	while not shifumi_output:
 		time += config.shifumi_between_games_dt
-		print_result_action(shifumi_between_games_dt, 0)
+		print_result_action(config.shifumi_between_games_dt, 0)
 		shifumi_output = shifumi()
 
 	gpu = True
@@ -378,8 +385,12 @@ def game(DEBUG=False):
 	input()
 
 	# France & Guillaume encounters
-	discuss_france = input('Tu veux discuter de tes problemes avec France? [T/F]')
+	discuss_france = check_input(p_color("narration/convaincre_le_monde/discussion_france_beginning.txt"),
+								 ['T', 'F'])
 	if discuss_france == 'T':
+		print(p_color("narration/convaincre_le_monde/discussion_france_follow.txt"))
+		print_result_action(config.france_dt, config.france_e - energy)
+
 		time += config.france_dt
 		energy = config.france_e
 		huel = True
@@ -390,12 +401,15 @@ def game(DEBUG=False):
 	clear_screen()
 
 
-	discuss_guillaume = input('Tu veux discuter de tes problemes avec Guillaume? [T/F]')
+	discuss_guillaume = check_input(p_color("narration/convaincre_le_monde/choice_discussion_guillaume.txt"),
+									['T', 'F'])
 	if discuss_guillaume == 'T':
 		time += config.guillaume_dt
 		energy += config.guillaume_de
 		hamac_votes.append('guillaume')
 
+		print(p_color("narration/convaincre_le_monde/discussion_guillaume.txt"))
+		print_result_action(config.guillaume_dt, config.guillaume_de)
 
 	if DEBUG:
 		print('\nF&G ENCOUNTERS')

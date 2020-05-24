@@ -1,0 +1,11 @@
+[DEFAULT]
+
+France lui raconte qu’elle a fait beaucoup de sport, qu’elle a publié 7 articles,
+qu’elle a perdu 10kg en ne mangeant que des pommes.
+
+Elle donne à Tiphaine du [YELLOW][BOLD]Huel[DEFAULT] qui permet de restaurer 100% d’énergie sans avoir
+à perdre de temps, ce qui sera un atout de taille dans le combat contre [RED][BOLD]Daoult[DEFAULT].
+
+Dans la conversation, [GREEN][BOLD]Tiphaine[DEFAULT] reussi a convaincre France de [BOLD]voter pour le hamac[DEFAULT].
+En meme temps, France a toujours été pour un coin détente !
+

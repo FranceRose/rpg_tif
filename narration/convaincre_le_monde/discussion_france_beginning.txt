@@ -1,0 +1,32 @@
+[DEFAULT]
+
+Après avoir eu l’avis d’Alexis, elle consulte [YELLOW][BOLD]France[DEFAULT].
+
+[YELLOW][BOLD]France[DEFAULT] écoute [GREEN][BOLD]Tiphaine[DEFAULT] soigneusement, prend des notes en hochant studieusement
+la tête derrière ses lunettes rondes moches, puis fais un rétro-planning en
+rappelant à Tiphaine son temps restant et son énergie restante, et le fait que
+[RED][BOLD]Daoult[DEFAULT] doit tenir demain une [BOLD]grande conférence de presse promotionnelle pour le
+lancement national du [RED]corona-cola[DEFAULT][BOLD] et que donc le temps presse[DEFAULT].
+
+Elle lui rappelle qu’elle peut faire des [BOLD]siestes pour récupérer de l’énergie[DEFAULT],
+notamment pour le parcours administratif qui pourrait la tuer de fatigue si elle n’y prend garde.
+
+Ensuite, elle lui propose de convoquer une réunion au sommet au [BOLD]babyfoot[DEFAULT],
+spécialement aménagé pour faire respecter les gestes barrières. Elle pourrait
+profiter d’un grand tournoi pour entendre les avis des uns et des autres et
+collecter de précieuses informations sur [RED][BOLD]Daoult[DEFAULT], son bureau et ses faiblesses
+pour le vaincre.
+
+--------------------------------------------------------------------------------
+
+[GREEN]CONTINUER LA DISCUSSION :[DEFAULT]
+Ca fait deux ans que tu n'as pas vu France. Qu'est-ce qu'elle a bien pu faire
+pendant tout ce temps ??
+
+[RED]LA REMERCIER :[DEFAULT]
+Tu aimerais bien rester des heures a discuter de la vie, du bon vieux temps, du
+feminisme, mais Daout ne sera pas demasque sans rien faire !
+
+--------------------------------------------------------------------------------
+
+Continuer ? [T/F]

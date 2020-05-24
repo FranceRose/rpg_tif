@@ -24,14 +24,12 @@ Tiphaine peut-elle garder pour elle son agacement ?
 
 --------------------------------------------------------------------------------
 
-[GREEN]True[DEFAULT]:
+[GREEN]GARDER POUR ELLE [DEFAULT]:
+Bah. Il vaut mieux laisser couler, c'est peine perdue de râler.
 
-Bah. Il vaut mieux [GREEN]laisser couler[DEFAULT], c'est peine perdue de râler.
-
-[RED]False[DEFAULT]:
-
-Il est temps que cela cesse. Tiphaine [RED]s'énerve[DEFAULT] et déboule dans le bureau d'Auguste.
+[RED]DIRE A AUGUSTE SES VERITES [DEFAULT]:
+Il est temps que cela cesse. Tiphaine s'énerve et déboule dans le bureau d'Auguste.
 
 --------------------------------------------------------------------------------
 
-[BOLD]Garder pour elle ? (T/F)[DEFAULT]
+Garder pour elle ? (T/F)

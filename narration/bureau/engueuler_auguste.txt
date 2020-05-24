@@ -26,3 +26,4 @@ C'est décidément une journée de [RED]merde[DEFAULT].
 Elle est fatiguée, dommage qu'il n'y ait pas de [YELLOW]HAMAC[DEFAULT] dans ce labo !
 Bien qu'elle doive [RED]travailler[DEFAULT] elle se dit qu'il faut vraiment faire du [YELLOW]HAMAC[DEFAULT]
 sa [BLUE]PRIORITE ABSOLUE[DEFAULT].
+
