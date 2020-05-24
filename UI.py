@@ -2,14 +2,15 @@ from rpg_functools import time2hours
 
 
 def clear():
-    if name == 'nt':
-        _ = system('cls')
+    # if name == 'nt':
+    #     _ = system('cls')
+    #
+    # else:
+    #     _ = system('clear')
+    pass
 
-    else:
-        _ = system('clear')
 
-
-class bcolors:
+class bbcolors:
     PURPLE = '\033[95m'
     BLUE = '\033[94m'
     GREEN = '\033[92m'
@@ -20,8 +21,8 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
-def p_color(input):  # Afficher avec une couleur
-    if type(input) != str:
+def p_color(input, file=True):  # Afficher avec une couleur
+    if file:
         input = open(input, 'r').read()
     string = input.replace("[BLUE]", bbcolors.BLUE) \
         .replace("[GREEN]", bbcolors.GREEN) \
@@ -34,5 +35,10 @@ def p_color(input):  # Afficher avec une couleur
 
 
 def print_INFO(time, energy):
-    print(p_color(f"Il est [BOLD]{time2hours(time)}[DEFAULT]. Il te reste [BOLD][YELLOW]{energy} d'energie."))
+    print('*'*80)
+    print('** ', end='')
+    print(p_color(f"Il est [GREEN][BOLD]{time2hours(time)}[DEFAULT]. Il te reste [BOLD][YELLOW]{energy} d'energie[DEFAULT].",
+                  file=False),
+          end='')
+    print('*' * 80)
     return
