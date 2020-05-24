@@ -9,4 +9,4 @@ pas suffisamment attention à son [YELLOW]#NRJ[DEFAULT]. Tandis qu'elle vient d'
 elle doit contre-carrer les plans de [RED]Daoult[DEFAULT] concernant le [RED]corona-cola[DEFAULT].
 
 Elle doit faire attention au [GREEN]#TEMPS[DEFAULT], car elle ne dispose pour cela que d'une
-journée. Cette journée commence à 8h.
+journée. Cette journée commence à 8h et se termine à 22h.
