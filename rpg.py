@@ -356,25 +356,42 @@ def game(DEBUG=False):
 	clear_screen()
 
 	# Analysis
+	check_input(p_color("narration/analyse/question_troll.txt"), ['1', '2', '3', '4'])
+
 	if coffee:
 		time += config.analysis_if_coffee_dt
 		energy += config.analysis_if_coffee_de
+
+		print(p_color("narration/analyse/avec_cafe.txt"))
+		print_result_action(config.analysis_if_coffee_dt,
+							config.analysis_if_coffee_de)
 	else:
-		promise_mathieu = input("Promets-tu a Mathieu de ne plus l'emmerder avec tes problemes de config pycharm? [T/F]")
+		promise_mathieu = check_input(p_color("narration/analyse/sans_cafe.txt"),
+									  ['T', 'F'])
+
 		if promise_mathieu == 'T':
 			time += config.promise_mathieu_dt
+			energy += config.analysis_de
+			# mathieu is an allie
 			hamac_votes.append('mathieu')
+			print(p_color("narration/analyse/gentille_avec_mathieu.txt"))
+			print_result_action(config.promise_mathieu_dt,
+								config.analysis_de)
 		else:
 			time += config.non_promise_mathieu_dt
-			# mathieu is no more an allie
+			energy += config.analysis_de
+			print(p_color("narration/analyse/pasgentille_avec_mathieu.txt"))
+			print_result_action(config.promise_mathieu_dt, config.analysis_de)
 
 	analysis = True
-	energy += config.analysis_de
-
 
 	if DEBUG:
 		print('\nANALYSIS')
 		print(f'analysis = {analysis}, coffee = {coffee}')
+
+	print_INFO(time, energy)
+	input()
+	clear_screen()
 
 	# Discussion with Alexis about admin problems
 	print(p_color("narration/convaincre_le_monde/interlude.txt"))
