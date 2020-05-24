@@ -1,7 +1,7 @@
 [DEFAULT]
 
 [GREEN][BOLD]Tiphaine[DEFAULT] arrive dans la cuisine du 6ème étage. [BLUE][BOLD]Jérôme et Pierre[DEFAULT] sont en train de
-parler. [RED][BOLD]Auguste[DEFAULT passe. Auguste [RED][BOLD]tousse[DEFAULT], mais il est quand même venu.
+parler. [RED][BOLD]Auguste[DEFAULT] passe. Auguste [RED][BOLD]tousse[DEFAULT], mais il est quand même venu.
 
 "Tiphaine, tu devrais déjà être a ton bureau ! Tu es en retard pour notre rendez-vous.
 

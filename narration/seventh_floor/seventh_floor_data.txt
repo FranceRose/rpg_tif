@@ -1,0 +1,10 @@
+[DEFAULT]
+
+[BLUE][BOLD]Ayush et Aurélien[DEFAULT] injectent du [RED][BOLD]corona-cola[DEFAULT] sur des neurones de souris in vitro.
+[GREEN][BOLD]Tiphaine[DEFAULT] est [BOLD][YELLOW]LA data scientist[DEFAULT] qu’il leur faut. [BLUE][BOLD]Ayush et Aurélien[DEFAULT] pensent que le
+[RED][BOLD]corona-cola[DEFAULT] fait dégénérer les neurones mais ils ont besoin d’analyses
+[BOLD]quantitatives[DEFAULT] pour le prouver. Ils lui donnent les images. Pour le reste c’est
+bien connu, il [UNDERLINED]“suffit”[BOLD] de faire l’analyse et [UNDERLINED]“y’a qu’à”[DEFAULT] relancer ses vieux
+scripts parce que les données sont [BOLD]GÉNIALES. Vite vite ![DEFAULT]
+
+
