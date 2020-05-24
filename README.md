@@ -1,7 +1,7 @@
-= RPG GAME for Tiphaine's defense =
-== 2020/05/27 ==
+# RPG GAME for Tiphaine's defense
+## 2020/05/27
 
-=== Plot ===
+### Plot
 Juillet 2022. Alors que le coronavirus a muté en une forme mortelle et gravissime, 
 l’IBENS rappelle ses personnels de par le monde. Les anciens doctorant.e.s et 
 post-doctorant.e.s sans emploi sont rappelés à leur bureau afin de trouver des 
@@ -25,7 +25,7 @@ effectuées dans une journée.
 Elle doit désormais en convaincre ses collègues. Et avertir le monde.
 
 
-=== Launch Game ===
+### Launch Game
 
 * ptyhon 3.6 or later
 
