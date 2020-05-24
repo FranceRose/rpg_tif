@@ -10,7 +10,7 @@ Un camion-poubelle passe.
 Pendant un instant Tiphaine se rassure. Elle a fait un cauchemar où une pandémie
 décimait toute l'humanité ! Sauf que... [RED] En fait, c'est vrai :([DEFAULT]
 
-Paris. Nous sommes le Mercredi 13 Juillet 2022, Il est 8h.
+Paris. Nous sommes le Mercredi 13 Juillet 2022, il est 8h.
 Le réveil sonne.
 
 [UNDERLINE]Il faut 1h pour aller au labo. Que faire ?[DEFAULT]

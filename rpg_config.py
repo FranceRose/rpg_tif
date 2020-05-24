@@ -21,6 +21,7 @@ snooze_dt                 = 60
 nonsnooze_dt              = 10
 snooze_de                 = 0
 nonsnooze_de              = -10
+wakeup_proba              = 0.5
 
 # IBENS arrival
 bike_fight_dt             = 15

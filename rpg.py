@@ -7,40 +7,6 @@ import random
 from os import system, name
 import UI
 
-def clear():
-
-    if name == 'nt':
-        _ = system('cls')
-
-    else:
-        _ = system('clear')
-
-class bcolors:
-    PURPLE = '\033[95m'
-    BLUE = '\033[94m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    DEFAULT = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-
-def p_color(string): # Afficher avec une couleur
-	string = string.replace(
-		"[BLUE]","{"+bbcolors.BLUE+"}").replace(
-		"[GREEN]","{"+bbcolors.GREEN+"}").replace(
-		"[YELLOW]","{"+bbcolors.YELLOW+"}").replace(
-		"[RED]","{"+bbcolors.RED+"}").replace(
-		"[DEFAULT]","{"+bbcolors.DEFAULT+"}").replace(
-		"[BOLD]","{"+bbcolors.BOLD+"}").replace(
-		"[UNDERLINE]","{"+bbcolors.UNDERLINE+"}")
-
-	print(f"{string}")
-
-
-def print_INFO(life,time):
-	print('\')
-
 def game(DEBUG=False):
 
 	# global variables
@@ -80,20 +46,59 @@ def game(DEBUG=False):
 	holcman = False
 
 	###############################
+	# PROLOGUE
+	###############################
+	# Star Wars Init
+	input(UI.p_color("narration/intro.txt"))
+	UI.clear()
+	# TBD: remove if video
+
+	# Retour
+	input(UI.p_color("narration/retour.txt"))
+	UI.clear()
+
+	# Tutoriel
+	input(UI.p_color("narration/tutoriel.txt"))
+	UI.clear()
+
+	###############################
 	# INITIAL SEQUENCE
 	###############################
 	if DEBUG:
 		print('\nINIT')
 		print(f'time = {time2hours(time)}; energy={energy}\n')
 
+	UI.print_INFO(time, energy)
+
 	# wake-up
-	snooze = input('Snooze ? [T/F]')
+	snooze = input(UI.p_color("narration/matin/matin.txt"))
 	if snooze == 'T':
 		time += config.snooze_dt
 		energy += config.snooze_de
+
+		UI.p_color("narration/matin/matin_snooze.txt")
+		UI.print_INFO(time, energy)
+		UI.clear()
+
 	else:
-		time += config.nonsnooze_dt
-		energy += config.nonsnooze_de
+		rd = random.random()
+		if rd <= config.wakeup_proba:
+			# Tif manages to wakeup
+			time += config.nonsnooze_dt
+			energy += config.nonsnooze_de
+
+			UI.p_color("narration/matin/matin_lever_success.txt")
+			UI.print_INFO(time, energy)
+			UI.clear()
+
+		else:
+			#fail
+			time += config.snooze_dt
+			energy += config.nonsnooze_de
+
+			UI.p_color("narration/matin/matin_lever_fail.txt")
+			UI.print_INFO(time, energy)
+			UI.clear()
 
 	if DEBUG:
 		print('\nWAKEUP')

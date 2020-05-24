@@ -1,0 +1,7 @@
+[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+La fonction [BOLD]Snooze[DEFAULT] est faite pour qu'on l'utilise, non ?
+
+
