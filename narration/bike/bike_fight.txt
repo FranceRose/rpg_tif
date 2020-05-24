@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------
 
-Tu t'es engagée dans une [RED]joute verbale avec le chauffeur[DEFAULT, une bonne chose de faîte (ou pas) !
+Tu t'es engagée dans une [RED]joute verbale avec le chauffeur[DEFAULT], une bonne chose de faîte (ou pas) !
 
-En partant, tu ne résistes pas à l'envie de [BOLD]mettre un coup de pied dans le rétro.[DEFAULT
+En partant, tu ne résistes pas à l'envie de [BOLD]mettre un coup de pied dans le rétro.[DEFAULT]
 Ah ça t'avait manqué ce boost d'adrénaline quotidien :p
