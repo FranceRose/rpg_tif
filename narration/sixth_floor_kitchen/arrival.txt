@@ -1,0 +1,27 @@
+[DEFAULT]
+
+[GREEN][BOLD]Tiphaine[DEFAULT] arrive dans la cuisine du 6ème étage. [BLUE][BOLD]Jérôme et Pierre[DEFAULT] sont en train de
+parler. [RED][BOLD]Auguste[DEFAULT passe. Auguste [RED][BOLD]tousse[DEFAULT], mais il est quand même venu.
+
+"Tiphaine, tu devrais déjà être a ton bureau ! Tu es en retard pour notre rendez-vous.
+
+Il faut absolument que t'ailles chercher les données au labo de Nathalie Spassky.
+
+Et viens dans mon bureau tout de suite."
+
+Auguste quitte la cuisine.
+
+--------------------------------------------------------------------------------
+
+[RED]ALLER AU RDV :[DEFAULT]
+Tiphaine a un sentiment amer de déjà-vu, mais bon on va faire un effort vu que
+c'est le premier jour.
+
+[GREEN]RESTER :[DEFAULT]
+"Ah non, il est relou celui-là. Ca fait littéralement 3 ans que j'ai pas vu Jérôme
+et Pierre ! Il peut bien attendre. En plus j'ai rien à lui dire."
+
+--------------------------------------------------------------------------------
+
+Aller au rendez-vous ? (T/F)
+

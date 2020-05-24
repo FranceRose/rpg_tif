@@ -1,0 +1,16 @@
+[DEFAULT]
+
+Arg, c'est maintenant [RED][BOLD]Phi-Phuong[DEFAULT] qui s'approche de la porte. Ah non pas lui...
+
+--------------------------------------------------------------------------------
+
+[RED]LUI DEMANDER :[DEFAULT]
+"Bonjour Phi-Phuong, comment allez-vous ? Ca fait longtemps. Pourriez-vous activer
+  mon badge svp ?"
+
+[GREEN]FUIR :[DEFAULT]
+"Oups, une envie pressante ! Bonne journée !"
+
+--------------------------------------------------------------------------------
+
+Lui demander ? (T/F)

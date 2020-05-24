@@ -1,0 +1,11 @@
+[DEFAULT]
+
+[BOLD][BLUE]Jérôme et Pierre[DEFAULT] sont dans la [GREEN][BOLD][UNDERLINED]RESISTANCE[DEFAULT] ! Ils ont de très forts soupçons contre
+le [BOLD][RED]corona-cola[DEFAULT]. [RED][BOLD]Daoult[DEFAULT] cherche juste à se remplir les poches et faire la une des
+journeaux.
+
+[GREEN][BOLD]David Holcman[DEFAULT] est aussi dans le coup avec [GREEN][BOLD]Pierre Paoletti[DEFAULT] et une poignée de
+doctorant.e.s et de post-doctorant.e.s.
+
+[BOLD][BLUE]Jérôme et Pierre[DEFAULT] communiquent à [GREEN][BOLD]Tiphaine[DEFAULT] le mot de passe du serveur personnel de
+[BOLD][RED]Daoult[DEFAULT] : [BOLD][GREEN]LeConsensusCEstPet1[DEFAULT]

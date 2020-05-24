@@ -19,7 +19,6 @@ def game(DEBUG=False):
 	felipe_badge = False
 
 	hamac_votes = ['ouardia', 'tiphaine', 'alexis']
-	resistance = False
 	daoult_password = False #TODO: check if used
 	coffee = False
 	eaten = False
@@ -41,7 +40,6 @@ def game(DEBUG=False):
 
 	# Allies
 	alexis = True
-	mathieu = True
 	paoletti = False
 	holcman = False
 
@@ -64,21 +62,16 @@ def game(DEBUG=False):
 	###############################
 	# INITIAL SEQUENCE
 	###############################
-	if DEBUG:
-		print('\nINIT')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
-
 	UI.print_INFO(time, energy)
 
 	# wake-up
-	snooze = input(UI.p_color("narration/matin/matin.txt"))
+	snooze = check_input(UI.p_color("narration/matin/matin.txt"), ['T', 'F'])
 	if snooze == 'T':
 		time += config.snooze_dt
 		energy += config.snooze_de
 
-		UI.p_color("narration/matin/matin_snooze.txt")
-		UI.print_INFO(time, energy)
-		UI.clear()
+		UI.print_result_action(config.snooze_dt, config.snooze_de)
+		print(UI.p_color("narration/matin/matin_snooze.txt"))
 
 	else:
 		rd = random.random()
@@ -87,63 +80,82 @@ def game(DEBUG=False):
 			time += config.nonsnooze_dt
 			energy += config.nonsnooze_de
 
-			UI.p_color("narration/matin/matin_lever_success.txt")
-			UI.print_INFO(time, energy)
-			UI.clear()
+			UI.print_result_action(config.nonsnooze_dt, config.nonsnooze_de)
+			print(UI.p_color("narration/matin/matin_lever_success.txt"))
 
 		else:
 			#fail
 			time += config.snooze_dt
 			energy += config.nonsnooze_de
 
-			UI.p_color("narration/matin/matin_lever_fail.txt")
-			UI.print_INFO(time, energy)
-			UI.clear()
+			UI.print_result_action(config.snooze_dt, config.nonsnooze_de)
 
-	if DEBUG:
-		print('\nWAKEUP')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
+			print(UI.p_color("narration/matin/matin_lever_fail.txt"))
+	UI.print_INFO(time, energy)
+	input()
+	UI.clear()
 
 	# bike
-	bike_fight = input('A velo, se fighter avec un automobiliste ? [T/F]')
+	bike_fight = check_input(UI.p_color("narration/bike/bike.txt"), ['T', 'F'])
 	if bike_fight == 'T':
 		time += config.bike_fight_dt
 		energy += config.bike_fight_de
+
+		UI.print_result_action(config.bike_fight_dt, config.bike_fight_de)
+
+		print(UI.p_color("narration/bike/bike_fight.txt"))
+		UI.print_INFO(time, energy)
+		UI.clear()
 	else:
 		time += config.non_bike_fight_dt
 		energy += config.non_bike_fight_de
 
-	if DEBUG:
-		print('\nBIKE')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
+		UI.print_result_action(config.non_bike_fight_dt, config.non_bike_fight_de)
 
+		print(UI.p_color("narration/bike/bike_no_fight.txt"))
+		UI.print_INFO(time, energy)
+		UI.clear()
 
+	UI.print_INFO(time, energy)
+	input()
+	UI.clear()
 	# arrival
 	if time <= config.morning_deadline * 60: # before 9am
 		# meeting with Daoult
 		time += config.daoult_talk_dt
-		raoult_bike_talk = input("Raconter a Daoult ce c****** d'automobiliste ? [T/F]")
-		if raoult_bike_talk == 'T':
+		print(UI.p_color("narration/arrivee_ibens/daoult/daoult.txt"))
+		UI.print_result_action(config.daoult_talk_dt, 0)
+
+
+		if bike_fight == 'T':
 			time += config.daoult_fight_dt
 			energy += config.daoult_fight_de
+
+			print(UI.p_color(
+				"narration/arrivee_ibens/daoult/daoult2_si_agression.txt"))
+			UI.print_result_action(config.daoult_fight_dt, config.daoult_fight_de)
 		else:
-			# ask daoult to take the MBTI test
-			rd = random.random()
-			if rd <= config.daoult_test_mbti_proba:
-				# daoult does take the test
-				time += config.daoult_test_mbti_dt
-				mbti = True
+			# daoult does take the MBTI test
+			time += config.daoult_test_mbti_dt
+			mbti = True
+
+			print(UI.p_color(
+				"narration/arrivee_ibens/daoult/daoult2_si_mbti.txt"))
+			UI.print_result_action(config.daoult_test_mbti_dt, 0)
 
 	else: # after 10am
 		time += config.swann_beer_dt
 		mbti = True
 
-	if DEBUG:
-		print('\nIBENS ARRIVAL')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
+		print(UI.p_color(
+			"narration/arrivee_ibens/swann/swann.txt"))
+		UI.print_result_action(config.swann_beer_dt, 0)
+
+	UI.print_INFO(time, energy)
+	UI.clear()
 
 	# sysinfo
-	convince_pv = input('Convaincre PV ? [T/F]')
+	convince_pv = check_input(UI.p_color("narration/sysinfo/pv.txt"), ["T", "F"])
 	wait_sysinfo = False
 	if convince_pv == 'T':
 		rd = random.random()
@@ -151,56 +163,86 @@ def game(DEBUG=False):
 			# pv is convinced!
 			time += config.pv_dt
 			badge = True
+
+			print(UI.p_color("narration/sysinfo/pv_after.txt"))
+			UI.print_result_action(config.pv_dt, 0)
 		else:
 			# local var
 			wait_sysinfo = True
+
+			print(UI.p_color("narration/sysinfo/pv_not_convinced.txt"))
+
 	if convince_pv == 'F' or wait_sysinfo:
-		#wait
+		# wait
 		time += config.after_pv_dt
-		phiphuong = input('Deal with Phi-Phuong? [T/F]')
+		UI.print_result_action(config.after_pv_dt, 0)
+
+		phiphuong = check_input(UI.p_color("narration/sysinfo/deal_w_phiphuong.txt"),
+								['T', 'F'])
 		if phiphuong == 'T':
 			time += config.phiphuong_dt
 			energy += config.phiphuong_de
 			badge = True
+
+			print(UI.p_color("narration/sysinfo/phiphuong_after.txt"))
+			UI.print_result_action(config.phiphuong_dt,
+								   config.phiphuong_de)
 		else:
 			time += config.bilel_dt
 			badge = True
 
-	if DEBUG:
-		print('\nSYSINFO')
-		print(f'badge = {badge}')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
+			print(UI.p_color("narration/sysinfo/bilel.txt"))
+			UI.print_result_action(config.bilel_dt,0)
+
+	UI.print_INFO(time, energy)
+	UI.clear()
+
 
 	# 6th floor
-	meeting_auguste = input('Go for the meeting with Auguste? [T/F]')
+	meeting_auguste = check_input(UI.p_color("narration/sixth_floor_kitchen/arrival.txt"), ['T', 'F'])
 	if meeting_auguste == 'T':
 		time += config.auguste_meeting_dt
 		energy += config.auguste_meeting_de
 		covid = True
+
+		print(UI.p_color("narration/sixth_floor_kitchen/meting_auguste.txt"))
+		UI.print_result_action(config.auguste_meeting_dt,
+							   config.auguste_meeting_de)
+
 	else:
 		# stay with Pierre and Jerome
-		listen_pj = input('Ecoute Pierre et Jerome? [T/F]')
-		resistance = True #TODO: not sure it is useful
+		listen_pj = check_input(UI.p_color("narration/sixth_floor_kitchen/choice_pierrejerome.txt"), ['T', 'F'])
 		if listen_pj == 'T':
 			time += config.resistance_talk_dt
 			daoult_password = True
+
+			print(
+				UI.p_color("narration/sixth_floor_kitchen/listen_pierrejerome.txt"))
+			UI.print_result_action(config.resistance_talk_dt, 0)
 		else:
 			rd = random.random()
 			if rd < 0.5:
-				print(f'montessori talk')
 				# montessori talk
 				time += config.montessori_talk_dt
 				energy += config.montessori_talk_de
+
+				print(UI.p_color(
+						"narration/sixth_floor_kitchen/montessori.txt"))
+				UI.print_result_action(config.montessori_talk_dt,
+									   config.montessori_talk_de)
+
 			else:
-				print(f'hydroponics talk')
 				# hydroponics talk
 				time += config.hydroponics_talk_dt
 				energy += config.hydroponics_talk_de
 
-	if DEBUG:
-		print('\n6th FLOOR')
-		print(f'covid = {covid}, resistance = {resistance}, daoult_password = {daoult_password}')
-		print(f'time = {time2hours(time)}; energy={energy}\n')
+				print(UI.p_color(
+						"narration/sixth_floor_kitchen/hydroponics.txt"))
+				UI.print_result_action(config.hydroponics_talk_dt,
+									   config.hydroponics_talk_de)
+
+	UI.print_INFO(time, energy)
+	UI.clear()
 
 	# in the lab
 	lab_choice = input('Plantes / Cafe / Caca ? [0/1/2]')
@@ -412,7 +454,6 @@ def game(DEBUG=False):
 				time += config.if_alexis_paoletti_dt
 			else:
 				time += config.if_not_alexis_paoletti_dt
-				resistance = True #TBD
 
 			# Auguste's signature sequence
 			if alexis:
@@ -428,7 +469,7 @@ def game(DEBUG=False):
 
 			if DEBUG:
 				print('\nDIPLOMA')
-				print(f'diploma = {diploma}, resistance = {resistance}')
+				print(f'diploma = {diploma}')
 				print(f'time = {time2hours(time)}; energy={energy}\n')
 
 
@@ -440,22 +481,17 @@ def game(DEBUG=False):
 			# compliment Maxime and Nikita
 			hamac_votes.extend(['nikita', 'maxime'])
 
-			if resistance:
-				#TBD: verify she has high chances to get resistance:
-				# - from talk with pierre and jerome
-				# - from paloetti signature
-				daoult_password = True
+			daoult_password = True
 
 			time += config.baby_dt
 
-			if resistance:
-				# choose between paoletti and holcman
-				paoletti_vs_holcman = input('De Pierre Paloetti et David Holcman, qui choisis-tu comme allie contre Daoult? [0/1]')
-				if paoletti_vs_holcman == '0':
-					# choose paoletti
-					paoletti = True
-				else:
-					holcman = False
+			# choose between paoletti and holcman
+			paoletti_vs_holcman = input('De Pierre Paloetti et David Holcman, qui choisis-tu comme allie contre Daoult? [0/1]')
+			if paoletti_vs_holcman == '0':
+				# choose paoletti
+				paoletti = True
+			else:
+				holcman = False
 
 			# babyfoot quest achieved
 			babyfoot = True
@@ -463,7 +499,7 @@ def game(DEBUG=False):
 			if DEBUG:
 				print('\nBABYFOOT')
 				print(f'babyfoot = {babyfoot}, paoletti = {paoletti}, holcman = {holcman},')
-				print(f'daoult_password = {daoult_password}, resistance = {resistance}, fungus = {fungus}')
+				print(f'daoult_password = {daoult_password}, fungus = {fungus}')
 				print(f'time = {time2hours(time)}; energy = {energy}\n')
 
 		# LUNCH

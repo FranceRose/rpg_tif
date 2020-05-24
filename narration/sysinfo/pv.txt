@@ -1,0 +1,24 @@
+[DEFAULT][BOLD]
+Impossible d’accéder à son bureau sans badge.[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[GREEN]Tiphaine[DEFAULT] demande à ce qu’on lui ouvre la porte de la cafet. Elle arrive ensuite à la porte
+de [BLUE][BOLD]SYSINFO[DEFAULT].
+
+Arrivée à [BLUE][BOLD]SYSINFO[DEFAULT], elle croise [RED][BOLD]Pierre Vincens[DEFAULT]. Il ne veut pas ouvrir la porte
+pour respecter les gestes barrières.
+
+
+--------------------------------------------------------------------------------
+
+[RED]INSISTER :[DEFAULT]
+"Promis, je garde mon masque, je reste à la porte du bureau et je mets deux fois
+du gel hydroalcoolique en frottant 60 secondes - pas moins." [BOLD][YELLOW][50% succès][DEFAULT]
+
+[GREEN]ATTENDRE :[DEFAULT]
+"Je repasserai plus tard. Merci..."
+
+--------------------------------------------------------------------------------
+
+Insister ? (T/F)

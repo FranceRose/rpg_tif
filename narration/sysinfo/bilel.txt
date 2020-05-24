@@ -1,0 +1,12 @@
+[DEFAULT]
+
+Tu as attendu. Chance ! [GREEN]Bilel[DEFAULT] arrive !
+
+- Salut Tiphaine, comment vas-tu ? C'est un peu le sbeul ici avec le [BLUE][BOLD]plan CovIBENS[DEFAULT]
+mais bon :)
+
+Ah oui ton badge, bien sûr, je te le fais tout de suite.
+
+--------------------------------------------------------------------------------
+
+[BOLD][GREEN]Un peu d'attente, mais tu te dis que tu as bien fait. Tu as ton badge.[DEFAULT]

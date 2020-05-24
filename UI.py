@@ -36,9 +36,22 @@ def p_color(input, file=True):  # Afficher avec une couleur
 
 def print_INFO(time, energy):
     print('*'*80)
-    print('** ', end='')
-    print(p_color(f"Il est [GREEN][BOLD]{time2hours(time)}[DEFAULT]. Il te reste [BOLD][YELLOW]{energy} d'energie[DEFAULT].",
-                  file=False),
-          end='')
+    print('** ', end='          ')
+    print(p_color(f"Il est [GREEN][BOLD]{time2hours(time)}[DEFAULT]. Il te reste [BOLD][YELLOW]{energy} d'#NRJ[DEFAULT].",
+                  file=False))
+    print('*' * 80)
+    return
+
+def print_result_action(dt, de):
+    txt = f"Cette action t'a pris [GREEN][BOLD]{dt} minutes[DEFAULT] et "
+    if de > 0:
+        txt += "tu as gagné "
+    else:
+        txt += "tu as perdu "
+    txt += f"[YELLOW][BOLD]{de} point(s) d'#NRJ[DEFAULT]."
+
+    print('*' * 80)
+    print('** ', end='          ')
+    print(p_color(txt, file=False))
     print('*' * 80)
     return

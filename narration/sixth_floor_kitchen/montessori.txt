@@ -1,0 +1,25 @@
+[DEFAULT]
+
+[BOLD][GREEN]Tiphaine[DEFAULT] part en croisade les yeux pétillants :
+
+"Ce n'est pas difficile. Regardez les miracles qu'on peut faire avec deux bouts
+de bois et de la bonne volonté ! Même au Pakistan, elle continuait à suivre cette
+institutrice belge, qui malgré l'opposition de son administration, se battait
+pour la joie d'apprendre des tout-petit.e.s ! Ce n'est pas merveilleux ?"
+
+[BLUE][BOLD]Jérôme[DEFAULT], amer, n'est pas du tout de son avis :
+
+"Tu vois, mes étudiant.e.s de l'EPITA ? Eh ben ielle ne se bougent pas. On leur
+donne de la liberté d'apprendre, mais ielles viennent en séance de TDs sans avoir
+rien foutu. C'est scandaleux ! La bonne vieille interro, y a que ça qui les fait
+ouvrir leur cours."
+
+[BOLD][GREEN]Tiphaine[DEFAULT] :
+
+"Au Pakistan, dans notre village, on a mis en place une école de tous les savoirs.
+Il faudrait que tu viennes Jérôme, je suis sure que ça t'ouvrira les yeux."
+
+--------------------------------------------------------------------------------
+
+[BOLD]Pas convaincu, [BLUE]Jérôme[DEFAULT][BOLD] doit retourner travailler. [GREEN]Holcman[DEFAULT][BOLD] le demande.[DEFAULT]
+

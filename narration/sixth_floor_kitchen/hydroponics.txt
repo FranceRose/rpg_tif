@@ -1,0 +1,17 @@
+[DEFAULT]
+
+[BOLD][GREEN]Tiphaine[DEFAULT] leur explique pourquoi ils devraient se mettre à l'[GREEN][BOLD}HYDROPONIE[DEFAULT]. C'est
+[BOLD]révolutionnaire[DEFAULT] !
+Et puis avec la [RED][BOLD]pandémie[DEFAULT] on est jamais trop prudent pour assurer notre indépendance
+énergétique et nourricière.
+
+D'ailleurs elle leur conseille une très bonne vidéo sur youtube !
+
+[BLUE][BOLD]Pierre[DEFAULT] argumente : on n'a jamais mieux fait qu'une bonne agriculture industrialisée
+avec des moissonneuses bateuses et des engrais chimiques. La [YELLOW][BOLD]Science[DEFAULT] triomphe de
+tout ! [BOLD]Vive le progrès ![DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BOLD]Le débat s'éternise mais [GREEN]Tiphaine[DEFAULT][BOLD] refuse de capituler. Elle est contente d'elle
+quand, à la fin, [BLUE]Pierre[DEFAULT][BOLD] se range à son avis.[DEFAULT]

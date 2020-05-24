@@ -1,0 +1,3 @@
+[DEFAULT]
+
+[BOLD][RED] Tu n'as pas convaincu Pierre Vincens. Tu dois attendre.[DEFAULT]

@@ -7,7 +7,7 @@ quelques instants avec elle.
 
 [GREEN]Tiphaine[DEFAULT] lui raconte les montagnes du Pakistan. Les chèvres. 
 
-Après quelques minutes, [GREEN]Swann[DEFAULT] la prend par la main.
+Après quelques minutes, [GREEN]Swann[DEFAULT] lui propose :
 [BOLD]On va quand même pas rester plantées là ! Il est passé 10h. Allons boire un verre ![DEFAULT]
 
 [GREEN]Tiphaine[DEFAULT] refuse, puis se laisse convaincre. 
@@ -23,4 +23,4 @@ C'est un vrai [RED]maniaque[DEFAULT] de l'organisation: Il est clairement [BLUE]
 
 [GREEN]Tiphaine[DEFAULT] se dit que cette information pourrait être cruciale pour vaincre [RED]Daoult[DEFAULT].
 
-Après 1h de bavardage bien dépensée, Tiphaine retourne dans le hall de l'IBENS.
+Après quasiment 1 heure de bavardage bien dépensée, Tiphaine retourne dans le hall de l'IBENS.

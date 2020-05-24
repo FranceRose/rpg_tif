@@ -3,6 +3,14 @@ import random
 import math
 import rpg_config as config
 
+def check_input(txt, choices):
+	key = input(txt)
+	key = key.upper()
+	while key not in choices:
+		print(f"Ta réponse n'est pas reconnue. [{'/'.join(choices)}]")
+		key = input()
+	return key
+
 
 def time2hours(time):
 	return f"{time//60}h{time%60:02d}"
@@ -27,8 +35,7 @@ def shifumi():
 	return True
 
 
-
-menu_choice = {0: "Faire amener un hamac pour piéger Daoult [Obligatoire]", 
+menu_choice = {0: "Faire amener un hamac pour piéger Daoult [Obligatoire]",
 			   1: "Diplôme de thèse [Obligatoire] Réaliser avant 18h.",
                2: "Organiser un tournoi de babyfoot [Obligatoire]",
 	           3: "Manger [Facultatif] Possible jusque 15h.",

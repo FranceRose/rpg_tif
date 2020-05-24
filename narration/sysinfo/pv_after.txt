@@ -1,0 +1,13 @@
+[DEFAULT]
+
+Ah là là, depuis que le [GREEN][BOLD]plan CovIBENS[DEFAULT] a été lancé, on recoit dis fois plus de
+mails qu'avant la crise, les serveurs surchauffent un jour sur deux -- encore ce
+réchauffement climatique.
+
+En plus, votre génération ne respecte pas les gestes barrières et la sécurité des
+mots de passe. Les majors ont bien dit de désinfecter son clavier 4 fois par jour
+et de faire des sauvegardes sur [UNDELINE]osiris[DEFAULT] et non [UNDERLINE]hapis[DEFAULT].
+
+--------------------------------------------------------------------------------
+
+[BOLD][GREEN]Fiouf, bon au moins, tu as ton badge.[DEFAULT]
