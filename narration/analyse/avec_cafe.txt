@@ -1,0 +1,23 @@
+[DEFAULT]
+
+Enfin ! Tiphaine a un GPU !
+
+Le [YELLOW]CAFE[DEFAULT] lui donne une [GREEN]super pêche !![DEFAULT]
+
+Cela permet à [GREEN]Tiphaine[DEFAULT] de reconfigurer PyCharm en un rien de temps !
+
+Pour une fois, l'analyse de données se passe [GREEN]SUPER BIEN ![DEFAULT]
+
+Les données sont propres. Ça ne prend quasiment aucun temps.
+
+Le résultat est formel: Le [RED]corona-cola[DEFAULT] détruit les neurones.
+[RED]Daoult[DEFAULT] est un fou de vouloir l'utiliser massivement !
+
+Tiphaine profite de son expérience de [BLUE]chimiste[DEFAULT] pour examiner la [BLUE]formule chimique[DEFAULT]
+du [RED]corona-cola[DEFAULT].
+
+[BOLD][UNDERLINE]OMG !!! LE CORONA-COLA N'EST QUE DE LA BIERE CORONA ET DU COCA ![DEFAULT]
+
+Le monde doit savoir...
+
+

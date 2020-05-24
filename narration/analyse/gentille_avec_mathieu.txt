@@ -1,0 +1,28 @@
+[DEFAULT]
+
+[GREEN]Mathieu[DEFAULT] est content que [GREEN]Tiphaine[DEFAULT] soit enfin décidée
+à se démmerder toute seule.
+
+Il l'aide de bonne humeur en sachant que c'est la dernière fois.
+
+[GREEN]Tiphaine[DEFAULT] en profite pour lui parler du [YELLOW]HAMAC[DEFAULT].
+
+Mathieu ne répond pas vraiment, mais peut-être qu'il l'aidera.
+
+Ensuite elle se met à analyser ses données
+
+Pour une fois, l'analyse de données se passe [GREEN]SUPER BIEN ![DEFAULT]
+
+Les données sont propres. Ça ne prend quasiment aucun temps.
+
+Le résultat est formel: Le [RED]corona-cola[DEFAULT] détruit les neurones.
+[RED]Daoult[DEFAULT] est un fou de vouloir l'utiliser massivement !
+
+Tiphaine profite de son expérience de [BLUE]chimiste[DEFAULT] pour examiner la [BLUE]formule chimique[DEFAULT]
+du [RED]corona-cola[DEFAULT].
+
+[BOLD][UNDERLINE]OMG !!! LE CORONA-COLA N'EST QUE DE LA BIERE CORONA ET DU COCA ![DEFAULT]
+
+Le monde doit savoir...
+
+

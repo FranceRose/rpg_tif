@@ -1,0 +1,18 @@
+[DEFAULT]
+
+Bien qu'elle n'ait toujours pas de [YELLOW]HAMAC[DEFAULT], [GREEN]Tiphaine[DEFAULT] doit mainenant [BLUE]analyser[DEFAULT] les données.
+
+C'est [GREEN]facile[DEFAULT] parce qu'elle a déja fait ce genre de choses plein de fois.
+
+--------------------------------------------------------------------------------
+
+[BOLD][UNDERLINE]Mais au fait, de quel programme aurait-t-elle besoin dans l'immédiat ?[DEFAULT]:
+
+1 - PyTorch
+2 - Caffe
+3 - CellProfiler
+4 - memory_manager
+
+--------------------------------------------------------------------------------
+
+Programme (1/2/3/4) ? 

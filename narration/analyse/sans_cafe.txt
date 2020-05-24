@@ -1,0 +1,31 @@
+[DEFAULT]
+
+Enfin ! Tiphaine a un GPU !
+
+[RED]Dommage[DEFAULT] qu'elle n'ait pas pris de [YELLOW]café[DEFAULT].
+Ça lui aurait donné une [YELLOW]SUPER PÊCHE[DEFAULT] !
+
+Là, elle est [RED]un peu raplapla[DEFAULT]
+
+Elle n'arrive pas à [YELLOW]reconfigurer PyCharm[DEFAULT]
+
+Elle doit demander l'aide de [GREEN]Mathieu[DEFAULT]
+
+[GREEN]Mathieu[DEFAULT] vient aider [GREEN]Tiphaine[DEFAULT], mais il lui demande
+que ce soit la [RED]dernière fois[DEFAULT] qu'elle [RED]l'emmerde[DEFAULT] avec ça.
+
+Il lui a déja expliqué 15.000 fois !!!
+
+--------------------------------------------------------------------------------
+
+[BOLD][UNDERLINE]Lui promettre ?[DEFAULT]
+
+[GREEN][True][DEFAULT]: Promettre à Mathieu qu'on ne l'emmerdera plus jamais avec PyCharm
+
+[RED][False][DEFAULT]: Quoi ? Mais Mathieu il est payé pour faire quoi s'il nous aide plus ?
+
+--------------------------------------------------------------------------------
+
+Promettre à Mathieu de ne plus jamais l'emmerder avec PyCharm ? (T/F)
+
+
