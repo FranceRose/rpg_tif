@@ -18,14 +18,14 @@ Il lui a déja expliqué 15.000 fois !!!
 
 --------------------------------------------------------------------------------
 
-[BOLD][UNDERLINE]Lui promettre ?[DEFAULT]
+[GREEN]LUI PROMETTRE [DEFAULT]:
+"OK c'est bon, je ne le ferais plus..."
 
-[GREEN][True][DEFAULT]: Promettre à Mathieu qu'on ne l'emmerdera plus jamais avec PyCharm
-
-[RED][False][DEFAULT]: Quoi ? Mais Mathieu il est payé pour faire quoi s'il nous aide plus ?
+[RED]Et PUIS QUOI ENCORE [DEFAULT]:
+Quoi ? Mais Mathieu il est payé pour faire quoi s'il nous aide plus ?
 
 --------------------------------------------------------------------------------
 
-Promettre à Mathieu de ne plus jamais l'emmerder avec PyCharm ? (T/F)
+Lui promettre ? (T/F)
 
 
