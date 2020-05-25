@@ -7,10 +7,12 @@ import random
 from os import system, name
 
 def credits():
-    print("Plein de gens à remercier ici")
+    clear_screen()
+    input("A faire")
 
 def launch_video():
-    print("Lancer la video")
+    open_file('./narration/rise_of_champetier.mp4')
+    clear_screen()
 
 def menu_principal():
     while(True):
@@ -23,55 +25,13 @@ def menu_principal():
             credits()
         if menu_choice == "4":
             exit(0)
+        clear_screen()
+
+
 
 def die():
     print(p_color("[GREEN]Tiphaine[DEFAULT] est [RED]morte[DEFAULT]. Elle a visiblement fait de très [RED]mauvais[DEFAULT] choix... Il faut recommencer"),file=False)
     menu_principal()
-
-class Energy():
-	def __init__(self, energy):
-		self.e = energy
-		
-	def __add__(self, de):
-		result = self.e + de
-		# force energy to be between 0 and 100
-		if not 0 <= result <= 100:
-			result = min(max(result, 0), 100)
-		self.e = result
-		return self
-
-	def __sub__(self,de):
-		result = self.e - de
-		if 0 >= result:
-			die()
-		else:
-			self.e = result
-			return self
-
-	def __lt__(self,value):
-		return self.e < value
-
-	def __gt__(self,value):
-		return self.e > value
-
-	def __le__(self,value):
-		return self.e <= value
-
-	def __ge__(self,value):
-		return self.e >= value
-
-
-	def __isub__(self,de):
-		return self.__sub__(de)
-
-	def __iadd__(self, de):
-		return self.__add__(de)
-		
-	def __str__(self):
-		return str(self.e)
-	
-	def __repr__(self):
-		return str(self.e)
 
 
 def game(DEBUG=False):
@@ -176,7 +136,7 @@ def game(DEBUG=False):
 
 		print(p_color("narration/bike/bike_no_fight.txt"))
 		print_result_action(config.non_bike_fight_dt, config.non_bike_fight_de)
-		
+
 	print_INFO(time, energy)
 	input()
 	clear_screen()

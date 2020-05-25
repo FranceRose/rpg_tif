@@ -3,6 +3,15 @@ import random
 import math
 import rpg_config as config
 
+import os, sys, subprocess
+
+def open_file(filename):
+    if sys.platform == "win32":
+        os.startfile(filename)
+    else:
+        opener ="open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, filename])
+
 def check_input(txt, choices):
 	key = input(txt)
 	key = key.upper()
@@ -78,13 +87,78 @@ def daoult_attack(covid, hamac, fungus):
 	txt = "Tu attaques Daoult avec le " + ','.join([f'{value} [{key}]' for key, value in to_display.items()])
 	return txt
 
-def clear_screen():
-    # if name == 'nt':
-    #     _ = system('cls')
-    #
-    # else:
-    #     _ = system('clear')
-    pass
+
+class Energy():
+	def __init__(self, energy):
+		self.e = energy
+
+	def __add__(self, de):
+		result = self.e + de
+		# force energy to be between 0 and 100
+		if not 0 <= result <= 100:
+			result = min(max(result, 0), 100)
+		self.e = result
+		return self
+
+	def __sub__(self,de):
+		result = self.e - de
+		if 0 >= result:
+			die()
+		else:
+			self.e = result
+			return self
+
+	def __lt__(self,value):
+		return self.e < value
+
+	def __gt__(self,value):
+		return self.e > value
+
+	def __le__(self,value):
+		return self.e <= value
+
+
+	def __isub__(self,de):
+		return self.__sub__(de)
+
+	def __iadd__(self, de):
+		return self.__add__(de)
+
+	def __str__(self):
+		return str(self.e)
+
+	def __repr__(self):
+		return str(self.e)
+
+	def __ge__(self,value):
+		return self.e >= value
+
+
+	def __isub__(self,de):
+		return self.__sub__(de)
+
+	def __iadd__(self, de):
+		return self.__add__(de)
+
+	def __str__(self):
+		return str(self.e)
+
+	def __repr__(self):
+		return str(self.e)
+
+def clear_screen(): # https://www.geeksforgeeks.org/clear-screen-python/
+	# import only system from os
+	from os import system, name
+	# import sleep to show output for some time period
+	from time import sleep
+
+	# for windows
+	if name == 'nt':
+		_ = system('cls')
+
+    # for mac and linux(here, os.name is 'posix')
+	else:
+		_ = system('clear')
 
 
 class bbcolors:
