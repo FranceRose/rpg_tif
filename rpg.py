@@ -6,11 +6,32 @@ import random
 
 from os import system, name
 
+class Energy():
+	def __init__(self, energy):
+		self.e = energy
+		
+	def __add__(self, de):
+		result = self.e + de
+		# force energy to be between 0 and 100
+		if not 0 <= result <= 100:
+			result = min(max(result, 0), 100)
+		self.e = result
+		return self
+	
+	def __iadd__(self, de):
+		return self.__add__(de)
+		
+	def __str__(self):
+		return str(self.e)
+	
+	def __repr__(self):
+		return str(self.e)
+
 def game(DEBUG=False):
 
 	# global variables
 	time = config.start_hour * 60 # 16 hours
-	energy = 100
+	energy = Energy(100)
 
 	# needed for advancement
 	badge = False
