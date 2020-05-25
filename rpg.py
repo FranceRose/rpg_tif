@@ -487,7 +487,7 @@ def game(DEBUG=False):
 			print(f"diplome = {diploma}, hamac_quest = {hamac_quest}, babyfoot = {babyfoot}")
 
 		to_display_menu = display_menu(time, hamac_quest, diploma, babyfoot, eaten)
-		menu_choice = input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n')
+		menu_choice = check_input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n', [str(k) for k in to_display_menu])
 
 		# HAMAC
 		# 14 people max can vote
