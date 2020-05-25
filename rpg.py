@@ -6,6 +6,28 @@ import random
 
 from os import system, name
 
+def credits():
+    print("Plein de gens à remercier ici")
+
+def launch_video():
+    print("Lancer la video")
+
+def menu_principal():
+    while(True):
+        menu_choice = check_input(p_color('narration/menu_principal.txt'),['1','2','3','4'])
+        if menu_choice == "1":
+            launch_video()
+        if menu_choice == "2":
+            game()
+        if menu_choice == "3":
+            credits()
+        if menu_choice == "4":
+            exit(0)
+
+def die():
+    print(p_color("[GREEN]Tiphaine[DEFAULT] est [RED]morte[DEFAULT]. Elle a visiblement fait de très [RED]mauvais[DEFAULT] choix... Il faut recommencer"),file=False)
+    menu_principal()
+
 class Energy():
 	def __init__(self, energy):
 		self.e = energy
@@ -17,7 +39,31 @@ class Energy():
 			result = min(max(result, 0), 100)
 		self.e = result
 		return self
-	
+
+	def __sub__(self,de):
+		result = self.e - de
+		if 0 >= result:
+			die()
+		else:
+			self.e = result
+			return self
+
+	def __lt__(self,value):
+		return self.e < value
+
+	def __gt__(self,value):
+		return self.e > value
+
+	def __le__(self,value):
+		return self.e <= value
+
+	def __ge__(self,value):
+		return self.e >= value
+
+
+	def __isub__(self,de):
+		return self.__sub__(de)
+
 	def __iadd__(self, de):
 		return self.__add__(de)
 		
@@ -26,6 +72,7 @@ class Energy():
 	
 	def __repr__(self):
 		return str(self.e)
+
 
 def game(DEBUG=False):
 
@@ -328,17 +375,19 @@ def game(DEBUG=False):
 	clear_screen()
 
 	# email auguste
-	answer_email_auguste = check_input(p_color("narration/bureau/mail_auguste.txt"),
+	ignore_email_auguste = check_input(p_color("narration/bureau/mail_auguste.txt"),
 									   ['T', 'F'])
 
-	if answer_email_auguste == 'T':
+	if ignore_email_auguste == 'T':
 		time += config.auguste_email_answer_dt
+		print(p_color("narration/bureau/ignorer_auguste.txt"))
+
+	else:
 		covid = True
 
 		print(p_color("narration/bureau/engueuler_auguste.txt"))
 		print_result_action(config.auguste_email_answer_dt, 0)
-	else:
-		print(p_color("narration/bureau/ignorer_auguste.txt"))
+
 
 	if DEBUG:
 		print('\nLAB')
@@ -381,7 +430,7 @@ def game(DEBUG=False):
 
 	if coffee:
 		time += config.analysis_if_coffee_dt
-		energy += config.analysis_if_coffee_de
+		energy -= config.analysis_if_coffee_de
 
 		print(p_color("narration/analyse/avec_cafe.txt"))
 		print_result_action(config.analysis_if_coffee_dt,
@@ -392,7 +441,7 @@ def game(DEBUG=False):
 
 		if promise_mathieu == 'T':
 			time += config.promise_mathieu_dt
-			energy += config.analysis_de
+			energy -= config.analysis_de
 			# mathieu is an allie
 			hamac_votes.append('mathieu')
 			print(p_color("narration/analyse/gentille_avec_mathieu.txt"))
@@ -400,7 +449,7 @@ def game(DEBUG=False):
 								config.analysis_de)
 		else:
 			time += config.non_promise_mathieu_dt
-			energy += config.analysis_de
+			energy -= config.analysis_de
 			print(p_color("narration/analyse/pasgentille_avec_mathieu.txt"))
 			print_result_action(config.promise_mathieu_dt, config.analysis_de)
 
@@ -427,7 +476,7 @@ def game(DEBUG=False):
 								 ['T', 'F'])
 	if discuss_france == 'T':
 		print(p_color("narration/convaincre_le_monde/discussion_france_follow.txt"))
-		print_result_action(config.france_dt, config.france_e - energy)
+		print_result_action(config.france_dt, config.france_e - energy.e)
 
 		time += config.france_dt
 		energy = config.france_e
@@ -459,7 +508,7 @@ def game(DEBUG=False):
 
 
 	assert time <= 14 * 60 # before 2pm
-	assert energy > 0
+	assert energy.e > 0
 	assert badge
 	assert analysis
 	assert gpu
@@ -798,4 +847,5 @@ def game(DEBUG=False):
 
 
 if __name__ == '__main__':
-	game(DEBUG=True)
+	#game(DEBUG=True)
+    menu_principal()

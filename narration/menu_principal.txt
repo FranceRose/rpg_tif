@@ -1,0 +1,23 @@
+[DEFAULT][BOLD][UNDERLINE]
+
+--------------------------------------------------------------------------------[DEFAULT]
+
+                                    [YELLOW][BOLD]MBTI WARS[DEFAULT]
+                                   Episode LXIV
+
+                        [UNDERLINE]THE RISE OF TIPHAINE CHAMPETIER
+
+[BOLD]--------------------------------------------------------------------------------[DEFAULT]
+
+                         [RED][BOLD]*** MENU PRINCIPAL ***[DEFAULT]
+
+1 - Introduction Vidéo
+2 - Nouvelle Partie
+3 - Crédits
+4 - Quitter
+
+--------------------------------------------------------------------------------
+
+Choix (1/2/3/4) ? 
+
+
