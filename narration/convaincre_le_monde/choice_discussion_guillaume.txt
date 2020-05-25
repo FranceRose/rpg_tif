@@ -6,7 +6,7 @@
 
 [GREEN]LUI PARLER :[DEFAULT]
 Dédé ! Comment ça va ? Trop contente de te voir ! Il faut absolument que je te
-raconte tout ce qu'il m'est arrivée depuis que je suis revenur du Pakistan !
+raconte tout ce qu'il m'est arrivée depuis que je suis revenue du Pakistan !
 
 [RED]LUI FAIRE UN COUCOU EN PASSANT :[DEFAULT]
 Dédé ! Pas le temps mais je vous invite France et toi pour une bouffe bientôt ?

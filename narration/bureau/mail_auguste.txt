@@ -10,8 +10,8 @@ Il lui envoie un [BLUE]mail[DEFAULT]:
                     ******************************
     [BOLD]"Tiphaine,
 
-C'était très drôle tes histoires de Pakistan, mais maintenant y s'agirait de se
-[RED]sortir les doigts[DEFAULT]. [BOLD]J'ai pu observer que tu n'as rien fouttu de la matinée."[DEFAULT]
+C'était très drôle tes histoires de [GREEN]Pakistan[DEFAULT][BOLD], mais maintenant y s'agirait de se
+[RED]sortir les doigts[DEFAULT]. [BOLD]J'ai pu observer que tu n'as [RED]rien fouttu[DEFAULT][BOLD] de la matinée."[DEFAULT]
 
                     ******************************
 

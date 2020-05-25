@@ -12,4 +12,4 @@ contre lui il a eu [BOLD][YELLOW]plein de problèmes administratifs[DEFAULT] à 
 bien relou. Il informe Tiphaine qu’elle aura sûrement du mal avec l’administration
 aussi, et qu’elle ne peut pas espérer d’entrevue avec [RED][BOLD]Daoult[DEFAULT] tant qu’elle n’a pas
 régularisé sa situation administrative d’ex-doctorante. Il va falloir qu’elle
-[BOLD]recontacte l’administration pour obtenir le formulaire A38 via le laisser-passer A39.[DEFAULT]
+[BOLD]recontacte l’administration pour obtenir [RED]le formulaire A38[DEFAULT][BOLD] via [RED]le laisser-passer A39.[DEFAULT]

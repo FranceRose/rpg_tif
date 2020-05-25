@@ -1,6 +1,6 @@
 [DEFAULT]
 
-[GREEN]Tiphaine[DEFAULT] arrive au [BLUE]bureau[DEFAULT]. Les plantes ont soif. Comme d'hab ! Personne
+[GREEN]Tiphaine[DEFAULT] arrive au [BLUE]bureau[DEFAULT]. Les plantes ont [RED]soif[DEFAULT]. Comme d'hab ! Personne
 ne s'en occupe jamais si elle n'est pas là de toute façon...
 
 Un peu de [GREEN]procrastination[DEFAULT] s'impose.

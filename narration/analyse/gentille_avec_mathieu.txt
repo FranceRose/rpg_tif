@@ -16,7 +16,7 @@ Pour une fois, l'analyse de données se passe [GREEN]SUPER BIEN ![DEFAULT]
 Les données sont propres. Ça ne prend quasiment aucun temps.
 
 Le résultat est formel: Le [RED]corona-cola[DEFAULT] détruit les neurones.
-[RED]Daoult[DEFAULT] est un fou de vouloir l'utiliser massivement !
+[RED]Daoult[DEFAULT] est un [RED]fou[DEFAULT] de vouloir l'utiliser massivement !
 
 Tiphaine profite de son expérience de [BLUE]chimiste[DEFAULT] pour examiner la [BLUE]formule chimique[DEFAULT]
 du [RED]corona-cola[DEFAULT].

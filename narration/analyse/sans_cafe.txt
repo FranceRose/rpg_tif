@@ -5,7 +5,7 @@ Enfin ! Tiphaine a un GPU !
 [RED]Dommage[DEFAULT] qu'elle n'ait pas pris de [YELLOW]café[DEFAULT].
 Ça lui aurait donné une [YELLOW]SUPER PÊCHE[DEFAULT] !
 
-Là, elle est [RED]un peu raplapla[DEFAULT]
+Là, elle est un peu [RED]raplapla[DEFAULT]
 
 Elle n'arrive pas à [YELLOW]reconfigurer PyCharm[DEFAULT]
 

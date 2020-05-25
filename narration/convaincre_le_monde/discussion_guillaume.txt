@@ -1,10 +1,10 @@
 [DEFAULT]
 
-[BLUE][BOLD]Dédé[DEFAULT] et [GREEN][BOLDTiphaine[DEFAULT] papote, papote, sans voir passer l'heure !
+[BLUE][BOLD]Dédé[DEFAULT] et [GREEN][BOLDTiphaine[DEFAULT] papotent, papotent, sans voir passer l'heure !
 A la fin de la discussion, tout a été évoqué: Capitalisme, destruction écologique
 de la planète, problèmes de badge… Et Tiphaine retourne à son bureau.
 
-Puis elle  se maudit en se rappelant subitement ce qu’elle devait aborder avec
+Puis elle  se [RED]maudit[DEFAULT] en se rappelant subitement ce qu’elle devait aborder avec
 Guillaume [BOLD]LE plus important[DEFAULT]: ELle n’a même pas évoqué [RED][DAOULT]Daoult[DEFAULT] et sa clique !!
 
 [BOLD][RED]1h de productivité est partie en fumée ![DEFAULT] Littéralement pour rien. Son moral en
