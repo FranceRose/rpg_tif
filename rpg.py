@@ -20,6 +20,7 @@ def menu_principal():
         if menu_choice == "1":
             launch_video()
         if menu_choice == "2":
+            clear_screen()
             game()
         if menu_choice == "3":
             credits()
@@ -30,7 +31,8 @@ def menu_principal():
 
 
 def die():
-    print(p_color("[GREEN]Tiphaine[DEFAULT] est [RED]morte[DEFAULT]. Elle a visiblement fait de très [RED]mauvais[DEFAULT] choix... Il faut recommencer"),file=False)
+    clear_screen()
+    print(p_color("[RED]CATASTROPHE ! \n[GREEN]Tiphaine[DEFAULT] a [RED]crevé[DEFAULT]. Elle a visiblement fait de très [RED]mauvais[DEFAULT] choix... Il faut recommencer"),file=False)
     menu_principal()
 
 
@@ -439,7 +441,7 @@ def game(DEBUG=False):
 		print_result_action(config.france_dt, config.france_e - energy.e)
 
 		time += config.france_dt
-		energy = config.france_e
+		energy = Energy(config.france_e)
 		huel = True
 		hamac_votes.append('france')
 

@@ -5,10 +5,10 @@ veut-elle parler ?[DEFAULT]
 
 --------------------------------------------------------------------------------
 
-[RED]LES ECOUTER :[DEFAULT]
+[GREEN]LES ECOUTER :[DEFAULT]
 Quoi de neuf ?
 
-[GREEN]LEUR PARLER DE TON DADA DU MOMENT :[DEFAULT]
+[RED]LEUR PARLER DE TON DADA DU MOMENT :[DEFAULT]
 Entre pédagogie Montessori et culture hydroponique, ton coeur balance !
 
 --------------------------------------------------------------------------------

@@ -133,7 +133,6 @@ class Energy():
 	def __ge__(self,value):
 		return self.e >= value
 
-
 	def __isub__(self,de):
 		return self.__sub__(de)
 
