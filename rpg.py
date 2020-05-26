@@ -42,7 +42,6 @@ def die():
 
 def game(DEBUG=False):
     # global variables
-    time = config.start_hour * 60  # 16 hours
     energy = Energy(100)
 
     # needed for advancement
@@ -510,9 +509,9 @@ def game(DEBUG=False):
         to_display_menu = display_menu(time, hamac_quest, diploma, babyfoot,
                                        eaten)
         menu_choice = check_input('\n'.join(
-            [f'Tape {key} pour {value}' for key, value in
+            [f'- {value} [{key}]' for key, value in
              to_display_menu.items()]) + '\n',
-                                  [str(k) for k in to_display_menu])
+                                  [str(k) for k in to_display_menu.keys()])
 
         # HAMAC
         # 14 people max can vote
@@ -531,7 +530,7 @@ def game(DEBUG=False):
             print(f'Il y a {len(hamac_votes)} personnes pour le hamac sur 14.')
 
             # try convince some people
-            # TODO: il manque les fioritures la: le sprobas qui changent en fonction de la conversation
+            # TODO: il manque les fioritures la: les probas qui changent en fonction de la conversation
             print(p_color("narration/quetes_paralleles/hamac/FELIPE.txt"))
             convince_hamac = check_input("", ["T", "F"])
             if convince_hamac == 'T':
@@ -626,57 +625,52 @@ def game(DEBUG=False):
 
         # DIPLOMA
         elif menu_choice == '1':
-			diploma_dir = "narration/diploma/"
-			if time >= config.diploma_deadline:
-				print(p_color(diploma_dir + "vigile.txt"))
-				return
-			
-			## A quoi ça sert ???
-            #if time >= config.admin_deadline * 60:
-            #    # after 5 pm
-            #    time = config.end_hour * 60
-            #    break
+            diploma_dir = "narration/diploma/"
+            if time >= config.diploma_deadline * 60:
+                # after 5 pm
+                print(p_color(diploma_dir + "vigile.txt"))
+                return
 
             # Lina's signature sequence
             if alexis:
                 time += config.if_alexis_lina_dt
-				print(p_color(diploma_dir + "lina_with_alexis.txt"))
-				print_result_action(config.if_alexis_lina_dt, config.if_alexis_lina_de)
+                print(p_color(diploma_dir + "lina_with_alexis.txt"))
+                print_result_action(config.if_alexis_lina_dt, config.if_alexis_lina_de)
             else:
                 if time <= config.admin_lina_deadline * 60:
                     # before 2 pm
-					print(p_color(diploma_dir + "wait_for_lina.txt"))
-					print_result_action(config.admin_lina_deadline * 60 - time, 0)
+                    print(p_color(diploma_dir + "wait_for_lina.txt"))
+                    print_result_action(config.admin_lina_deadline * 60 - time, 0)
                     time = config.admin_lina_deadline * 60
-					
+
                 time += config.if_not_alexis_lina_dt
-				print(p_color(diploma_dir + "lina_wo_alexis.txt"))
-				print_result_action(config.if_not_alexis_lina_dt, config.if_not_alexis_lina_de)
+                print(p_color(diploma_dir + "lina_wo_alexis.txt"))
+                print_result_action(config.if_not_alexis_lina_dt, config.if_not_alexis_lina_de)
 
             # Paoletti's signature sequence
             if alexis:
                 time += config.if_alexis_paoletti_dt
-				print(p_color(diploma_dir + "paoletti_with_alexis.txt"))
-				print_result_action(config.if_alexis_paoletti_dt, config.if_alexis_paoletti_de)
+                print(p_color(diploma_dir + "paoletti_with_alexis.txt"))
+                print_result_action(config.if_alexis_paoletti_dt, config.if_alexis_paoletti_de)
             else:
                 time += config.if_not_alexis_paoletti_dt
-				print(p_color(diploma_dir + "paoletti_wo_alexis.txt"))
-				print_result_action(config.if_not_alexis_paoletti_dt, config.if_not_alexis_paoletti_de)
+                print(p_color(diploma_dir + "paoletti_wo_alexis.txt"))
+                print_result_action(config.if_not_alexis_paoletti_dt, config.if_not_alexis_paoletti_de)
 
             # Auguste's signature sequence
             if alexis:
                 time += config.if_alexis_auguste_dt
-				print(p_color(diploma_dir + "auguste_with_alexis.txt"))
-				print_result_action(config.if_alexis_auguste_dt, config.if_alexis_auguste_de)
+                print(p_color(diploma_dir + "auguste_with_alexis.txt"))
+                print_result_action(config.if_alexis_auguste_dt, config.if_alexis_auguste_de)
             else:
                 time += config.if_not_alexis_auguste_dt
-				print(p_color(diploma_dir + "auguste_wo_alexis.txt"))
-				print_result_action(config.if_not_alexis_auguste_dt, config.if_not_alexis_auguste_de)
+                print(p_color(diploma_dir + "auguste_wo_alexis.txt"))
+                print_result_action(config.if_not_alexis_auguste_dt, config.if_not_alexis_auguste_de)
 
             # diploma quest achieved
             diploma = True
 
-			print(p_color(diploma_dir + "rencontre_felipe.txt"))
+            print(p_color(diploma_dir + "rencontre_felipe.txt"))
             # meet with Felipe
             felipe_badge = True
 

@@ -51,10 +51,10 @@ def shifumi():
     return True
 
 
-menu_choice = {0: "Faire amener un hamac pour piéger Daoult [Obligatoire]",
-               1: "Diplôme de thèse [Obligatoire] Réaliser avant 18h.",
-               2: "Organiser un tournoi de babyfoot [Obligatoire]",
-               3: "Manger [Facultatif] Possible jusque 15h.",
+menu_choice = {0: "Acheter un hamac pour piéger Daoult. [Obligatoire]",
+               1: "Diplôme de thèse. A réaliser avant 17h. [Obligatoire]",
+               2: "Organiser un tournoi de babyfoot. [Obligatoire]",
+               3: "Manger. Possible jusque 15h. [Facultatif]",
                4: "Sieste [Facultatif]"}
 
 def display_menu(time, hamac, diploma, babyfoot, eaten):
