@@ -102,7 +102,7 @@ guillaume_de              = -20
 #############################
 
 # menu parameters
-diploma_deadline         = 15 # 3pm
+diploma_deadline         = 17 # 3pm
 lunch_deadline           = 15 # 3pm
 
 # lunch

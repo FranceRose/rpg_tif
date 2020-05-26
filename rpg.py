@@ -42,6 +42,7 @@ def die():
 
 def game(DEBUG=False):
     # global variables
+    time = config.start_hour * 60 # starts at 8 am
     energy = Energy(100)
 
     # needed for advancement
@@ -776,6 +777,9 @@ def game(DEBUG=False):
     ########################################
     # WHISTLEBLOWER QUEST
     ########################################
+
+    assert daoult_password # hamac_quest
+    assert felipe_badge # diploma quest
 
     office_check = check_input(
         "Choisis-tu d'aller inspecter le bureau de Daoult [0], de Pierre Paoletti [1], de David Holcman [2] ou aucun [3]?",
