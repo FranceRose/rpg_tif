@@ -1,0 +1,15 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] fait des compliments abusés à [GREEN]Felipe[DEFAULT]
+
+[GREEN]Felipe[DEFAULT] doit bien admettre que [GREEN]Tiphaine[DEFAULT] a de très bons goûts.
+
+Effectivement, ce [YELLOW]HAMAC[DEFAULT] semble une [GREEN]très bonne[DEFAULT] idée.
+
+S'il y a un vote, il voterait sûrement [GREEN]POUR[DEFAULT].
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]Et encore une victoire contre les forces du mal ![DEFAULT]
+
+--------------------------------------------------------------------------------

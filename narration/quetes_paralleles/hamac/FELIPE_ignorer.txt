@@ -1,0 +1,13 @@
+[DEFAULT]
+
+[GREEN]Felipe[DEFAULT] n'est pas très content de se faire [RED]bolosser[DEFAULT] par une [RED]bergère baboss à deux balles[DEFAULT].
+
+Il range la guitare, et se remet à travailler.
+
+Pas sûr que ce genre d'attitude [RED]délétère[DEFAULT] n'aide [GREEN]Tiphaine[DEFAULT] à se faire des [GREEN]alliés[DEFAULT].
+
+--------------------------------------------------------------------------------
+
+[BOLD][YELLOW]En même temps les cheveux rasés ça lui donne vraiment une tête de [RED]bagnard[DEFAULT][YELLOW]...[DEFAULT]
+
+--------------------------------------------------------------------------------
