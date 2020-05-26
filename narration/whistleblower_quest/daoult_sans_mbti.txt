@@ -1,0 +1,12 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] est désemparée, elle est bien rentrée dans le bureau de Daoult. [BOLD]Mais où
+chercher ??[DEFAULT] Son écriture est illisible... Elle a déjà eu accès aux données de son
+serveur...
+Les poches de sa blouse ? Son tiroir à whisky ?
+
+[BLUE]Non, non, non, ... Cela ne mène à rien.[DEFAULT] Elle est en train de perdre un temps
+précieux. Et pire, elle pourrait être découverte !
+
+[BOLD]Dépitée, elle sort discrètement du bureau.[DEFAULT]
+

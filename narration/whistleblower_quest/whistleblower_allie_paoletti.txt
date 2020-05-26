@@ -1,0 +1,32 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] a fini la quête du babyfoot et du hamac. Elle a aussi analysé les données
+d’[BLUE]Ayush et Aurélien[DEFAULT] qui prouvent la dangerosité du [RED]corona-cola[DEFAULT] sur les neurones.
+De plus, elle a réussi à [BOLD]télécharger les mails de [RED]Daoult[DEFAULT] sur son serveur, et elle
+a choisi un allié élu, [GREEN]Pierre Paoletti[DEFAULT], pressenti pour prendre
+la tête de l’institut lors  de la destitution de Daoult.
+
+Avec le [BOLD][YELLOW]badge de Felipe[DEFAULT], elle prend conscience que tout l’institut lui
+est accessible. [BOLD]Comment l'utiliser à bon escient ?[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[RED]DAOULT :[DEFAULT]
+"J'irai bien fouiner dans le bureau de ce vendu de Daoult. Histoire de trouver
+d'autres documents et preuves."
+
+[GREEN]PAOLETTI :[DEFAULT]
+"Je l'ai choisi comme allié, mais peut-on vraiment lui faire confiance ? Apres tout,
+il était directement pendant ma thèse mais je n'ai jamais vraiment eu affaire à lui."
+
+[BLUE]HOLCMAN :[DEFAULT]
+"Holcman dit qu'il veut s'opposer à Daoult, mais je n'ai jamais eu confiance en
+ce type. Y a qu'à voir comment il traite ses doctorants !"
+
+[BOLD]AUCUN :[DEFAULT]
+"J'ai assez de documents compromettants, ne risquons pas de se faire attraper."
+
+--------------------------------------------------------------------------------
+
+Daoult, Paoletti, Holcman ou aucun ? 0, 1, 2 ou 3
+

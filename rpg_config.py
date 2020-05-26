@@ -43,10 +43,11 @@ swann_beer_dt             = 45
 
 # Sysinfo
 pv_convincing_proba       = 0.5
+convince_pv_de            = -10
 pv_dt                     = 15
 after_pv_dt               = 5
 phiphuong_dt              = 25
-phiphuong_de              = -10
+phiphuong_de              = -20
 bilel_dt                  = 5
 
 # 6th floor kitchen
@@ -75,7 +76,7 @@ auguste_email_answer_dt   = 5
 floor7_dt                 = 30
 
 # Shifumi
-shifumi_between_games_dt  = -5
+shifumi_between_games_dt  = 5
 # pierre, feuille, ciseaux
 shifumi_truth_table       = [[-1, 0,  1],
 							 [1, -1,  0],

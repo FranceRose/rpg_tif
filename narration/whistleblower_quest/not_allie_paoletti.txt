@@ -1,0 +1,9 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] arrive dans le bureau de [GREEN]Pierre Paoletti[DEFAULT]. Elle cherche, mais quoi exactement ?
+Une preuve qu'elle a fait le bon choix avec [BLUE]David Holcman[DEFAULT] ? D'autres documents à
+propos du [RED]corona-cola[DEFAULT] qu'il garderait secret au cas où ?
+
+Dans tous les cas, après de longues minutes de recherche, [BOLD]elle abandonne. Elle se
+dit que Pierre Paoletti était peut-être sincère...[DEFAULT]
+

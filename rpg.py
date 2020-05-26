@@ -16,7 +16,7 @@ def launch_video():
     clear_screen()
 
 
-def menu_principal():
+def menu_principal(**kwargs):
     while (True):
         menu_choice = check_input(p_color('narration/menu_principal.txt'),
                                   ['1', '2', '3', '4'])
@@ -24,7 +24,7 @@ def menu_principal():
             launch_video()
         if menu_choice == "2":
             clear_screen()
-            game()
+            game(**kwargs)
         if menu_choice == "3":
             credits()
         if menu_choice == "4":
@@ -40,7 +40,7 @@ def die():
     menu_principal()
 
 
-def game(DEBUG=False):
+def game(DEBUG=False, **kwargs):
     # global variables
     time = config.start_hour * 60 # starts at 8 am
     energy = Energy(100)
@@ -187,18 +187,18 @@ def game(DEBUG=False):
     wait_sysinfo = False
     if convince_pv == 'T':
         rd = random.random()
+        energy += config.convince_pv_de
+        time += config.pv_dt
         if rd <= config.pv_convincing_proba:
             # pv is convinced!
-            time += config.pv_dt
             badge = True
 
             print(p_color("narration/sysinfo/pv_after.txt"))
-            print_result_action(config.pv_dt, 0)
         else:
             # local var
             wait_sysinfo = True
-
             print(p_color("narration/sysinfo/pv_not_convinced.txt"))
+        print_result_action(config.pv_dt, config.convince_pv_de)
 
     if convince_pv == 'F' or wait_sysinfo:
         # wait
@@ -603,23 +603,23 @@ def game(DEBUG=False):
                 print(f'Quete HAMAC reussie !')
                 hamac_weapon = True
                 energy += config.winning_hamac_de
-                print_result_action(0, config.winning_hammac_de)
+                time += config.hamac_quest_dt
+                print_result_action(config.hamac_quest_dt, config.winning_hamac_de)
             else:
                 print(p_color("narration/quetes_paralleles/hamac/final_failed.txt"))
                 # couch with auguste
                 covid = True
                 energy += config.loosing_hamac_de
-                print_result_action(0, config.loosing_hamac_de)
+                time += config.hamac_quest_dt
+                print_result_action(config.hamac_quest_dt, config.loosing_hamac_de)
 
-            time += config.hamac_quest_dt
-            print_result_action(config.hamac_quest_dt, 0)
+
             print_INFO(time, energy)
             hamac_quest = True
 
             if DEBUG:
                 print('\nHAMAC')
                 print(f'hamac_votes = {hamac_votes}, hamac = {hamac_weapon}')
-                print(f'time = {time2hours(time)}; energy={energy}\n')
 
             input('')
             clear_screen()
@@ -627,6 +627,9 @@ def game(DEBUG=False):
         # DIPLOMA
         elif menu_choice == '1':
             diploma_dir = "narration/diploma/"
+
+            if DEBUG:
+                print(f"time = {time}, {config.diploma_deadline * 60}, alexis = {alexis}")
             if time >= config.diploma_deadline * 60:
                 # after 5 pm
                 print(p_color(diploma_dir + "vigile.txt"))
@@ -635,6 +638,7 @@ def game(DEBUG=False):
             # Lina's signature sequence
             if alexis:
                 time += config.if_alexis_lina_dt
+                energy += config.if_alexis_lina_de
                 print(p_color(diploma_dir + "lina_with_alexis.txt"))
                 print_result_action(config.if_alexis_lina_dt, config.if_alexis_lina_de)
             else:
@@ -645,29 +649,43 @@ def game(DEBUG=False):
                     time = config.admin_lina_deadline * 60
 
                 time += config.if_not_alexis_lina_dt
+                energy += config.if_not_alexis_lina_de
                 print(p_color(diploma_dir + "lina_wo_alexis.txt"))
                 print_result_action(config.if_not_alexis_lina_dt, config.if_not_alexis_lina_de)
+
+            input()
+            clear_screen()
 
             # Paoletti's signature sequence
             if alexis:
                 time += config.if_alexis_paoletti_dt
+                energy += config.if_alexis_paoletti_de
                 print(p_color(diploma_dir + "paoletti_with_alexis.txt"))
                 print_result_action(config.if_alexis_paoletti_dt, config.if_alexis_paoletti_de)
             else:
                 time += config.if_not_alexis_paoletti_dt
+                energy += config.if_not_alexis_paoletti_de
                 print(p_color(diploma_dir + "paoletti_wo_alexis.txt"))
                 print_result_action(config.if_not_alexis_paoletti_dt, config.if_not_alexis_paoletti_de)
+
+            input()
+            clear_screen()
 
             # Auguste's signature sequence
             if alexis:
                 time += config.if_alexis_auguste_dt
+                energy += config.if_alexis_auguste_de
                 print(p_color(diploma_dir + "auguste_with_alexis.txt"))
                 print_result_action(config.if_alexis_auguste_dt, config.if_alexis_auguste_de)
             else:
                 time += config.if_not_alexis_auguste_dt
+                energy += config.if_not_alexis_auguste_de
                 print(p_color(diploma_dir + "auguste_wo_alexis.txt"))
                 print_result_action(config.if_not_alexis_auguste_dt, config.if_not_alexis_auguste_de)
 
+            input()
+            clear_screen()
+            
             # diploma quest achieved
             diploma = True
 
@@ -759,9 +777,7 @@ def game(DEBUG=False):
             energy += config.nap_de
             time += config.nap_dt
 
-            if DEBUG:
-                print('\nNAP')
-                print(f'time = {time2hours(time)}; energy={energy}\n')
+            print_result_action(config.nap_dt, config.nap_de)
 
     if time >= config.end_hour * 60 or energy < 0:
         print('GAME OVER ! Recommence !')
@@ -781,38 +797,54 @@ def game(DEBUG=False):
     assert daoult_password # hamac_quest
     assert felipe_badge # diploma quest
 
-    office_check = check_input(
-        "Choisis-tu d'aller inspecter le bureau de Daoult [0], de Pierre Paoletti [1], de David Holcman [2] ou aucun [3]?",
-        [str(i) for i in range(4)])
+    if paoletti:
+        office_check = check_input(
+            p_color("narration/whistleblower_quest/whistleblower_allie_paoletti.txt"),
+            [str(i) for i in range(4)])
+    else:
+        office_check = check_input(
+            p_color(
+                "narration/whistleblower_quest/whistleblower_allie_holcman.txt"),
+            [str(i) for i in range(4)])
+
     if office_check == '0':
+        # choose Daoult
         if mbti:
-            print("Tu trouves qqchose chez Daoult")
+            print(p_color("narration/whistleblower_quest/daoult_si_mbti.txt"))
             energy += config.if_mbti_daoult_office_de
+            time += config.whistleblower_dt
+            print_result_action(config.whistleblower_dt, config.if_mbti_daoult_office_de)
         else:
-            print("Tu ne trouves rien chez Daoult")
+            print(p_color("narration/whistleblower_quest/daoult_sans_mbti.txt"))
             energy += config.not_mbti_adoult_office_de
+            time += config.whistleblower_dt
+            print_result_action(config.whistleblower_dt, config.not_mbti_adoult_office_de)
 
     elif office_check == '1':
+        # choose paoletti
         if paoletti:
-            print("Ton allie Paoletti est mechant")
+            print(p_color("narration/whistleblower_quest/allie_paoletti.txt"))
             energy += config.allie_is_evil_de
+            time += config.whistleblower_dt
+            print_result_action(config.whistleblower_dt, config.allie_is_evil_de)
         else:
-            print("Tu ne trouves rien chez Paoletti")
+            time += config.whistleblower_dt
+            print(p_color("narration/whistleblower_quest/not_allie_paoletti.txt"))
+            print_result_action(config.whistleblower_dt, 0)
+
     elif office_check == '2':
+        # choose Holcman
         if paoletti:
-            print("Tu ne trouves rien chez Holcman")
+            time += config.whistleblower_dt
+            print(p_color("narration/whistleblower_quest/not_allie_holcman.txt"))
+            print_result_action(config.whistleblower_dt, 0)
         else:
-            print("Ton allie Holmcan est mechant")
+            print(p_color("narration/whistleblower_quest/allie_holcman.txt"))
+            print_result_action(config.whistleblower_dt, config.allie_is_evil_de)
             energy += config.allie_is_evil_de
+            time += config.whistleblower_dt
 
-    if office_check != '3':
-        time += config.whistleblower_dt
-        if DEBUG:
-            print('\nWHISTLEBLOWER')
-            print(f'time = {time2hours(time)}; energy={energy}\n')
-
-    whistleblower_choice = check_input(
-        'Fais tu fuiter dans mediapart le scandale du corona-cola ? [T/F]',
+    whistleblower_choice = check_input(p_color("narration/whistleblower_quest/whistleblower_end.txt"),
         ["T", "F"])
     if whistleblower_choice == 'T':
         whistleblower = True
@@ -954,4 +986,4 @@ def game(DEBUG=False):
 
 if __name__ == '__main__':
     # game(DEBUG=True)
-    menu_principal()
+    menu_principal(DEBUG=True)

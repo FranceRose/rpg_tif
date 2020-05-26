@@ -1,7 +1,6 @@
 [DEFAULT]
 
-[GREEN]Tiphaine[DEFAULT] continue la conversation. Après tout, [GREEN]France[DEFAULT]
-est son [GREEN]amie[DEFAULT].
+[GREEN]Tiphaine[DEFAULT] continue la conversation. Après tout, [GREEN]France[DEFAULT] est son [GREEN]amie[DEFAULT].
 
 France lui raconte qu’elle a fait beaucoup de [GREEN]sport[DEFAULT], qu’elle a publié 7 articles,
 qu’elle a perdu 10kg en ne mangeant que des [GREEN]pommes[DEFAULT].

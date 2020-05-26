@@ -1,0 +1,24 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] en a beaucoup appris dans cette journée. [RED]Les plans de Daoult, les degats
+que peuvent causer le corona-cola, les intrigues internes a l'IBENS...[DEFAULT]
+
+Si elle fait tout fuiter da la presse, que va-t-il se passer ? Arrêtera-t-on la
+production de corona-cola ? Ou est-ce que les politiques qui soutiennent Daoult
+arriveront à couvrir l'affaire ?
+
+Pas facile de prendre une décision en si peu de temps, et si jetlaggée !
+
+--------------------------------------------------------------------------------
+
+[GREEN]FUITER :[DEFAULT]
+"Envoyons tout ca a Mediapart. Il y a encore des medias independants dans ce pays !"
+
+[RED]GARDER SECRET :[DEFAULT]
+"Pour l'instant, gardons le secret. Je vais confronter Ridier Daoult, Pierre Paoletti
+et David Holcman d'abord."
+
+--------------------------------------------------------------------------------
+
+Fuiter ou garder secret ? [T/F]
+
