@@ -1,0 +1,29 @@
+[DEFAULT]
+
+[UNDERLINE][RED][BOLD]ECHEC !![DEFAULT]
+
+Ce 13 Juillet 2022 est un [RED]JOUR DE MERDE[DEFAULT] !!
+
+Le [YELLOW]#HAMAC[DEFAULT] est [RED]refusé[DEFAULT] à la séance extraordinaire du [RED]lab-meeting[DEFAULT].
+
+[GREEN]Tiphaine[DEFAULT] se [RED]tape la honte[DEFAULT].
+
+[GREEN]Mathieu[DEFAULT],prévoyant, avait déja commandé un [YELLOW]#CANAPE[DEFAULT] sur [BLUE]www.cnrs-commandes.com[DEFAULT].
+
+On installe le [RED]canapé[DEFAULT]. Il est [RED]tout dur[DEFAULT] et calibré pile pour que
+l'être humain moyen ne puisse pas s'y allonger. En plus, il [RED]gratte[DEFAULT].
+
+Tout semble fait pour qu'on ne l'utilise [RED]pas[DEFAULT].
+[RED]Auguste[DEFAULT] vient voir [GREEN]Tiphaine[DEFAULT] pour la consoler, mais elle est [RED]énervée[DEFAULT]
+
+Comme [GREEN]Tiphaine[DEFAULT] ne respecte pas les [BLUE]gestes barrières[DEFAULT], elle
+ne peut esquiver quand [RED]Auguste[DEFAULT] lui [RED]tousse[DEFAULT] dessus.
+
+[BOLD][UNDERLINE]Si Tiphaine n'avais pas déja le [RED]COVID[DEFAULT], elle l'atttrape sûrement [RED]maintenant[DEFAULT].
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]Un vieux canapé moisi, pas de HAMAC et maintenant le [RED]COVID[YELLOW]...
+Super !! C'est vraiment une journée de [RED]merde[DEFAULT]
+
+--------------------------------------------------------------------------------

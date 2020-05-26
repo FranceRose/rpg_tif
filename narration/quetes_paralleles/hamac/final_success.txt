@@ -1,0 +1,18 @@
+[DEFAULT]
+
+[GREEN][UNDERLINE][BOLD]VICTOIRE ![DEFAULT]
+
+Ce 13 Juillet 2022 est un [GREEN]GRAND JOUR[DEFAULT] !!
+
+Le [YELLOW]#HAMAC[DEFAULT] est adopté à la séance extraordinaire du [RED]lab-meeting[DEFAULT].
+
+[GREEN]Tiphaine[DEFAULT] est auréolée de gloire. [GREEN]Mathieu[DEFAULT],prévoyant, avait déja
+commandé un [YELLOW]#HAMAC[DEFAULT] sur [BLUE]www.cnrs-commandes.com[DEFAULT].
+
+Il lui donne donc immédiatement. [GREEN] reçoit le [YELLOW]#HAMAC[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]Super ! Parfait pour neutraliser [RED]Daoult[DEFAULT]
+
+--------------------------------------------------------------------------------

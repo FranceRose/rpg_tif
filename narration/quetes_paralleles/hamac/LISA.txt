@@ -1,0 +1,30 @@
+[DEFAULT]
+
+[RED]Lisa[DEFAULT] est à son bureau depuis 6h du matin. Elle a dormi sur place.
+
+Quant [GREEN]Tiphaine[DEFAULT] s'approche pour lui parler du [YELLOW]HAMAC[DEFAULT],
+elle lui dit un bonjour avec un [GREEN]grand sourire[DEFAULT].
+
+Elle est contente de revoir [GREEN]Tiphaine[DEFAULT].
+
+Contrairement à [BLUE]Toni[DEFAULT], [RED]Lisa[DEFAULT] dit à propos du plan [BLUE]CovIBENS[DEFAULT]
+qu'on en a [RED]rien à faire[DEFAULT] d'un virus [RED]imaginaire[DEFAULT].
+
+Elle trouve que la [RED]germophobie[DEFAULT] de [BLUE]Toni[DEFAULT] est [RED]ridicule[DEFAULT].
+
+Elle est très [GREEN]contente[DEFAULT] de voir que [GREEN]Tiphaine[DEFAULT] revient et que
+la recherche [BLUE]fra[DEFAULT]nça[RED]ise[DEFAULT] redémarre.
+
+--------------------------------------------------------------------------------
+
+[BOLD][UNDERLINE]Que faire ?[DEFAULT]:
+
+[GREEN]ABONDER DANS SON SENS[DEFAULT]
+[YELLOW]"Tu as raison Lisa. La recherche en ce moment, c'est une activité de première
+nécessité"[DEFAULT]
+
+[RED]APPELER DÉDÉ DANS LA CONVERSATION[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BOLD]Abonder dans son sens ? (T/F)[DEFAULT]
