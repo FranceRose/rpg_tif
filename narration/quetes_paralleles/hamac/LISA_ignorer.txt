@@ -1,0 +1,19 @@
+[DEFAULT]
+
+[GREEN]DÉDÉ[DEFAULT] vient dans la conversation.
+
+[RED]Lisa[DEFAULT] n'apprécie pas du tout qu'il lui dise qu'elle ne serve à [RED]rien[DEFAULT]
+à l'IBENS et qu'elle serait [GREEN]plus utile[DEFAULT] si elle plantait des [RED]patates[DEFAULT].
+
+Mais pourquoi [GREEN]Tiphaine[DEFAULT] a appelé [GREEN]Dédé[DEFAULT] ?!?
+
+A cause de ce [RED]crétin congénital[DEFAULT]... [RED]Lisa[DEFAULT] votera probablement [RED]CONTRE[DEFAULT]
+le [YELLOW]HAMAC[DEFAULT] !
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]Quel abruti ce [GREEN]Dédé[YELLOW]...
+En même temps, c'est vrai que venir à l'IBENS en pleine [RED]pandémie[YELLOW] n'est pas
+très [BLUE]CovIBENS[YELLOW] friendly...[DEFAULT]
+
+--------------------------------------------------------------------------------

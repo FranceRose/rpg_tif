@@ -1,0 +1,22 @@
+
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] essaye petit à petit d'amener [RED]Lisa[DEFAULT] à accepter l'éventualité d'un
+[YELLOW]#HAMAC[DEFAULT].
+
+[RED]Lisa[DEFAULT] hésite. Elle se souvient qu'elle avait un très beau [YELLOW]HAMAC[DEFAULT]
+quand elle a voyagé au Pérou, et elle a peur d'être [RED]déçue[DEFAULT] avec un [YELLOW]HAMAC[DEFAULT] qui
+viendrait de [BLUE]Décathlon[DEFAULT].
+
+Elle [RED]hésite[DEFAULT], dit plusieurs fois [GREEN]OUI[DEFAULT] puis [RED]NON[DEFAULT].
+
+Au final, elle pense que c'est une [GREEN]bonne idée[DEFAULT] pour la [GREEN]productivité[DEFAULT]
+
+Elle n'est pas trop d'accord avec [GREEN]Auguste[DEFAULT] pour dire que [GREEN]Tiphaine[DEFAULT] a tendance
+à déjà beaucoup [RED]procrastiner[DEFAULT], et voterait plutôt [GREEN]POUR[DEFAULT] un [YELLOW]HAMAC[DEFAULT].
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]Ok... Espérons qu'elle ne change pas d'avis ![DEFAULT]
+
+--------------------------------------------------------------------------------

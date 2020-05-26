@@ -1,0 +1,19 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] commence à tripoter [BLUE]Toni[DEFAULT].
+
+[BLUE]Toni[DEFAULT] n'aime [RED]pas du tout[DEFAULT] que [GREEN]Tiphaine[DEFAULT] le [RED]touche[DEFAULT].
+
+Ce n'est absolument [RED]pas conforme[DEFAULT] au plan [BLUE]CovIBENS[DEFAULT] prescrivant les mesures
+nécessaires à la lutte contre le [RED]COVID-22[DEFAULT] dans le cadre de [RED]l'état d'urgence[DEFAULT] sanitaire.
+
+Impossible même de lui parler du [YELLOW]HAMAC[DEFAULT] après une telle bourde.
+
+[GREEN]Toni[DEFAULT] fuit désormais [GREEN]Tiphaine[DEFAULT] chaque fois qu'elle s'approche.
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]"L'immunité collective c'est mieux que les mesures barrière mais bon...
+Tant pis, salut Toni !"[DEFAULT]
+
+--------------------------------------------------------------------------------

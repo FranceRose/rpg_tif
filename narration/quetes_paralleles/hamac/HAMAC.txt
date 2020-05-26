@@ -1,0 +1,20 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] s'est désormais mise en quête d'un [YELLOW]HAMAC[DEFAULT].
+
+Ça a toujours été son grand [RED]DADA[DEFAULT] !
+
+Comme elle a regardé beaucoup de [GREEN]dessin animés cartoon[DEFAULT] récemment,
+elle pense qu'un [YELLOW]HAMAC[DEFAULT] serait très efficace pour piéger [RED]Daoult[DEFAULT] en le saucissonnant.
+
+Le comportement de [GREEN]Tiphaine[DEFAULT] aujourd'hui a probablement joué dans le nombre
+de personnes qu'elle va pouvoir rallier à son [RED]prosélytisme[DEFAULT]. Certaines personnes
+l'ont probablement [GREEN]RALLIEE[DEFAULT] sans qu'elle le sache parce qu'elle était
+[GREEN]gentille[DEFAULT] avec elles.
+
+D'autres ont pu la renier dans sa quête si elle a été [RED]méchante[DEFAULT] avec eux.
+
+Il faut convaincre les personnes restantes !
+
+
+--------------------------------------------------------------------------------

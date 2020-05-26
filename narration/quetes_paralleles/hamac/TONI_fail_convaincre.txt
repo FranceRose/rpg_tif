@@ -1,0 +1,24 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] commence son opération [RED]séduction[DEFAULT] sur [BLUE]Toni[DEFAULT]...
+
+...
+...
+Mais ça [RED]foire[DEFAULT] !
+
+Ah, [RED]zut ![DEFAULT] ... C'était [GREEN]bien tenté[DEFAULT] !
+Avec un peu plus de [YELLOW]chance[DEFAULT] ça aurait pu marcher.
+
+Mais [BLUE]Toni[DEFAULT] trouve que [GREEN]Tiphaine[DEFAULT] s'approche un peu trop
+et elle risquerait de lui donner le [RED]COVID-22[DEFAULT]...
+
+Déja que [RED]Auguste[DEFAULT] vient au labo alors qu'il [RED]tousse[DEFAULT]... Il
+vaut mieux s'en tenir au plan [BLUE]CovIBENS[DEFAULT] et ne pas trop se parler...
+
+--------------------------------------------------------------------------------
+
+[GREEN]Tiphaine[DEFAULT] [YELLOW][BOLD]commence à en avoir [UNDERLINE]marre[DEFAULT][BOLD][YELLOW] du plan [BLUE]CovIBENS...[DEFAULT]
+[YELLOW][BOLD]... Mais que peut-elle bien y faire ?
+Tant pis. Salut Toni, à bientôt[DEFAULT]
+
+--------------------------------------------------------------------------------

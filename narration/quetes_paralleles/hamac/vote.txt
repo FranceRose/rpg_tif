@@ -1,0 +1,17 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] a fait beaucoup de prosélytisme.
+
+Elle a fait tout ce qui est en son pouvoir pour convaincre les gens d'acheter un [YELLOW]#HAMAC[DEFAULT].
+
+Sûre d'avoir réussi à se faire apprécier de ses camarades, elle convoque une
+[BOLD]session extraordinaire[DEFAULT] de lab-meeting.
+
+Les débats sont vifs entre les partisans d'un [RED]canapé[DEFAULT] et les partisans d'un [YELLOW]#HAMAC[DEFAULT].
+
+Pendant les débats, [UNDERLINE][RED]Lisa[DEFAULT] change d'avis.[DEFAULT]
+
+Commence alors le vote à main levée...
+La tension est à son comble...
+
+--------------------------------------------------------------------------------
