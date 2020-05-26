@@ -1,0 +1,27 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] a maintenant une [RED]mega dalle[DEFAULT]
+
+En plus la cantine est [RED]fermée[DEFAULT] dans le cadre de l'[RED]état d'urgence[DEFAULT] sanitaire
+
+[GREEN]Tiphaine[DEFAULT] fait un peu le tour des gens avec qui elle pourrait manger.
+
+Comme nous sommes [GREEN]avant midi[DEFAULT], elle peut espérer manger avec [BLUE]Toni[DEFAULT].
+
+[BLUE]Toni[DEFAULT] est un peu à cheval sur [BLUE]les mesures barrière[DEFAULT].
+
+Heureusement, la salle de pause est ré-aménagée pour respecter [BLUE]les gestes barrières[DEFAULT].
+
+[BOLD][UNDERLINE]Tiphaine mange avec Toni[DEFAULT]
+
+Pendant la pause, [BLUE]Toni[DEFAULT] apprend à [GREEN]Tiphaine[DEFAULT] comment faire des
+[GREEN]super selfies[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BOLD][YELLOW] Des super selfies ! C'est super-pratique pour déverrouiller des comptes [BLUE]Lydia[YELLOW] sans encombre
+Merci Toni ![DEFAULT]
+
+--------------------------------------------------------------------------------
+
+Retourner à ses activités

@@ -1,0 +1,17 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] choisi d'écouter [DEFAULT]Solène[DEFAULT] et se badigeonne aussitôt
+d'anti-fongique.
+
+Pendant quelques minutes, ça la démange [RED]vraiment[DEFAULT].
+
+Mais à la fin du repas, sa main est déjà un peu plus [GREEN]douce[DEFAULT]: la situation s'est
+[GREEN]améliorée ![DEFAULT]
+
+Peut-être que [GREEN]Tiphaine[DEFAULT] pourrait finalement ne pas [RED]mourir[DEFAULT] de son champi dégueu ?
+
+Elle remercie [GREEN]Solène[DEFAULT] pour ce [GREEN]super conseil[DEFAULT].
+
+En tout cas elle a [GREEN]bien mangé[DEFAULT]. Ça lui fait du [GREEN] bien.[DEFAULT]
+
+Elle quitte Solène, Raphaël et Elise puis retourne à sa journée.

@@ -1,0 +1,46 @@
+[DEFAULT]
+
+[BLUE]Elise[DEFAULT] et [GREEN]Solene[DEFAULT] allaient manger quand [GREEN]Tiphaine[DEFAULT] s'approche.
+
+Elles lui proposent naturellement de manger avec elles.
+[GREEN]Raphaël[DEFAULT] se joint à elles.
+
+"Chouette !" se dit [GREEN]Tiphaine[DEFAULT]. Elle va pouvoir leur parler de ses
+[RED]champignons dégueus[DEFAULT] qu'elle a aux doigts pendant le repas ! [RED]<3[DEFAULT]
+
+Tout le monde s'installe pour manger dans la salle de pause.
+
+[GREEN]Tiphaine[DEFAULT] soupire mélancoliquement en évoquant le [YELLOW]HAMAC[DEFAULT].
+Cela semble émouvoir [GREEN]Solène [BLUE]Elise [DEFAULT] et [GREEN]Raphaël.
+
+Puis assez vite, [GREEN]Tiphaine[DEFAULT] profite du plat d'Elise pour dire:
+[BOLD]"Hey ! Mais puisque tu manges des champi [RED]dégueus[DEFAULT], tu penses que je devrais
+faire quoi avec [RED]mes champignons de doigts[DEFAULT] ?
+
+[BLUE]Elise[DEFAULT] pense qu'il vaut mieux ne rien toucher. Elle lui propose à la limite
+un [GREEN]anti-inflammatoire[DEFAULT] pour calmer les démangeaisons du champignon de Tiph.
+
+En plus ça tombe bien: [BOLD]Elle en a un justement dans son sac...[DEFAULT]
+
+[GREEN]Solène[DEFAULT] lui dit que d'après sa soeur qui est dermato, il vaut mieux mettre
+un petit [GREEN]antifongique[DEFAULT].
+
+En plus ça tombe bien: [BOLD]Elle ballade depuis trois jours la boîte d'antifongique d'un patient
+de sa soeur qui est décédé du [RED]COVID-22[DEFAULT][BOLD] et qui n'a plus de problème de
+champignons.[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BLUE]ECOUTER ELISE[DEFAULT]
+
+[BOLD][YELLOW]Elise a raison. Un anti-inflammatoire ça paraît moins risqué, c'est comme
+du doliprane pour la peau ![DEFAULT]
+
+[GREEN]ECOUTER SOLENE[DEFAULT]
+
+[BOLD][YELLOW]Mieux vaut écouter Solène. Elle a l'habitude des histoires de dermato de
+sa soeur ![DEFAULT]
+
+--------------------------------------------------------------------------------
+
+Elise (0) ou Solene (1) ?
