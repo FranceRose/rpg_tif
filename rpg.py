@@ -6,7 +6,6 @@ import random
 
 from os import system, name
 
-
 def credits():
     clear_screen()
     input("A faire")
@@ -96,6 +95,7 @@ def game(DEBUG=False):
     # INITIAL SEQUENCE
     ###############################
     print_INFO(time, energy)
+
 
     # wake-up
     snooze = check_input(p_color("narration/matin/matin.txt"), ['T', 'F'])
@@ -514,6 +514,10 @@ def game(DEBUG=False):
         # HAMAC
         # 14 people max can vote
         if menu_choice == '0':
+            clear_screen()
+
+            print(p_color("narration/quetes_paralleles/hamac/HAMAC.txt"))
+
             if ('France' in hamac_votes) and not ('Guillaume' in hamac_votes):
                 hamac_votes.append('Guillaume')
 
@@ -524,41 +528,68 @@ def game(DEBUG=False):
 
             # try convince some people
             # TODO: il manque les fioritures la: le sprobas qui changent en fonction de la conversation
-            convince_hamac = check_input(
-                "Tu essayes de convaincre Felipe ? [T/F]", ["T", "F"])
+            print(p_color("narration/quetes_paralleles/hamac/FELIPE.txt"))
+            convince_hamac = check_input("", ["T", "F"])
             if convince_hamac == 'T':
                 rd = random.random()
                 time += config.convince_felipe_dt
                 energy += config.convince_felipe_de
                 if rd < config.convince_felipe_proba:
                     hamac_votes.append('felipe')
-                    print("Tu as convaincu Felipe.")
+                    print(p_color("narration/quetes_paralleles/hamac/FELIPE_success_convaincre.txt"))
+                else:
+                    print(p_color("narration/quetes_paralleles/hamac/FELIPE_fail_convaincre.txt"))
 
-            convince_hamac = check_input(
-                "Tu essayes de convaincre Tony ? [T/F]", ["T", "F"])
+            else:
+                print(p_color("narration/quetes_paralleles/hamac/FELIPE_ignorer.txt"))
+            input("")
+
+            clear_screen()
+            print(p_color("narration/quetes_paralleles/hamac/TONI.txt"))
+            convince_hamac = check_input("", ["T", "F"])
             if convince_hamac == 'T':
                 rd = random.random()
                 time += config.convince_tony_dt
                 energy += config.convince_tony_de
                 if rd < config.convince_tony_proba:
                     hamac_votes.append('tony')
-                    print("Tu as convaincu Tony.")
+                    print(p_color("narration/quetes_paralleles/hamac/TONI_success_convaincre.txt"))
+                else:
+                    print(p_color("narration/quetes_paralleles/hamac/TONI_fail_convaincre.txt"))
 
-            convince_hamac = check_input(
-                "Tu essayes de convaincre Lisa ? [T/F]", ["T", "F"])
+            else:
+                print(p_color("narration/quetes_paralleles/hamac/TONI_ignorer.txt"))
+            input("")
+
+            clear_screen()
+            print(p_color("narration/quetes_paralleles/hamac/LISA.txt"))
+            convince_hamac = check_input("", ["T", "F"])
             if convince_hamac == 'T':
                 rd = random.random()
                 time += config.convince_lisa_dt
                 energy += config.convince_lisa_de
                 if rd < config.convince_lisa_proba:
                     hamac_votes.append('lisa')
-                    print("Tu as convaincu Lisa.")
+                    print(p_color("narration/quetes_paralleles/hamac/LISA_success_convaincre.txt"))
+                else:
+                    print(p_color("narration/quetes_paralleles/hamac/LISA_fail_convaincre.txt"))
+
+            else:
+                print(p_color("narration/quetes_paralleles/hamac/LISA_ignorer.txt"))
+            input("")
+
+            clear_screen()
+
+            print(p_color("narration/quetes_paralleles/hamac/vote.txt"))
+            input("")
 
             if len(hamac_votes) >= config.n_people_hamac_vote:
+                print(p_color("narration/quetes_paralleles/hamac/final_success.txt"))
                 print(f'Quete HAMAC reussie !')
                 hamac_weapon = True
                 energy += config.winning_hamac_de
             else:
+                print(p_color("narration/quetes_paralleles/hamac/final_failed.txt"))
                 # couch with auguste
                 covid = True
                 energy += config.loosing_hamac_de
@@ -571,6 +602,8 @@ def game(DEBUG=False):
                 print(f'hamac_votes = {hamac_votes}, hamac = {hamac_weapon}')
                 print(f'time = {time2hours(time)}; energy={energy}\n')
 
+            input('')
+            clear_screen()
 
         # DIPLOMA
         elif menu_choice == '1':
