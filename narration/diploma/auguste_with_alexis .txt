@@ -1,0 +1,12 @@
+[DEFAULT]
+[GREEN]Tiphaine[DEFAULT] et Alexis débarquent en trombe dans le bureau d'Auguste en lui tendant la feuille.
+
+Auguste, apeuré, désorienté, se demande ce qu'il se passe..
+
+Alexis lui réponds :
+
+- Il faudrait que tu signes ce papier pour qu'on puisse réintégrer [GREEN]Tiphaine[DEFAULT] dans l'équipe.
+
+Auguste est rassuré et signe sans le moindre commentaire la feuille.
+
+[YELLOW]Victoire ![DEFAULT] Toutes les signatures sont réunies.

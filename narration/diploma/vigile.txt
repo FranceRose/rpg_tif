@@ -1,0 +1,15 @@
+[DEFAULT]
+Un [RED]vigile[DEFAULT] apparait soudain au détour d'un couloir.
+
+--------------------------------------------------------------------------------
+
+[RED]le vigile[DEFAULT]: 
+Tiens, tiens, tiens mais je ne vous connait pas vous !
+Pourriez-vous me montrer votre badge, s'il vous plaît.. Cet étage est interdit au public.
+
+Malheureusement [GREEN]Tiphaine[DEFAULT] n'a toujours pas régularisé sa situation.
+Le vigile la ramène alors, manu militari, à l'extérieur du batiment.
+Tous ses plan pour empecher la distribution de [RED]corona-cola[DEFAULT] échoue lamentablement.
+[GREEN]Tiphaine[DEFAULT], résigné, rentre chez elle en trainant des pieds
+
+[RED]Game Over !![DEFAULT]
