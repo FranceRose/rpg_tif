@@ -685,7 +685,7 @@ def game(DEBUG=False, **kwargs):
 
             input()
             clear_screen()
-            
+
             # diploma quest achieved
             diploma = True
 
@@ -856,6 +856,18 @@ def game(DEBUG=False, **kwargs):
     if time >= config.end_hour * 60 or energy < 0:
         print('GAME OVER ! Recommence !')
         return
+
+    # get an appointment with Daoult
+    if diploma:
+        # appointment OK
+        print(p_color("narration/final_quest/appointment_daoult_if_diploma.txt"))
+    else:
+        # appointment not valid
+        print(
+            p_color("narration/final_quest/appointment_daoult_if_not_diploma.txt"))
+
+    input()
+    clear_screen()
 
     if whistleblower:
         allie_confrontation = check_input("Confrontes-tu ton allie ? [T/F]",
