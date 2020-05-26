@@ -1,0 +1,8 @@
+[DEFAULT]
+Le temps passe et rien n'avance...
+[GREEN]Tiphaine[DEFAULT] se sent complètement vidée et n'a plus qu'une envie : retourner se coucher.
+Ce qu'elle s'empresse de faire. 
+
+Tu n'as pas réussie à arreter le professeur [RED]Daoult[DEFAULT] !
+
+[BOLD][RED]Game Over !![DEFAULT]

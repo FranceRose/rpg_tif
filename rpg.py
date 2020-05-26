@@ -466,14 +466,12 @@ def game(DEBUG=False):
 
 	print_INFO(time, energy)
 	input()
-	clear_screen()
 
-
-	assert time <= 14 * 60 # before 2pm
-	assert energy.e > 0
-	assert badge
-	assert analysis
-	assert gpu
+	if not all([time <= 14 * 60, energy.e > 0, badge, analysis, gpu]):
+		clear_screen()
+		print(p_color("narration/fail_checkpoint.txt"))
+		input()
+		return
 
 
 	##########################################
@@ -481,11 +479,12 @@ def game(DEBUG=False):
 	##########################################
 
 	while (time < config.end_hour * 60 and energy > 0) and ((not diploma) or (not hamac_quest) or (not babyfoot)): #TODO: check constraints
-
+		clear_screen()
+		print_INFO(time, energy)
 		if DEBUG:
 			print(f"time = {time}, energy = {energy}")
 			print(f"diplome = {diploma}, hamac_quest = {hamac_quest}, babyfoot = {babyfoot}")
-
+		
 		to_display_menu = display_menu(time, hamac_quest, diploma, babyfoot, eaten)
 		menu_choice = check_input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n', [str(k) for k in to_display_menu])
 
@@ -655,11 +654,11 @@ def game(DEBUG=False):
 		print('GAME OVER ! Recommence !')
 		return
 
-	assert babyfoot
-	assert hamac_quest
-	assert diploma
-	assert (covid or fungus or hamac_weapon)
-
+	if not all([babyfoot, hamac_quest, diploma, (covid or fungus or hamac_weapon)]):
+		clear_screen()
+		print(p_color("narration/fail_checkpoint_2.txt"))
+		input()
+		return
 
 	########################################
 	# WHISTLEBLOWER QUEST
@@ -744,7 +743,7 @@ def game(DEBUG=False):
 					allie_choice = check_input("Choisis-tu de changer ton choix pour le prochain directeur d'institut ? [T/F]", ["T", "F"])
 					if allie_choice == 'T':
 						# exchange
-						paloetti = not paloetti
+						paoletti = not paoletti
 						holcman = not holcman
 
 					print("Tu as gagne - Sort of")
