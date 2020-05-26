@@ -84,8 +84,7 @@ def daoult_attack(covid, hamac, fungus):
 		del to_display[1]
 	if not fungus:
 		del to_display[2]
-	txt = "Tu attaques Daoult avec le " + ','.join([f'{value} [{key}]' for key, value in to_display.items()])
-	return txt
+	return to_display
 
 
 class Energy():
