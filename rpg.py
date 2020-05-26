@@ -748,10 +748,12 @@ def game(DEBUG=False):
 						holcman = not holcman
 
 					print("Tu as gagne - Sort of")
+					input()
 					return
 
 			else:
 				print("GAME OVER! Recommence !")
+				input()
 				return
 
 	else:
@@ -770,12 +772,13 @@ def game(DEBUG=False):
 
 		if energy < 0:
 			print("GAME OVER! Recommence !")
+			input()
 			return
 
 		if huel:
 			huel_choice = check_input("Veux-tu un peu de huel? [T/F]", ["T", "F"])
 			if huel_choice == 'T':
-				energy = 100
+				energy = Energy(100)
 
 		if paoletti or holcman:
 			# she still has an allie
@@ -783,11 +786,13 @@ def game(DEBUG=False):
 			if fight_daoult_or_both == '0':
 				# epilogue 4
 				print("Tu as gagne - Sort of")
+				input()
 				return
 			elif fight_daoult_or_both == '1':
 				# fight both
 				# not enough energy!
 				print("GAME OVER! Recommence !")
+				input()
 				return
 
 		else:
@@ -795,14 +800,17 @@ def game(DEBUG=False):
 			if (covid and energy >= config.if_covid_convince_daoult_energy_threshold):
 				# epilogue 6
 				print("Tu as gagne - Sort of")
+				input()
 				return
 			elif (not covid and energy >= config.not_covid_convince_daoult_energy_threshold):
 				# epilogue 7
 				print("Tu as gagne - Sort of")
+				input()
 				return
 			else:
 				# not enough energy!
 				print("GAME OVER! Recommence !")
+				input()
 				return
 
 	if DEBUG:
