@@ -1,0 +1,5 @@
+[DEFAULT]
+[GREEN]Tiphaine[DEFAULT] n'a aucune arme pour se défendre contre le professeur [RED]Daoult[DEFAULT].
+Dépité, elle part s'enfermer dans son bureau et entame une grève de la faim...
+
+[BOLD][RED]Game Over !![DEFAULT]

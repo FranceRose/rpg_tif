@@ -466,14 +466,12 @@ def game(DEBUG=False):
 
 	print_INFO(time, energy)
 	input()
-	clear_screen()
 
-
-	assert time <= 14 * 60 # before 2pm
-	assert energy.e > 0
-	assert badge
-	assert analysis
-	assert gpu
+	if not all([time <= 14 * 60, energy.e > 0, badge, analysis, gpu]):
+		clear_screen()
+		print(p_color("narration/fail_checkpoint.txt"))
+		input()
+		return
 
 
 	##########################################
@@ -481,13 +479,14 @@ def game(DEBUG=False):
 	##########################################
 
 	while (time < config.end_hour * 60 and energy > 0) and ((not diploma) or (not hamac_quest) or (not babyfoot)): #TODO: check constraints
-
+		clear_screen()
+		print_INFO(time, energy)
 		if DEBUG:
 			print(f"time = {time}, energy = {energy}")
 			print(f"diplome = {diploma}, hamac_quest = {hamac_quest}, babyfoot = {babyfoot}")
-
+		
 		to_display_menu = display_menu(time, hamac_quest, diploma, babyfoot, eaten)
-		menu_choice = input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n')
+		menu_choice = check_input('\n'.join([f'Tape {key} pour {value}' for key, value in to_display_menu.items()]) + '\n', [str(k) for k in to_display_menu])
 
 		# HAMAC
 		# 14 people max can vote
@@ -502,7 +501,7 @@ def game(DEBUG=False):
 
 			# try convince some people
 			# TODO: il manque les fioritures la: le sprobas qui changent en fonction de la conversation
-			convince_hamac = input("Tu essayes de convaincre Felipe ? [T/F]")
+			convince_hamac = check_input("Tu essayes de convaincre Felipe ? [T/F]", ["T", "F"])
 			if convince_hamac == 'T':
 				rd = random.random()
 				time += config.convince_felipe_dt
@@ -511,7 +510,7 @@ def game(DEBUG=False):
 					hamac_votes.append('felipe')
 					print("Tu as convaincu Felipe.")
 
-			convince_hamac = input("Tu essayes de convaincre Tony ? [T/F]")
+			convince_hamac = check_input("Tu essayes de convaincre Tony ? [T/F]", ["T", "F"])
 			if convince_hamac == 'T':
 				rd = random.random()
 				time += config.convince_tony_dt
@@ -520,7 +519,7 @@ def game(DEBUG=False):
 					hamac_votes.append('tony')
 					print("Tu as convaincu Tony.")
 
-			convince_hamac = input("Tu essayes de convaincre Lisa ? [T/F]")
+			convince_hamac = check_input("Tu essayes de convaincre Lisa ? [T/F]", ["T", "F"])
 			if convince_hamac == 'T':
 				rd = random.random()
 				time += config.convince_lisa_dt
@@ -600,7 +599,7 @@ def game(DEBUG=False):
 			time += config.baby_dt
 
 			# choose between paoletti and holcman
-			paoletti_vs_holcman = input('De Pierre Paloetti et David Holcman, qui choisis-tu comme allie contre Daoult? [0/1]')
+			paoletti_vs_holcman = check_input('De Pierre Paloetti et David Holcman, qui choisis-tu comme allie contre Daoult? [0/1]', ["0", "1"])
 			if paoletti_vs_holcman == '0':
 				# choose paoletti
 				paoletti = True
@@ -625,7 +624,7 @@ def game(DEBUG=False):
 				# eat with Solene and Elise
 				hamac_votes.extend(['elise', 'raphael', 'solene'])
 				# cure fungal infection?
-				fungal_choice = input("Pour ton champignon, tu suis le conseil d'Elise [0] ou de Solene[1] ?")
+				fungal_choice = check_input("Pour ton champignon, tu suis le conseil d'Elise [0] ou de Solene[1] ?", ["0", "1"])
 				if fungal_choice == '0':
 					# elise: the fungal infection grows worse
 					fungus = True
@@ -655,17 +654,17 @@ def game(DEBUG=False):
 		print('GAME OVER ! Recommence !')
 		return
 
-	assert babyfoot
-	assert hamac_quest
-	assert diploma
-	assert (covid or fungus or hamac_weapon)
-
+	if not all([babyfoot, hamac_quest, diploma, (covid or fungus or hamac_weapon)]):
+		clear_screen()
+		print(p_color("narration/fail_checkpoint_2.txt"))
+		input()
+		return
 
 	########################################
 	# WHISTLEBLOWER QUEST
 	########################################
 
-	office_check = input("Choisis-tu d'aller inspecter le bureau de Daoult [0], de Pierre Paoletti [1], de David Holcman [2] ou aucun [3]?")
+	office_check = check_input("Choisis-tu d'aller inspecter le bureau de Daoult [0], de Pierre Paoletti [1], de David Holcman [2] ou aucun [3]?", [str(i) for i in range(4)])
 	if office_check == '0':
 		if mbti:
 			print("Tu trouves qqchose chez Daoult")
@@ -677,7 +676,7 @@ def game(DEBUG=False):
 	elif office_check =='1':
 		if paoletti:
 			print("Ton allie Paoletti est mechant")
-			energy += allie_is_evil_de
+			energy += config.allie_is_evil_de
 		else:
 			print("Tu ne trouves rien chez Paoletti")
 	elif office_check == '2':
@@ -685,7 +684,7 @@ def game(DEBUG=False):
 			print("Tu ne trouves rien chez Holcman")
 		else:
 			print("Ton allie Holmcan est mechant")
-			energy += allie_is_evil_de
+			energy += config.allie_is_evil_de
 
 	if office_check != '3':
 		time += config.whistleblower_dt
@@ -694,7 +693,7 @@ def game(DEBUG=False):
 			print(f'time = {time2hours(time)}; energy={energy}\n')
 
 
-	whistleblower_choice = input('Fais tu fuiter dans mediapart le scandale du corona-cola ? [T/F]')
+	whistleblower_choice = check_input('Fais tu fuiter dans mediapart le scandale du corona-cola ? [T/F]', ["T", "F"])
 	if whistleblower_choice == 'T':
 		whistleblower = True
 
@@ -708,16 +707,16 @@ def game(DEBUG=False):
 		return
 
 	if whistleblower:
-		allie_confrontation = input("Confrontes-tu ton allie ? [T/F]")
+		allie_confrontation = check_input("Confrontes-tu ton allie ? [T/F]", ["T", "F"])
 		if allie_confrontation == 'T':
 			energy += config.confrontation_allie_de
 
 		if huel:
-			huel_choice = input("Veux-tu un peu de huel? [T/F]")
+			huel_choice = check_input("Veux-tu un peu de huel? [T/F]", ["T", "F"])
 			if huel_choice == 'T':
 				energy = 100
 
-		daoult_proposition =  input("Daoult te propose un poste permanent avec mobilite. Tu acceptes ? [T/F]")
+		daoult_proposition =  check_input("Daoult te propose un poste permanent avec mobilite. Tu acceptes ? [T/F]", ["T", "F"])
 		energy += config.daoult_proposition_de
 		if daoult_proposition == 'T':
 			if energy >= config.trust_daoult_energy_threshold:
@@ -729,7 +728,8 @@ def game(DEBUG=False):
 				return
 		else:
 			if energy >= config.dont_trust_daoult_energy_threshold:
-				daoult_weapon_choice = input(daoult_attack(covid, hamac_weapon, fungus))
+				possible_weapons = daoult_attack(covid, hamac_weapon, fungus)
+				daoult_weapon_choice = check_input("Tu attaques Daoult avec le " + ','.join([f'{value} [{key}]' for key, value in possible_weapons.items()]), [str(c) for c in possible_weapons])
 				if daoult_weapon_choice == '0':
 					print("Tu tues Daoult avec le covid")
 					# epilogue 2
@@ -740,24 +740,26 @@ def game(DEBUG=False):
 					print("Tu contamines Daoult avec ton champignon")
 					# epilogue 4
 
-					allie_choice = input("Choisis-tu de changer ton choix pour le prochain directeur d'institut ? [T/F]")
+					allie_choice = check_input("Choisis-tu de changer ton choix pour le prochain directeur d'institut ? [T/F]", ["T", "F"])
 					if allie_choice == 'T':
 						# exchange
-						paloetti = not paloetti
+						paoletti = not paoletti
 						holcman = not holcman
 
 					print("Tu as gagne - Sort of")
+					input()
 					return
 
 			else:
 				print("GAME OVER! Recommence !")
+				input()
 				return
 
 	else:
 		# not whistleblower
 
 		# fight with allie
-		lie_or_not = input("Tu n'as pas fait fuiter les infos. Ments tu a ton allie ? [T/F]")
+		lie_or_not = check_input("Tu n'as pas fait fuiter les infos. Ments tu a ton allie ? [T/F]", ["T", "F"])
 		if lie_or_not == 'T':
 			# need to fight
 			energy += config.lie_allie_fight_de
@@ -769,24 +771,27 @@ def game(DEBUG=False):
 
 		if energy < 0:
 			print("GAME OVER! Recommence !")
+			input()
 			return
 
 		if huel:
-			huel_choice = input("Veux-tu un peu de huel? [T/F]")
+			huel_choice = check_input("Veux-tu un peu de huel? [T/F]", ["T", "F"])
 			if huel_choice == 'T':
-				energy = 100
+				energy = Energy(100)
 
 		if paoletti or holcman:
 			# she still has an allie
-			fight_daoult_or_both = input("Choisis-tu d'attaquer Daoult [0] ou les deux [1] ?")
+			fight_daoult_or_both = check_input("Choisis-tu d'attaquer Daoult [0] ou les deux [1] ?", ["T", "F"])
 			if fight_daoult_or_both == '0':
 				# epilogue 4
 				print("Tu as gagne - Sort of")
+				input()
 				return
 			elif fight_daoult_or_both == '1':
 				# fight both
 				# not enough energy!
 				print("GAME OVER! Recommence !")
+				input()
 				return
 
 		else:
@@ -794,14 +799,17 @@ def game(DEBUG=False):
 			if (covid and energy >= config.if_covid_convince_daoult_energy_threshold):
 				# epilogue 6
 				print("Tu as gagne - Sort of")
+				input()
 				return
 			elif (not covid and energy >= config.not_covid_convince_daoult_energy_threshold):
 				# epilogue 7
 				print("Tu as gagne - Sort of")
+				input()
 				return
 			else:
 				# not enough energy!
 				print("GAME OVER! Recommence !")
+				input()
 				return
 
 	if DEBUG:
