@@ -677,7 +677,7 @@ def game(DEBUG=False):
 	elif office_check =='1':
 		if paoletti:
 			print("Ton allie Paoletti est mechant")
-			energy += allie_is_evil_de
+			energy += config.allie_is_evil_de
 		else:
 			print("Tu ne trouves rien chez Paoletti")
 	elif office_check == '2':
@@ -685,7 +685,7 @@ def game(DEBUG=False):
 			print("Tu ne trouves rien chez Holcman")
 		else:
 			print("Ton allie Holmcan est mechant")
-			energy += allie_is_evil_de
+			energy += config.allie_is_evil_de
 
 	if office_check != '3':
 		time += config.whistleblower_dt
