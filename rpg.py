@@ -514,6 +514,7 @@ def game(DEBUG=False):
         # HAMAC
         # 14 people max can vote
         if menu_choice == '0':
+            ### HAMAC_QUEST
             clear_screen()
 
             print(p_color("narration/quetes_paralleles/hamac/HAMAC.txt"))
@@ -679,25 +680,32 @@ def game(DEBUG=False):
 
         # LUNCH
         elif menu_choice == '3':
+            clear_screen()
             if time <= config.tony_lunch_deadline * 60:
                 # lunch with Tony
+                print(p_color("narration/quetes_paralleles/manger/toni/toni.txt"))
                 selfie = True
             else:
                 # eat with Solene and Elise
                 hamac_votes.extend(['elise', 'raphael', 'solene'])
                 # cure fungal infection?
+                print(p_color("narration/quetes_paralleles/manger/elise_solene/elise_solene.txt"))
                 fungal_choice = check_input(
                     "Pour ton champignon, tu suis le conseil d'Elise [0] ou de Solene[1] ?",
                     ["0", "1"])
                 if fungal_choice == '0':
                     # elise: the fungal infection grows worse
+                    print(p_color("narration/quetes_paralleles/manger/elise_solene/elise.txt"))
                     fungus = True
                 else:
                     # solene: the fungal infection is cured
+                    print(p_color("narration/quetes_paralleles/manger/elise_solene/elise.txt"))
                     energy += config.fungal_de
 
             time += config.lunch_dt
             eaten = True
+            input('')
+            clear_screen()
 
             if DEBUG:
                 print('\nLUNCH')

@@ -1,0 +1,17 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] a discuté avec [GREEN]France[DEFAULT] et elle a trouvé que son
+idée de tournoi de babyfoot était [GREEN]excellente[DEFAULT].
+
+Elle profite donc d'une [GREEN]pause[DEFAULT] pour y convier tout le monde.
+
+En plus ça tombe bien, le plan [BLUE]CovIBENS[DEFAULT] est compatible avec le babyfoot !
+Il y a en effet plein de barrières en plastique, les balles sont jetables et un
+petit robinet d'eau vient laver les manettes avec du gel hydroalcoolique entre
+chaque joueur.
+
+C'est vraiment [GREEN]super bien fait ![DEFAULT].
+
+--------------------------------------------------------------------------------
+
+Appuyer pour continuer

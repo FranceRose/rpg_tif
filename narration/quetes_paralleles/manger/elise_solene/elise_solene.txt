@@ -8,7 +8,10 @@ Elles lui proposent naturellement de manger avec elles.
 "Chouette !" se dit [GREEN]Tiphaine[DEFAULT]. Elle va pouvoir leur parler de ses
 [RED]champignons dégueus[DEFAULT] qu'elle a aux doigts pendant le repas ! [RED]<3[DEFAULT]
 
+En plus comme la cantine est fermée dans le cadre de [BLUE]CovIBENS[DEFAULT], c'est parfait.
+
 Tout le monde s'installe pour manger dans la salle de pause.
+Des barrières en plastique permettent un respect strict des [BLUE]mesures barrière[DEFAULT].
 
 [GREEN]Tiphaine[DEFAULT] soupire mélancoliquement en évoquant le [YELLOW]HAMAC[DEFAULT].
 Cela semble émouvoir [GREEN]Solène [BLUE]Elise [DEFAULT] et [GREEN]Raphaël.
