@@ -498,7 +498,11 @@ def game(DEBUG=False):
             (not diploma) or (not hamac_quest) or (
     not babyfoot)):  # TODO: check constraints
         clear_screen()
+
+        print('\n\n')
         print_INFO(time, energy)
+        print('\n\nQue faire ?\n\n')
+
         if DEBUG:
             print(f"time = {time}, energy = {energy}")
             print(
@@ -535,11 +539,15 @@ def game(DEBUG=False):
                 rd = random.random()
                 time += config.convince_felipe_dt
                 energy += config.convince_felipe_de
+
                 if rd < config.convince_felipe_proba:
                     hamac_votes.append('felipe')
                     print(p_color("narration/quetes_paralleles/hamac/FELIPE_success_convaincre.txt"))
                 else:
                     print(p_color("narration/quetes_paralleles/hamac/FELIPE_fail_convaincre.txt"))
+
+                print_result_action(config.convince_felipe_dt, config.convince_felipe_de)
+                print_INFO(time, energy)
 
             else:
                 print(p_color("narration/quetes_paralleles/hamac/FELIPE_ignorer.txt"))
@@ -558,6 +566,9 @@ def game(DEBUG=False):
                 else:
                     print(p_color("narration/quetes_paralleles/hamac/TONI_fail_convaincre.txt"))
 
+                print_result_action(config.convince_tony_dt, config.convince_tony_de)
+                print_INFO(time, energy)
+
             else:
                 print(p_color("narration/quetes_paralleles/hamac/TONI_ignorer.txt"))
             input("")
@@ -569,11 +580,15 @@ def game(DEBUG=False):
                 rd = random.random()
                 time += config.convince_lisa_dt
                 energy += config.convince_lisa_de
+
                 if rd < config.convince_lisa_proba:
                     hamac_votes.append('lisa')
                     print(p_color("narration/quetes_paralleles/hamac/LISA_success_convaincre.txt"))
                 else:
                     print(p_color("narration/quetes_paralleles/hamac/LISA_fail_convaincre.txt"))
+
+                print_result_action(config.convince_lisa_dt, config.convince_lisa_de)
+                print_INFO(time, energy)
 
             else:
                 print(p_color("narration/quetes_paralleles/hamac/LISA_ignorer.txt"))
@@ -589,13 +604,17 @@ def game(DEBUG=False):
                 print(f'Quete HAMAC reussie !')
                 hamac_weapon = True
                 energy += config.winning_hamac_de
+                print_result_action(0, config.winning_hammac_de)
             else:
                 print(p_color("narration/quetes_paralleles/hamac/final_failed.txt"))
                 # couch with auguste
                 covid = True
                 energy += config.loosing_hamac_de
+                print_result_action(0, config.loosing_hamac_de)
 
             time += config.hamac_quest_dt
+            print_result_action(config.hamac_quest_dt, 0)
+            print_INFO(time, energy)
             hamac_quest = True
 
             if DEBUG:
@@ -648,8 +667,12 @@ def game(DEBUG=False):
 
         # BABYFOOT
         elif menu_choice == '2':
+            print(p_color("narration/quetes_paralleles/babyfoot/babyfoot_tournament.txt"))
+
             if fungus:
+                print(p_color("narration/quetes_paralleles/babyfoot/fungus_handicap.txt"))
                 energy += config.if_fungus_de
+                print_result_action(0, config.if_fungus_de)
 
             # compliment Maxime and Nikita
             hamac_votes.extend(['nikita', 'maxime'])
@@ -701,8 +724,11 @@ def game(DEBUG=False):
                     # solene: the fungal infection is cured
                     print(p_color("narration/quetes_paralleles/manger/elise_solene/elise.txt"))
                     energy += config.fungal_de
+                    print_result_action(0, config.fungal_de)
 
             time += config.lunch_dt
+            print_result_action(config.lunch_dt, 0)
+            print_INFO(time, energy)
             eaten = True
             input('')
             clear_screen()
