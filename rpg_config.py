@@ -133,11 +133,17 @@ nap_de                   = 30
 admin_deadline           = 17 # 5 pm
 admin_lina_deadline      = 14 # 2 pm
 if_alexis_lina_dt        = 5
+if_alexis_lina_de        = 0
 if_alexis_paoletti_dt    = 5
+if_alexis_paoletti_de    = 0
 if_alexis_auguste_dt     = 5
+if_alexis_auguste_de     = 0
 if_not_alexis_lina_dt    = 15
+if_not_alexis_lina_de    = 5
 if_not_alexis_paoletti_dt = 15
+if_not_alexis_paoletti_de = 5
 if_not_alexis_auguste_dt = 15
+if_not_alexis_auguste_de = 2
 
 # babyfoot
 if_fungus_de             = -50

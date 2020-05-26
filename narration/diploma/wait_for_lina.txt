@@ -1,0 +1,4 @@
+[DEFAULT]
+Quoi mais il n'est pas encore 14h !
+
+[GREEN]Tiphaine[DEFAULT] va devoir attendre devant le bureau de Lina...

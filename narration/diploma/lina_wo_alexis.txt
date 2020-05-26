@@ -1,0 +1,8 @@
+[DEFAULT]
+[GREEN]Tiphaine[DEFAULT] ouvre doucement la porte du bureau de Lina et tente de lui expliquer sa situation.
+Lina jette un rapide coup d'oeil à sa feuille et annonce qu'elle a un RDV urgent 
+mais qu'elle sera de retour d'ici quelques minutes...
+
+[GREEN]Tiphaine[DEFAULT] patiente, en se rongeant les ongles
+Au bout d'un moment Lina revient, signe la feuille et referme la porte 
+derrière [GREEN]Tiphaine[DEFAULT] sans lui adresser la parole. 

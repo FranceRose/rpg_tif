@@ -1,0 +1,15 @@
+[DEFAULT]
+[GREEN]Tiphaine[DEFAULT] ouvre la porte du bureau d'Auguste
+
+- Salut, est ce que tu pourrais sign.....
+
+Auguste :
+
+- Ah, [GREEN]Tiphaine[DEFAULT], tu tombes bien, je voulais justement te parler de
+[YELLOW]bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] se résigne à l'écouter et, saisissant une courte pause dans son discours,
+pu lui réclamer sa signature.
+
+[YELLOW]Victoire ![DEFAULT] Toutes les signatures sont enfin réunies.
