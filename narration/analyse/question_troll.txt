@@ -11,8 +11,8 @@ C'est [GREEN]facile[DEFAULT] parce qu'elle a déja fait ce genre de choses plein
 1 - PyTorch
 2 - Caffe
 3 - CellProfiler
-4 - memory_manager
+4 - [RED][BOLD][UNDERLINE]MEMORY MANAGER[DEFAULT]
 
 --------------------------------------------------------------------------------
 
-Programme (1/2/3/4) ? 
+Programme (1/2/3/4) ?

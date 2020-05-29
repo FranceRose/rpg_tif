@@ -1,0 +1,14 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] sait que David Holcman est un peu [RED]spécial[DEFAULT] mais
+comme elle le sait d'[RED]Auguste[DEFAULT] lui-même, il n'est [UNDERLINE]pas[DEFAULT] réellement [RED]méchant[DEFAULT].
+
+Elle décide de se ranger de son côté dans la dispute qui l'oppose à [GREEN]Paoletti[DEFAULT].
+
+Elle rappelle à [GREEN]Paoletti[DEFAULT] que c'est précisément sa [RED]mauvaise gestion[DEFAULT] du
+[RED]COVID-21[DEFAULT] l'année dernière qu'il a dû céder sa place à [RED]Daoult[DEFAULT]
+
+Impossible de lui faire confiance !
+[RED]David Holcman[DEFAULT] au moins pourra reprendre les choses correctement en main
+
+--------------------------------------------------------------------------------

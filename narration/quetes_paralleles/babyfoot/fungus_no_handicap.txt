@@ -1,0 +1,17 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] garde en tête qu'elle a fait cette réunion pour pouvoir entrer en
+contact avec [BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
+
+Cependant, elle ne résiste pas à l'envie de jouer un peu.
+
+Au moment où elle s'apprête à aller au babyfoot, [GREEN]Lambert[DEFAULT], [GREEN]Glouvel[DEFAULT]
+lui proposent de faire équipe avec [BLUE]Elise du 2è[DEFAULT]
+
+Elle accepte... Et avec [BLUE]Elise du 2è[DEFAULT], elles les [RED]défoncent sévèrement[DEFAULT] !!
+C'est propre
+
+Le baby est un peu [RED]bizarre[DEFAULT] avec des barrières en plexiglas, mais
+au moins ça respecte les [GREEN]mesures barrières[DEFAULT] et le plan [BLUE]CovIBENS[DEFAULT].
+
+--------------------------------------------------------------------------------

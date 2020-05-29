@@ -3,10 +3,10 @@
 [GREEN]Tiphaine[DEFAULT] appelle le ou la secretaire de [RED]Daoult[DEFAULT[.
 
 - Oui, [GREEN]Tiphaine[DEFAULT[ est nouvelle à l'institut. Elle aimerait discuter avec le grand
-Dr. Daoult de ses travaux. Tiphaine admire leur qualité scientifique. D'ailleurs
+Dr. Daoult de ses travaux. Tiphaine admire sa qualité scientifique. D'ailleurs
 elle a obtenu aujourd'hui des résultats qui pourraient intéresser le docteur.
 
-- Ah, est-ce qu'elle a bien obtenu le formulaire A38 et le laisser-passer A39 ?
+- Ah, est-ce qu'elle a bien obtenu le [RED]formulaire A38[DEFAULT] et le [RED]laisser-passer A39[DEFAULT] ?
 Oui, elle a régularisé sa situation cet apres-midi. Tiphaine sait que c'est
 important dans une grande institution comme l'IBENS.
 
@@ -15,4 +15,3 @@ a la con ! Le monde est en plein pandemie et elleux se raccrochent a leurs petit
 bouts de papier...[DEFAULT]
 
 Enfin, l'essentiel est la : elle a son [YELLOW][BOLD]rendez-vous avec [RED]Daoult ![DEFAULT]
-

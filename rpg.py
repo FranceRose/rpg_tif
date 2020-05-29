@@ -621,6 +621,7 @@ def game(DEBUG=False, **kwargs):
                 print('\nHAMAC')
                 print(f'hamac_votes = {hamac_votes}, hamac = {hamac_weapon}')
 
+            print_INFO(time, energy)
             input('')
             clear_screen()
 
@@ -653,6 +654,7 @@ def game(DEBUG=False, **kwargs):
                 print(p_color(diploma_dir + "lina_wo_alexis.txt"))
                 print_result_action(config.if_not_alexis_lina_dt, config.if_not_alexis_lina_de)
 
+            print_INFO(time, energy)
             input()
             clear_screen()
 
@@ -668,6 +670,7 @@ def game(DEBUG=False, **kwargs):
                 print(p_color(diploma_dir + "paoletti_wo_alexis.txt"))
                 print_result_action(config.if_not_alexis_paoletti_dt, config.if_not_alexis_paoletti_de)
 
+            print_INFO(time, energy)
             input()
             clear_screen()
 
@@ -683,6 +686,7 @@ def game(DEBUG=False, **kwargs):
                 print(p_color(diploma_dir + "auguste_wo_alexis.txt"))
                 print_result_action(config.if_not_alexis_auguste_dt, config.if_not_alexis_auguste_de)
 
+            print_INFO(time, energy)
             input()
             clear_screen()
 
@@ -707,26 +711,52 @@ def game(DEBUG=False, **kwargs):
                 print(p_color("narration/quetes_paralleles/babyfoot/fungus_handicap.txt"))
                 energy += config.if_fungus_de
                 print_result_action(0, config.if_fungus_de)
+            else:
+                print(p_color("narration/quetes_paralleles/babyfoot/fungus_no_handicap.txt"))
 
             # compliment Maxime and Nikita
+
+
             hamac_votes.extend(['nikita', 'maxime'])
+            print(p_color("narration/quetes_paralleles/babyfoot/maxime_nikita.txt"))
 
             daoult_password = True
 
             time += config.baby_dt
 
+            print(p_color("narration/quetes_paralleles/babyfoot/amira_ouardia.txt"))
+
+            print_result_action(config.baby_dt, 0)
+            print_INFO(time, energy)
+            input('')
+
+            clear_screen()
+            print(p_color("narration/quetes_paralleles/babyfoot/question_troll.txt"))
+            input('')
+            clear_screen()
+
+            clear_screen()
+            print(p_color("narration/quetes_paralleles/babyfoot/holcman_paoletti.txt"))
+
+
             # choose between paoletti and holcman
             paoletti_vs_holcman = check_input(
-                'De Pierre Paloetti et David Holcman, qui choisis-tu comme allie contre Daoult? [0/1]',
+                'De Pierre Paloetti [0] et David Holcman [1], qui choisis-tu comme allie contre Daoult? [0/1]',
                 ["0", "1"])
             if paoletti_vs_holcman == '0':
                 # choose paoletti
                 paoletti = True
+                print(p_color("narration/quetes_paralleles/babyfoot/paoletti_only.txt"))
+
             else:
+                print(p_color("narration/quetes_paralleles/babyfoot/holcman_only.txt"))
                 holcman = False
 
             # babyfoot quest achieved
             babyfoot = True
+            print_INFO(time, energy)
+            input('')
+            clear_screen()
 
             if DEBUG:
                 print('\nBABYFOOT')

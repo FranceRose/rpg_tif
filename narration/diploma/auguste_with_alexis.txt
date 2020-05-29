@@ -1,12 +1,21 @@
 [DEFAULT]
-[GREEN]Tiphaine[DEFAULT] et Alexis débarquent en trombe dans le bureau d'Auguste en lui tendant la feuille.
 
-Auguste, apeuré, désorienté, se demande ce qu'il se passe..
+[GREEN]Tiphaine[DEFAULT] et [GREEN]Alexis[DEFAULT] débarquent en trombe dans le bureau
+d'[RED]Auguste[DEFAULT] en lui tendant le [RED]formulaire A39[DEFAULT].
 
-Alexis lui réponds :
+[RED]Auguste[DEFAULT], désorienté, se demande ce qu'il se passe..
 
-- Il faudrait que tu signes ce papier pour qu'on puisse réintégrer [GREEN]Tiphaine[DEFAULT] dans l'équipe.
+Alexis lui répond :
 
-Auguste est rassuré et signe sans le moindre commentaire la feuille.
+- Il faudrait que tu signes ce [RED]papier à la noix[DEFAULT] pour qu'on puisse réintégrer
+[GREEN]Tiphaine[DEFAULT] dans l'équipe.
 
-[YELLOW]Victoire ![DEFAULT] Toutes les signatures sont réunies.
+[RED]Auguste[DEFAULT] est rassuré.
+
+Après avoir malencontreusement [RED]toussé[DEFAULT] sur Auguste, il signe.
+
+--------------------------------------------------------------------------------
+
+[YELLOW]Victoire ![DEFAULT] Il ne manque plus que la signature du [GREEN]Paoletti[DEFAULT].
+
+--------------------------------------------------------------------------------

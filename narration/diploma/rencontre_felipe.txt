@@ -1,3 +1,23 @@
 [DEFAULT]
 
-badge_felipe
+Après être remontée au sixième, [GREEN]Tiphaine[DEFAULT] croise [GREEN]Felipe[DEFAULT].
+
+Il est en train de fabriquer un masque artisanal à base de soutien-gorge pour pouvoir
+prendre le RER.
+
+Elle en profite pour [RED]se plaindre[DEFAULT] à propos de [RED]l'administration[DEFAULT].
+
+Après avoir discuté avec lui des visas et de la bureaucratie [BLUE]fra[DEFAULT]nça[RED]ise[DEFAULT],
+elle évoque [BOLD][UNDERLINE][GREEN]LA RÉSISTANCE![DEFAULT]. A ce propos, [GREEN]Felipe[DEFAULT]
+dit à [GREEN]Tiphaine[DEFAULT] qu'il a toujours des [BLUE]badges piratés[DEFAULT].
+
+Il donne à [GREEN]Tiphaine[DEFAULT] l'un de ses badges piratés, puisqu'elle fait
+partie de [BOLD][UNDERLINE][GREEN]LA RÉSISTANCE![DEFAULT] elle en aura bien besoin !!
+
+Avec ce [BLUE]badge piraté[DEFAULT], tout l'institut devient accessible !
+
+--------------------------------------------------------------------------------
+
+[YELLOW][BOLD]Merci Felipe ! On va pouvoir fouiner avec ça[DEFAULT]
+
+--------------------------------------------------------------------------------

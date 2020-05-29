@@ -10,6 +10,13 @@ Auguste :
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla[DEFAULT]
 
 [GREEN]Tiphaine[DEFAULT] se résigne à l'écouter et, saisissant une courte pause dans son discours,
-pu lui réclamer sa signature.
+pu lui réclamer sa signature. Cela prendn du [YELLOW]#TEMPS[DEFAULT].
 
-[YELLOW]Victoire ![DEFAULT] Toutes les signatures sont enfin réunies.
+Si seulement elle arrivait à [RED]l'interrompre[DEFAULT], ou si elle était venue
+avec quelqu'un qui aurait su ! Enfin...
+
+--------------------------------------------------------------------------------
+
+[YELLOW]Victoire ![DEFAULT] Il ne manque plus que la signature de [GREEN]Paoletti[DEFAULT].
+
+--------------------------------------------------------------------------------

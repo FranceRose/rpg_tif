@@ -1,0 +1,19 @@
+[DEFAULT]
+
+Tandis que la salle de pause se remplit de [GREEN]rires[DEFAULT], Tiphaine aimerait rester.
+
+Mais elle prétexte son [GREEN]travail[DEFAULT] pour remonter: Personne n'y croit vraiment...
+
+Retournée au 6ème étage, elle profite d'être seule pour utiliser le mot de passe
+que lui a donné Amira. Avec quelle programme peut-elle siphonner ses données ?
+
+--------------------------------------------------------------------------------
+
+1 - tmux
+2 - ssh
+3 - htop
+4 - [RED][BOLD][UNDERLINE]TU DEVRAIS PEUT-ÊTRE UTILISER MEMORY MANAGER :D[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+Programme ? (1,2,3 ou 4)

@@ -2,8 +2,9 @@
 
 [GREEN]Tiphaine[DEFAULT] a fini la quête du babyfoot et du hamac. Elle a aussi analysé les données
 d’[BLUE]Ayush et Aurélien[DEFAULT] qui prouvent la dangerosité du [RED]corona-cola[DEFAULT] sur les neurones.
+
 De plus, elle a réussi à [BOLD]télécharger les mails de [RED]Daoult[DEFAULT] sur son serveur, et elle
-a choisi un allié élu, [GREEN]DEvid Holcman[DEFAULT], pressenti pour prendre
+a choisi un allié élu, [GREEN]David Holcman[DEFAULT], pressenti pour prendre
 la tête de l’institut lors  de la destitution de Daoult.
 
 Avec le [BOLD][YELLOW]badge de Felipe[DEFAULT], elle prend conscience que tout l’institut lui
@@ -29,4 +30,3 @@ voir comment il traite ses doctorants !"
 --------------------------------------------------------------------------------
 
 Daoult, Paoletti, Holcman ou aucun ? 0, 1, 2 ou 3
-

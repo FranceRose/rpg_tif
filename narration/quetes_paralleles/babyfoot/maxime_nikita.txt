@@ -1,0 +1,15 @@
+Après avoir défoncé Lambert et Glouvel, [GREEN]Tiph[DEFAULT], Tiph s'asseoit sur
+les canapés, et séparée des autres par des plexiglas, elle entame une conversation
+avec [GREEN]Nikita[DEFAULT] et [GREEN]Maxime[DEFAULT].
+
+Elle félicite [GREEN]Nikita[DEFAULT] qui n'a rien perdu de sa [GREEN]spéciale[DEFAULT].
+
+Elle fait aussi quelques compliments [GREEN]Maxime[DEFAULT] sur ses nouvelles techniques
+de babyfoot qu'il a développées pendant [RED]le confinement[DEFAULT] avec son
+frère.
+
+Elle est contente de les retrouver ! Ensemble, ils débattent un peu inutilement du
+[YELLOW]#HAMAC[DEFAULT], puis Nikita et Maxime se lèvent pour aller jouer un nouveau
+match.
+
+--------------------------------------------------------------------------------

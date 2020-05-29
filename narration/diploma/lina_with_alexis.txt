@@ -1,6 +1,6 @@
 [DEFAULT]
 [GREEN]Tiphaine[DEFAULT] et Alexis arrivent devant le bureau de Lina.
-La porte est fermé, [GREEN]Tiphaine[DEFAULT] se désole, prête à tout abandonner, 
+La porte est fermé, [GREEN]Tiphaine[DEFAULT] se désole, prête à tout abandonner,
 mais Alexis s'en approche et commence à y jouer une réadaptation du petit bonhomme en mousse.
 
 Ils entendent alors des bruits précipités et la porte s'ouvre.
@@ -10,8 +10,16 @@ Ils entendent alors des bruits précipités et la porte s'ouvre.
 Lina, tout sourire s'exclame :
 Oh Bonjour vous deux, entrez entrez, que puis-je faire pour vous ?
 
-[GREEN]Tiphaine[DEFAULT] commença à expliquer sa situation, mais Lina ne l'écoutait à peine, 
-elle mourrait d'envie de partager ses derniers potins avec Alexis.
-Il lui fit comprendre qu'ils étaient pressé et lui promis de revenir plus tard dans la journée.
-Lina accepta gentillement et signa le document que lui tendait [GREEN]Tiphaine[DEFAULT].
+[GREEN]Tiphaine[DEFAULT] commença à expliquer sa situation, mais [RED]Lina[DEFAULT] l'écoutait à peine,
+elle mourrait d'envie de partager ses derniers [GREEN]potins[DEFAULT] avec Alexis.
 
+Il lui fit comprendre qu'ils étaient [RED]pressé[DEFAULT] et lui promis de revenir plus tard dans la journée.
+Lina accepta [GREEN]gentiment[DEFAULT] et signa le document que lui tendait [GREEN]Tiphaine[DEFAULT].
+
+Elle lui donne en passant un papier: C'est le [RED]formulaire A39[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BOLD][YELLOW]Bon... AU moins j'ai le formulaire A39[DEFAULT]
+
+--------------------------------------------------------------------------------

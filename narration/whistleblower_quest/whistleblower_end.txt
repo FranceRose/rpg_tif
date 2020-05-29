@@ -3,7 +3,7 @@
 [GREEN]Tiphaine[DEFAULT] en a beaucoup appris dans cette journée. [RED]Les plans de Daoult, les degats
 que peuvent causer le corona-cola, les intrigues internes a l'IBENS...[DEFAULT]
 
-Si elle fait tout fuiter da la presse, que va-t-il se passer ? Arrêtera-t-on la
+Si elle fait tout fuiter dans la presse, que va-t-il se passer ? Arrêtera-t-on la
 production de corona-cola ? Ou est-ce que les politiques qui soutiennent Daoult
 arriveront à couvrir l'affaire ?
 
@@ -21,4 +21,3 @@ et David Holcman d'abord."
 --------------------------------------------------------------------------------
 
 Fuiter ou garder secret ? [T/F]
-

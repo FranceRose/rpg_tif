@@ -8,9 +8,9 @@ Cependant, elle ne résiste pas à l'envie de jouer un peu.
 Au moment où elle s'apprête à aller au babyfoot, [GREEN]Lambert[DEFAULT], [GREEN]Glouvel[DEFAULT]
 [BLUE]Elise du 2è[DEFAULT] et globalement tous les gens du deuxième s'exclament:
 
-[BOLD]"Ne laissez pas [GREEN]Tiphaine[DEFAULT] s'approcher !"
+[BOLD]"Ne laissez pas [GREEN]Tiphaine[DEFAULT][BOLD] s'approcher !"[DEFAULT]
 
-En effet, [GREEN]Tiphaine[DEFAULT] a un énorme champignon mortel sur les doigts.
+En effet, [GREEN]Tiphaine[DEFAULT] a un énorme [RED]champignon mortel[DEFAULT] sur les doigts.
 
 Même avec la désinfection automatique des manettes, elle pourrait [RED]tuer tout le monde[DEFAULT]
 
