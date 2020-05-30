@@ -991,8 +991,8 @@ def game(DEBUG=False, **kwargs):
         elif daoult_proposition == '1':
             # le confronter
             if energy >= config.dont_trust_daoult_energy_threshold:
-                possible_keys, txt = daoult_attack(covid, hamac_weapon,
-                                                     fungus)
+                possible_keys, txt = attack(covid, hamac_weapon,
+                                                     fungus, daoult=True)
                 daoult_weapon_choice = check_input(p_color(txt, file=False),
                     possible_keys)
 
@@ -1063,7 +1063,7 @@ def game(DEBUG=False, **kwargs):
             # partage des gains avec lydia
             assert selfie
             # epilogue 5
-            print(p_color("narration/final_quest_if_whistleblower/epilogue5"
+            print(p_color("narration/final_quest/if_whistleblower/epilogue5"
                           ".txt"))
             input()
             clear_screen()
@@ -1073,66 +1073,127 @@ def game(DEBUG=False, **kwargs):
         # not whistleblower
 
         # fight with allie
-        lie_or_not = check_input(
-            "Tu n'as pas fait fuiter les infos. Ments tu a ton allie ? [T/F]",
-            ["T", "F"])
+        if paoletti:
+            lie_or_not = check_input(
+                p_color("narration/final_quest/no_whistleblower"
+                        "/lie_or_not_paoletti"
+                        ".txt"),
+                ["T", "F"])
+        else:
+            lie_or_not = check_input(
+                p_color("narration/final_quest/no_whistleblower"
+                        "/lie_or_not_holcman.txt"),
+                ["T", "F"])
         if lie_or_not == 'T':
             # need to fight
+            if paoletti:
+                print(p_color(
+                    "narration/final_quest/no_whistleblower/fight_paoletti"
+                    ".txt"))
+            else:
+                print(p_color(
+                    "narration/final_quest/no_whistleblower/fight_holcman.txt"))
+
             energy += config.lie_allie_fight_de
+            # will exit if not enough energy
+
+            possible_keys, txt = attack(covid, hamac_weapon,
+                                        fungus, daoult=False)
+            check_input(p_color(txt, file=False),
+                                               possible_keys)
             # loose allie
             paoletti = False
             holcman = False
-        else:
-            energy += config.dont_lie_allie_fight_de
 
+            # win fight
+            print(p_color("narration/final_quest/no_whistleblower/win_fight"
+                          ".txt"))
+            print_NRJ(energy)
+            input()
+            clear_screen()
+        else:
+            if energy > config.dont_lie_allie_fight_de:
+                #enough energy
+                print(p_color("narration/final_quest/no_whistleblower/lie_enough_energy.txt"))
+                energy += config.dont_lie_allie_fight_de
+                print_NRJ(energy)
+                input()
+                clear_screen()
+            else:
+                # not enough energy
+                # she is a bad liar
+                print(p_color(
+                    "narration/final_quest/no_whistleblower/lie_not_enough_energy.txt"))
+                input()
+                clear_screen()
+                return False
 
         if huel:
-            huel_choice = check_input("Veux-tu un peu de huel? [T/F]",
+            huel_choice = check_input(p_color("narration/final_quest/huel.txt"),
                                       ["T", "F"])
             if huel_choice == 'T':
-                energy = Energy(100)
+                energy = 100
+                print(p_color("narration/final_quest/huel_yes.txt"))
+                print_NRJ(energy)
+            else:
+                print(p_color("narration/final_quest/huel_no.txt"))
+
+            input()
+            clear_screen()
 
         if paoletti or holcman:
             # she still has an allie
             fight_daoult_or_both = check_input(
-                "Choisis-tu d'attaquer Daoult [0] ou les deux [1] ?",
+                p_color(
+                    "narration/final_quest/no_whistleblower"
+                    "/fight_daoult_or_both.txt"),
                 ["T", "F"])
-            if fight_daoult_or_both == '0':
+            if fight_daoult_or_both == 'T':
+                # fight only daoult
                 # epilogue 4
-                print("Tu as gagne - Sort of")
+                if paoletti:
+                    print(p_color("narration/final_quest/no_whistleblower"
+                    "/fight_only_daoult_if_paoletti.txt"))
+                else:
+                    print(p_color("narration/final_quest/no_whistleblower"
+                                  "/fight_only_daoult_if_holcman.txt"))
+
                 input()
-                return
-            elif fight_daoult_or_both == '1':
+                clear_screen()
+                return True
+            else:
                 # fight both
                 # not enough energy!
-                print("GAME OVER! Recommence !")
+                print(p_color("narration/final_quest/no_whistleblower"
+                    "/fight_both.txt"))
                 input()
-                return
+                clear_screen()
+                return False
 
         else:
             # no more allie
-            if (
-                    covid and energy >= config.if_covid_convince_daoult_energy_threshold):
+            if (covid and energy >= config.if_covid_convince_daoult_energy_threshold):
                 # epilogue 6
-                print("Tu as gagne - Sort of")
+                print(p_color("narration/final_quest/no_whistleblower/epilogue6.txt"))
                 input()
-                return
-            elif (
-                    not covid and energy >= config.not_covid_convince_daoult_energy_threshold):
+                clear_screen()
+                return True
+            elif (not covid and energy >= config.not_covid_convince_daoult_energy_threshold):
                 # epilogue 7
-                print("Tu as gagne - Sort of")
+                print(p_color(
+                    "narration/final_quest/no_whistleblower/epilogue7.txt"))
                 input()
-                return
+                clear_screen()
+                return True
             else:
                 # not enough energy!
-                print("GAME OVER! Recommence !")
+                print(p_color(
+                    "narration/final_quest/no_whistleblower/fail_energy_daoult"
+                    ".txt"))
                 input()
-                return
-
-    if DEBUG:
-        print("/!\\ No return - Pb")
+                clear_screen()
+                return False
 
 
 if __name__ == '__main__':
-    # game(DEBUG=True)
     menu_principal(DEBUG=True)

@@ -74,12 +74,20 @@ def display_menu(time, hamac, diploma, babyfoot, eaten):
     return to_display
 
 
-def daoult_attack(covid, hamac, fungus):
+def attack(covid, hamac, fungus, daoult=True):
     keys = []
-    txt = "[DEFAULT]\n\nTiphaine ne veut pas faire confiance a Daoult. Quelle " \
-          "strategie va-t-elle choisir\n" \
-          "pour le mettre hors d'etat de nuire ?\n" \
-          "--------------------------------------------------------------------------------\n\n"
+    if daoult:
+        txt = "[DEFAULT]\n\nTiphaine ne veut pas faire confiance à Daoult. " \
+              "Quelle " \
+              "strategie va-t-elle choisir\n" \
+              "pour le mettre hors d'etat de nuire ?\n" \
+              "--------------------------------------------------------------------------------\n\n"
+    else:
+        txt = "[DEFAULT]\n\nTiphaine doit se défaire de son allié. " \
+              "Quelle " \
+              "strategie va-t-elle choisir\n" \
+              "pour le mettre hors d'etat de nuire ?\n" \
+              "--------------------------------------------------------------------------------\n\n"
     end = "--------------------------------------------------------------------------------\n\n"
     if covid:
         txt += "[RED]COVID[DEFAULT]\n" \

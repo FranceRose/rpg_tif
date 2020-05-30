@@ -1,0 +1,22 @@
+[DEFAULT]
+
+Si [GREEN]Tiphaine[DEFAULT] destitue [RED]Daoult[DEFAULT] malgré la preuve évidente que [GREEN]David Holcman[DEFAULT] est un méchant,
+il lui pardonne de ne pas avoir divulgué les informations à [BLUE]Mediapart[DEFAULT].
+
+Mais...
+il le fait lui-même pour être sûr.
+
+[RED]Daoult est destitué le lendemain[DEFAULT].
+
+Elle peut rester à l’IBENS, finir ses recherches.
+
+Elle trouve un [GREEN][UNDERLINE]traitement[DEFAULT]. Elle part ensuite rapidement dans le [BLUE]cantal[DEFAULT] avec [YELLOW]Mobby[DEFAULT].
+
+[GREEN]Elle vit heureuse et a beaucoup d’enfants[DEFAULT]. Elle ne regrette vraiment pas d’avoir
+épargné [RED]Daoult[DEFAULT], qui finit ses vieux jours en vantant l’[BLUE]effet anti-paludéen de son
+nouveau traitement miracle : l’hydroxy-conneriquine[DEFAULT]. Cela lui permet d’avoir sa
+conscience tranquille. [GREEN]Elle vit ses rêves les plus fous :)[DEFAULT]
+
+[BOLD][UNDERLINE]FIN[DEFAULT]
+
+--------------------------------------------------------------------------------

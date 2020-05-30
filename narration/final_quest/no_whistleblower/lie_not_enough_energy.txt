@@ -1,0 +1,18 @@
+[DEFAULT]
+
+[GREEN]Tiphaine [RED]rougit[DEFAULT].
+Euh euh...
+
+- Oui, ... bien sûr, euh... Je l'ai envoye au [BLUE]Canard Enchaîné[DEFAULT].
+
+- Tu ne devais pas l'envoyer à [BLUE]Mediapart[DEFAULT] ?
+
+- Ah si, [BLUE]Mediapart[DEFAULT], c'est ça !
+
+[YELLOW][UNDERLINE]Le mensonge de Tiphaine ne passe pas[DEFAULT]. Peut-être est-ce la [RED]fatigue accumulée[DEFAULT] ?
+En tout cas, son allié appelle un [RED]vigile[DEFAULT] qui la sort [UNDERLINE]manu militari[DEFAULT] de l'IBENS.
+
+--------------------------------------------------------------------------------
+
+[RED][BOLD]GAME OVER !! Recommence[DEFAULT]
+

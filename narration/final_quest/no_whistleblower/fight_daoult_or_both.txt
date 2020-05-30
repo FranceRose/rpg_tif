@@ -1,0 +1,22 @@
+[DEFAULT]
+
+Ielles entrent à deux dans le bureau de [RED]Daoult[DEFAULT], qui est simplement stupéfait et
+surpris. Elle tente de [BLUE]faire chanter Daoult[DEFAULT] de faire fuiter dans la presse
+son scandale. En retour, il accuse le successeur d’avoir de [RED]bien pires intentions[DEFAULT]
+que lui - ce que ce dernier reconnait avec un [RED]rire machiavélique[DEFAULT].
+
+[UNDERLINE][BOLD]Que faire ?? Combattre Daoult ou les deux ?[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[RED]DAOULT [DEFAULT]:
+Un à la fois, c'est bien assez. Destitue Daoult, et après tu t'occuperas du
+Lascard...
+
+[GREEN]LES DEUX [DEFAULT]:
+Tous pourris ! Grrr, à quoi bon ? Tu décides de les combattre tous les deux !
+
+--------------------------------------------------------------------------------
+
+Combattre seulement Daoult ? [T/F]
+

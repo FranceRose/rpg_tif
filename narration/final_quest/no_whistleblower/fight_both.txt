@@ -1,0 +1,12 @@
+[DEFAULT]
+
+Si elle choisit ni l’un ni l’autre et décide que ce sont tous les deux des [RED]crapules
+sans âme[DEFAULT], [YELLOW][UNDERLINE]ils renversent leurs alliances et s’allient contre Tiphaine[DEFAULT].
+
+Elle [RED]meurt[DEFAULT], ne pouvant les affronter tous les deux.
+Le [RED]corona-cola[DEFAULT] continue d’être produit…
+
+--------------------------------------------------------------------------------
+
+[RED][BOLD]GAME OVER! Recommence[DEFAULT]
+

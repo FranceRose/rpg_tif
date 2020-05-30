@@ -1,0 +1,5 @@
+[DEFAULT]
+
+[YELLOW]Bravo ![DEFAULT] Tu as gagné contre ton [RED]ancien allié[DEFAULT] !
+Maintenant, [RED]Daoult[DEFAULT] !
+

@@ -1,0 +1,9 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] décide de [BLUE]mentir[DEFAULT].
+[BLUE]Hmm [YELLOW]hmm[DEFAULT]...
+
+Oui, bien sûr, j'ai envoyé le mail juste avant de venir
+
+[BOLD][UNDERLINE]Ne perdons pas de temps, allons-y ![DEFAULT]
+

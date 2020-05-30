@@ -1,0 +1,22 @@
+[DEFAULT]
+
+[RED]Le successeur était un méchant lui aussi[DEFAULT], [GREEN]Tiphaine[DEFAULT] en avait la certitude, et elle
+l’a par conséquent sagement éliminé avant d’aller affronter Daoult.
+
+Arrivée devant Daoult qui est médusé, [YELLOW]elle lui fait alors du chantage et le force
+à la nommer directrice de l’institut[DEFAULT] sous peine de divulguer les données compromettantes
+de [RED]Daoult[DEFAULT] sur l’inefficacité et la dangerosité du [RED]corona-cola[DEFAULT]. Pour être convaincante
+il faut réussir à paraître lucide et sûre d’elle.
+
+Malheureusement, [GREEN]Tiphaine[DEFAULT] a la (le ? -- le débat reste féroce entre les partisan.ne.s de
+l'une ou l'autre solution) [RED]COVID et elle meurt[DEFAULT] après être nommée directrice de
+l’institut. Les informations de Daoult [BLUE]fuitent dans la presse[DEFAULT] sous la pression du
+rival du successeur, qui fait cesser la production de [RED]corona-cola[DEFAULT]. L’humanité
+mettra du temps avant de trouver un [GREEN]vaccin[DEFAULT]. Tiphaine meurt du covid en [YELLOW]héroïne[DEFAULT]
+mais pas en vain : [UNDERLINE]entre temps, la population au moins ne sera pas traitée par
+un médicament dangereux. Elle peut considérer qu’elle a sauvé des milliers de vies.[DEFAULT]
+
+
+[BOLD][UNDERLINE]FIN[DEFAULT]
+
+--------------------------------------------------------------------------------

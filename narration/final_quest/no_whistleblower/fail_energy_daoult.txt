@@ -1,0 +1,23 @@
+[DEFAULT]
+
+[RED]Le successeur était un méchant lui aussi[DEFAULT], [GREEN]Tiphaine[DEFAULT] en avait la certitude, et elle
+l’a par conséquent sagement éliminé avant d’aller affronter Daoult.
+
+Arrivée devant Daoult qui est médusé, [YELLOW]elle lui fait alors du chantage et le force
+à la nommer directrice de l’institut[DEFAULT] sous peine de divulguer les données compromettantes
+de [RED]Daoult[DEFAULT] sur l’inefficacité et la dangerosité du [RED]corona-cola[DEFAULT]. Pour être convaincante
+il faut réussir à paraître lucide et sûre d’elle.
+
+Mais [RED]elle est trop faible[DEFAULT], [GREEN]Tiphaine[DEFAULT] s’effondre tout en essayant de mentir, vidée
+d’[YELLOW]#NRJ[DEFAULT]. Ces émotions l’ont chamboulée. Il lui faudrait une [GREEN]sieste[DEFAULT]… Mais elle ne peut pas.
+
+Dans un élan d’humanité, Daoult essaye alors de la soigner avec de l’[RED]hydroxy-conneriquine[DEFAULT],
+ce qui par accident, [BOLD][UNDERLINE]l’achève[DEFAULT].
+
+[RED]Daoult[DEFAULT] reste en poste. [GREEN]Tiphaine[DEFAULT] étant morte et le successeur neutralisé, rien n’a
+changé, et son sacrifice courageux fût vain...
+
+--------------------------------------------------------------------------------
+
+[RED][BOLD] GAME OVER! Recommence[DEFAULT]
+
