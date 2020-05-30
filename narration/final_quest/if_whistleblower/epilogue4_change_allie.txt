@@ -1,0 +1,13 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] tend un piège à [RED]Daoult[DEFAULT] et l’emprisonne dans un [YELLOW]hamac[DEFAULT] sans le tuer.
+Elle l’interroge alors.
+
+[RED]Daoult[DEFAULT] lui révèle que son rival est au moins aussi méchant que lui.
+
+[UNDERLINE][BOLD]Souhaites-tu changer ton choix pour le [RED]successeur de Daoult ?[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+Changer ? [T/F]
+

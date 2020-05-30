@@ -75,16 +75,37 @@ def display_menu(time, hamac, diploma, babyfoot, eaten):
 
 
 def daoult_attack(covid, hamac, fungus):
-    to_display = {0: "covid",
-                  1: "hamac",
-                  2: "champignon"}
-    if not covid:
-        del to_display[0]
-    if not hamac:
-        del to_display[1]
-    if not fungus:
-        del to_display[2]
-    return to_display
+    keys = []
+    txt = "[DEFAULT]\n\nTiphaine ne veut pas faire confiance a Daoult. Quelle " \
+          "strategie va-t-elle choisir\n" \
+          "pour le mettre hors d'etat de nuire ?\n" \
+          "--------------------------------------------------------------------------------\n\n"
+    end = "--------------------------------------------------------------------------------\n\n"
+    if covid:
+        txt += "[RED]COVID[DEFAULT]\n" \
+          "Avoir choper cette saloperie, ça doit bien servir à quelque chose " \
+               "! Et puis, \n" \
+          "Daoult n'est pas si jeune, ca peut bien l'anéantir.. Hehehe\n\n"
+        end += "Covid [0], "
+        keys.append("0")
+    if hamac:
+        txt += "[YELLOW]HAMAC[DEFAULT]\n" \
+               "Ca marche toujours bien dans les cartoons. Allez, un, deux, " \
+               "trois tours de \n" \
+               "lasso et hop, saucissonons ce traître !\n\n"
+        end += "Hamac [1], "
+        keys.append("1")
+    if fungus:
+        txt += "[YELLOW]CHAMPI DEGUEU[DEFAULT]\n" \
+               "Elle n'a pas pu jouer au baby à cause de ce truc putréfié... " \
+               "\n" \
+               "Doigt en avant toute !\n\n"
+        end += "Champi [2]"
+        keys.append("2")
+
+    end += "?\n\n"
+
+    return keys, txt+end
 
 
 class Energy():
@@ -187,6 +208,14 @@ def print_INFO(time, energy):
     print('*'*80)
     print('** ', end='          ')
     print(p_color(f"Il est [GREEN][BOLD]{time2hours(time)}[DEFAULT]. Il te reste [BOLD][YELLOW]{energy} d'#NRJ[DEFAULT].",
+                  file=False))
+    print('*' * 80)
+    return
+
+def print_NRJ(energy):
+    print('*'*80)
+    print('** ', end='          ')
+    print(p_color(f"Il te reste [BOLD][YELLOW]{energy} d'#NRJ[DEFAULT].",
                   file=False))
     print('*' * 80)
     return

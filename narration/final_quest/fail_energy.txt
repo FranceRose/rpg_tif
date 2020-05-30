@@ -1,0 +1,13 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] se sent complètement vidée et n'a plus qu'une [YELLOW]#NRJ[DEFAULT].
+
+Elle part s'enfermer dans son bureau et entame une [GREEN]loooooogue sieste[DEFAULT]...
+En esperant que demain, tout cela ne soit plus qu'un mauvais rêve
+
+--------------------------------------------------------------------------------
+
+Tu n'as pas réussie à arreter le professeur [RED]Daoult[DEFAULT] !
+
+[BOLD][RED]Game Over !![DEFAULT]
+

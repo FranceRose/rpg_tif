@@ -5,12 +5,12 @@ d'anti-inflammatoire.
 
 Pendant quelques minutes, ça l'apaise [GREEN]vraiment[DEFAULT].
 
-Mais à la fin du repas, sa main est toute [RED]gonflée[DEFAULT]: la situation a [RED]empiré ![DEFAULT]
+Mais à la fin du repas, sa main est toute [RED]gonflée[DEFAULT] : la situation a [RED]empiré ![DEFAULT]
 
 Peut-être que [GREEN]Tiphaine[DEFAULT] pourrait à terme [RED]mourir[DEFAULT] de son champi dégueu ?
 
-Elle essaye de ne pas trop en vouloir à Elise pour ce conseil [RED]pourri[DEFAULT]
+Elle essaye de ne pas trop en vouloir à Elise pour ce conseil [RED]pourri[DEFAULT].
 
-En tout cas elle a [GREEN]bien mangé[DEFAULT]. Ça lui fait du [GREEN] bien.[DEFAULT]
+En tout cas elle a [GREEN]bien mangé[DEFAULT]. Ça lui fait du [GREEN]bien.[DEFAULT]
 
 Elle quitte Solène, Raphaël et Elise puis retourne à sa journée.

@@ -1,17 +1,18 @@
 [DEFAULT]
 
-[GREEN]Tiphaine[DEFAULT] appelle le ou la secretaire de [RED]Daoult[DEFAULT[.
+[GREEN]Tiphaine[DEFAULT] appelle le ou la secretaire de [RED]Daoult[DEFAULT].
 
-- Oui, [GREEN]Tiphaine[DEFAULT[ est nouvelle à l'institut. Elle aimerait discuter avec le grand
-Dr. Daoult de ses travaux. Tiphaine admire sa qualité scientifique. D'ailleurs
+- Oui, [GREEN]Tiphaine[DEFAULT] est nouvelle à l'institut. Elle aimerait discuter avec le grand
+Dr. Daoult de ses travaux. Tiphaine admire ses qualités scientifiques. D'ailleurs
 elle a obtenu aujourd'hui des résultats qui pourraient intéresser le docteur.
 
-- Ah, est-ce qu'elle a bien obtenu le [RED]formulaire A38[DEFAULT] et le [RED]laisser-passer A39[DEFAULT] ?
+- Ah, est-ce qu'elle a bien obtenu le [RED]formulaire A39[DEFAULT] et le [RED]laisser-passer A38[DEFAULT] ?
 Oui, elle a régularisé sa situation cet apres-midi. Tiphaine sait que c'est
 important dans une grande institution comme l'IBENS.
 
 Tiphaine raccroche, finalement. [RED][BOLD]Qu'est-ce qu'ielles l'emmerdent avec leurs papiers
-a la con ! Le monde est en plein pandemie et elleux se raccrochent a leurs petits
+à la con ! Le monde est en plein pandémie et elleux se raccrochent à leurs petits
 bouts de papier...[DEFAULT]
 
-Enfin, l'essentiel est la : elle a son [YELLOW][BOLD]rendez-vous avec [RED]Daoult ![DEFAULT]
+Enfin, l'essentiel est là : elle a son [YELLOW][BOLD]rendez-vous avec [RED]Daoult ![DEFAULT]
+

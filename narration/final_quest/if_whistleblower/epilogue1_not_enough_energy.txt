@@ -1,0 +1,15 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] n’a plus assez d’[YELLOW]#NRJ[DEFAULT] parce qu’elle était mal préparée, [RED]cette nuit
+blanche de travail l’achève.[DEFAULT]
+
+Elle [UNDERLINE][RED]meurt[DEFAULT].
+Des milliers de personnes meurrent du [RED]corona-cola[DEFAULT].
+
+Et Daoult devient [YELLOW]riche… Très riche[DEFAULT].
+[BOLD]FIN[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[BOLD][RED]Game Over !![DEFAULT]
+

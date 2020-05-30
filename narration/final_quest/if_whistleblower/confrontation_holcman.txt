@@ -1,0 +1,13 @@
+[DEFAULT]
+
+Ni une, ni deux, elle se lance à la poursuite de David Holcman. Pas trop dur
+car elle a l'habitude de courir après ses chèvres au Pakistan !
+
+Elle confronte alors David Holcman pour savoir si Daoult dit vrai.
+
+[RED]David Holcman nie tout en bloc[DEFAULT] et lui rappelle que demain, [BLUE]Mediapart[DEFAULT] salira
+[RED]Daoult[DEFAULT] quoi qu’il arrive.
+
+[RED]Accablée[DEFAULT], [GREEN]Tiphaine[DEFAULT] revient sur ses pas. [BOLD][UNDERLINE]Elle n'a pas fini sa conversation avec
+Daoult ![DEFAULT]
+

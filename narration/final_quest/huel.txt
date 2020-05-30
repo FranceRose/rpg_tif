@@ -1,0 +1,13 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] se sent [RED]fatiguée[DEFAULT]. C'est quoi ce [YELLOW]BORDEL[DEFAULT] ! Mais merde, on aurait pas pu
+la laisser tranquille dans sa nouvelle vie ?!? Ces fucktards de l'IBENS quoi.
+
+C'est à ce moment là que [GREEN]France[DEFAULT] apparait alors dans son esprit. Elle lui conseille
+quelques [BLUE]exercices de respiration et un peu de [UNDERLINE]huel[DEFAULT]. Elle, ça l'aide quand elle
+est en situation stressante. ;) Bon courage Tif !
+
+--------------------------------------------------------------------------------
+
+Souhaites-tu "boire" du huel ? [T/F]
+

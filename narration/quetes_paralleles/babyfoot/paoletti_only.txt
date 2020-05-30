@@ -1,14 +1,33 @@
 [DEFAULT]
 
-[GREEN]Tiphaine[DEFAULT] sait que David Holcman est un peu [RED]spécial[DEFAULT] mais
-comme elle le sait d'[RED]Auguste[DEFAULT] lui-même, il n'est [UNDERLINE]pas[DEFAULT] réellement [RED]méchant[DEFAULT].
+[GREEN]Tiphaine[DEFAULT] ne connaît pas très bien Pierre Paoletti mais sait que
+David Holcman est un peu [RED]spécial[DEFAULT]... Voir même un [RED][BOLD]dictateur[DEFAULT] au sein
+de son équipe !
+Tiphaine n'a pas envie de voir ça à l'échelle de l'IBENS...
 
-Elle décide de se ranger de son côté dans la dispute qui l'oppose à [GREEN]Paoletti[DEFAULT].
+Pierre Paoletti a peut-être été peu efficace dans sa gestion de la crise [RED]COVID[DEFAULT] mais
+il semble moins [UNDERLINE]dangereux[DEFAULT] que ce Holcman...
 
-Elle rappelle à [GREEN]Paoletti[DEFAULT] que c'est précisément sa [RED]mauvaise gestion[DEFAULT] du
-[RED]COVID-21[DEFAULT] l'année dernière qu'il a dû céder sa place à [RED]Daoult[DEFAULT]
+Une fois [RED]Holcman[DEFAULT] parti, [GREEN]Tiphaine[DEFAULT] s'entretient brièvement
+avec [GREEN]Pierre Paoletti[DEFAULT].
 
-Impossible de lui faire confiance !
-[RED]David Holcman[DEFAULT] au moins pourra reprendre les choses correctement en main
+[GREEN]Tiphaine[DEFAULT] lui parle des données qu'elle a trouvées sur le serveur de
+[RED]Daoult[DEFAULT].
+
+[GREEN]Paoletti[DEFAULT] veut à tout prix faire fuiter ces données immédiatement dans la presse.
+[GREEN]Tiphaine[DEFAULT] refuse de les lui donner et dit qu'elle veut choisir elle-même quand
+et comment les révéler à la presse.
+
+[RED]Paoletti[DEFAULT] accepte que ce soit [GREEN]Tiphaine[DEFAULT] qui choisisse comment
+et quand révéler l'affaire à la presse. Après tout, peu importe tant que [RED]Daoult[DEFAULT]
+est destitué !
+
+Il lui demande de promettre qu'elle fera bien [BLUE]fuiter[DEFAULT] tout ça avant ce soir.
+
+[GREEN]Tiphaine[DEFAULT] promet pour avoir la paix, mais elle veut surtout pouvoir y réfléchir
+tranquillement. ELle n'est pas encore tout à fait sûr de devoir le faire.
 
 --------------------------------------------------------------------------------
+
+[BOLD][YELLOW]Quelle journée ![DEFAULT]
+

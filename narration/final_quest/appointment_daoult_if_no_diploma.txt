@@ -1,19 +1,21 @@
 [DEFAULT]
 
-[GREEN]Tiphaine[DEFAULT] appelle le ou la secretaire de [RED]Daoult[DEFAULT[.
+[GREEN]Tiphaine[DEFAULT] appelle le ou la secrétaire de [RED]Daoult[DEFAULT].
 
-- Oui, [GREEN]Tiphaine[DEFAULT[ est nouvelle à l'institut. Elle aimerait discuter avec le grand
+- Oui, [GREEN]Tiphaine[DEFAULT] est nouvelle à l'institut. Elle aimerait discuter avec le grand
 Dr. Daoult de ses travaux. Tiphaine admire leur qualité scientifique. D'ailleurs
 elle a obtenu aujourd'hui des résultats qui pourraient intéresser le docteur.
 
 - Ah, est-ce qu'elle a bien obtenu le formulaire A38 et le laisser-passer A39 ?
-Non, elle n'a pas eu le temps de regulariser sa situation cet apres-midi. Tiphaine
+Non, elle n'a pas eu le temps de régulariser sa situation cet après-midi. Tiphaine
 sait que c'est important dans une grande institution comme l'IBENS, mais la recherche
-et les degats de la pandemie ne peuvent pas attendre !
+et les dégâts de la pandémie ne peuvent pas attendre !
 
-[GREEN[Tiphaine[DEFAULT] raccroche. [RED]Elle n'a pas reussi a obtenir un rendez-vous.
-Tous ses efforts ont ete vains...
+[GREEN]Tiphaine[DEFAULT] raccroche. [RED]Elle n'a pas réussi à obtenir un rendez-vous.
+Tous ses efforts ont été vains...
 
 Elle explose de rage...
 Littéralement ![DEFAULT]
+
+[BOLD][RED]Game Over !![DEFAULT]
 

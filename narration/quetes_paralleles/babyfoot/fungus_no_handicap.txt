@@ -1,7 +1,7 @@
 [DEFAULT]
 
 [GREEN]Tiphaine[DEFAULT] garde en tête qu'elle a fait cette réunion pour pouvoir entrer en
-contact avec [BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
+contact avec [BOLD][UNDERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
 
 Cependant, elle ne résiste pas à l'envie de jouer un peu.
 

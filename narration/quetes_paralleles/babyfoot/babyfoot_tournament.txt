@@ -4,7 +4,7 @@
 idée de tournoi de babyfoot était [GREEN]excellente[DEFAULT].
 
 Cela pourrait lui permettre de discuter avec beaucoup de gens, dont certain.es
-sont potentiellement dans [BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT].
+sont potentiellement dans [BOLD][UNDERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
 
 Elle profite donc d'une [GREEN]pause[DEFAULT] pour y convier tout le monde.
 
@@ -15,4 +15,3 @@ chaque joueur.
 
 C'est vraiment [GREEN]super bien fait ![DEFAULT]
 
---------------------------------------------------------------------------------

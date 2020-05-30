@@ -12,8 +12,7 @@ le [YELLOW]HAMAC[DEFAULT] !
 
 --------------------------------------------------------------------------------
 
-[YELLOW][BOLD]Quel abruti ce [GREEN]Dédé[YELLOW]...
-En même temps, c'est vrai que venir à l'IBENS en pleine [RED]pandémie[YELLOW] n'est pas
-très [BLUE]CovIBENS[YELLOW] friendly...[DEFAULT]
+[BOLD]Quel abruti ce [GREEN]Dédé[DEFAULT][BOLD]...
+En même temps, c'est vrai que venir à l'IBENS en pleine [RED]pandémie[DEFAULT][BOLD] n'est pas
+très [BLUE]CovIBENS[DEFAULT][BOLD] friendly...[DEFAULT]
 
---------------------------------------------------------------------------------

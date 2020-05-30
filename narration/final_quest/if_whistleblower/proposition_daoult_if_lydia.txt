@@ -1,0 +1,29 @@
+[DEFAULT]
+
+Daoult lui propose un poste permanent à l’IBENS, qu’elle peut ensuite prendre en
+mobilité hors de Paris pour continuer ses recherches en paix.
+
+Tiphaine ne sait plus où donner de la tête...
+Que choisir ?
+
+--------------------------------------------------------------------------------
+
+[RED]ACCEPTER[DEFAULT] :
+Tiphaine comprend les arguments de Daoult. Finalement "le mieux est l'ennemi du bien"
+comme dirait son grand-père ! Et puis ce poste, c'est vraiment inespéré pour elle.
+
+[GREEN]LE CONFRONTER[DEFAULT] :
+Tiphaine a des idéaux : le bien commun ne peut pas passer par la diffusion de corona-
+cola, cette boisson cyto-toxique. Comment Daoult ose l'insulter ainsi ??
+
+[BLUE]S'ASSOCIER[DEFAULT] :
+Tiphaine a une autre proposition à faire à Daoult ! Elle comprend ses arguments, ce
+n'est que bon sens. Ce poste de recherche ne l'a tente pas trop. Par contre, si elle
+pouvait récuperer un peu des profits du corona-cola, elle a plein d'idées de comment
+les utiliser à bon escient : écoles Montessori, fermes hydroponiques, recherche pour
+des semences adaptées au climat du Pakistan... Elle ne peut qu'en rêver !
+
+--------------------------------------------------------------------------------
+
+Accepter [0], le confronter [1] ou s'associer [2] ?
+

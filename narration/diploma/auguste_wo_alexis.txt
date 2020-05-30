@@ -1,5 +1,6 @@
 [DEFAULT]
-[GREEN]Tiphaine[DEFAULT] ouvre la porte du bureau d'Auguste
+
+[GREEN]Tiphaine[DEFAULT] ouvre la porte du bureau d'Auguste.
 
 - Salut, est ce que tu pourrais sign.....
 
@@ -10,13 +11,12 @@ Auguste :
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla[DEFAULT]
 
 [GREEN]Tiphaine[DEFAULT] se résigne à l'écouter et, saisissant une courte pause dans son discours,
-pu lui réclamer sa signature. Cela prendn du [YELLOW]#TEMPS[DEFAULT].
+pu lui réclamer sa signature. Cela prend du [GREEN]#TEMPS[DEFAULT].
 
-Si seulement elle arrivait à [RED]l'interrompre[DEFAULT], ou si elle était venue
+Si seulement elle arrivait à [RED]l'interrompre[DEFAULT] ou si elle était venue
 avec quelqu'un qui aurait su ! Enfin...
 
 --------------------------------------------------------------------------------
 
 [YELLOW]Victoire ![DEFAULT] Il ne manque plus que la signature de [GREEN]Paoletti[DEFAULT].
 
---------------------------------------------------------------------------------

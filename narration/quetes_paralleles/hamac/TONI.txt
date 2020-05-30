@@ -4,7 +4,7 @@ Contrairement à [GREEN]Felipe[DEFAULT], [BLUE]Toni[DEFAULT] n'a pas coupé ses 
 
 Grâce à cela, il reste un mannequin absolument [GREEN]handsome[DEFAULT] !
 
-Par contre, [RED]oho...PROBLEME ![DEFAULT] : Il semblerait que cette crise du [RED]COVID-22[DEFAULT] ait
+Par contre, [RED]oho...PROBLEME ![DEFAULT] Il semblerait que cette crise du [RED]COVID-22[DEFAULT] ait
 rendu [BLUE]Toni[DEFAULT] un brin [RED]germophobe[DEFAULT].
 
 Autour de lui s'entassent les bouteilles de gel hydroalcoolique. Il faut être
@@ -13,18 +13,17 @@ Autour de lui s'entassent les bouteilles de gel hydroalcoolique. Il faut être
 --------------------------------------------------------------------------------
 
 [BOLD][UNDERLINE][GREEN]RESPECTER L'ESPACE VITAL DE TONI[DEFAULT]:
-
-Salut Toni ! C'est dommage que je puisse te voir que de loin à cause des mesures
-barrière, parce que t'es encore plus [GREEN]beau[DEFAULT] en vrai que sur snapchat aujourd'hui !
+"Salut Toni ! C'est dommage que je puisse te voir que de loin à cause des mesures
+barrière, parce que t'es encore plus [GREEN]beau[DEFAULT] en vrai que sur snapchat aujourd'hui !"
 
 [BOLD][UNDERLINE][RED]NE PAS RESPECTER L'ESPACE DE TONI[DEFAULT]:
-
-Hey mon pote ! Tiens la bise, chez moi c'est 5 ! Trop contente de te revoir,
+"Hey mon pote ! Tiens la bise, chez moi c'est 5 ! Trop contente de te revoir,
 désolée pour [RED]l'odeur[DEFAULT] jme suis pas lavée depuis mon retour et je sens encore
 un peu la [RED]chèvre[DEFAULT], j'espère que tu m'en voudras pas trop de [RED]t'embrasser[DEFAULT] malgré
 qu'il y ait une [RED]pandémie mortelle[DEFAULT] mais j'suis saoulée des consignes du
-[RED]gouvernement[DEFAULT].
+[RED]gouvernement[DEFAULT]."
 
 --------------------------------------------------------------------------------
 
-Respecter l'espace vital de TONI ? (T/F)
+Respecter l'espace vital de Toni ? (T/F)
+

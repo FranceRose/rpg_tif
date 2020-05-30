@@ -1,0 +1,15 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] contamine [RED]Daoult[DEFAULT] avec son champignon, il devient malade et sur son lit
+de mort nomme [RED]David Holcman[DEFAULT] comme successeur. Le [RED]cola-corona[DEFAULT] n’est plus produit,
+mais [YELLOW]Tiphaine a perdu sa lutte politique[DEFAULT]. Elle ne peut malheureusement rester à
+l’IBENS maintenant qu’elle s’aperçoit qu’elle n’a pas misé sur le bon cheval.
+[BLUE]Elle retourne au Pakistan.[DEFAULT]
+
+Malheureusement, [RED]elle y contamine ses chèvres du COVID, ainsi que Mobby.
+Ils en meurrent.[DEFAULT]
+
+[UNDERLINE][BOLD]FIN[DEFAULT]
+
+--------------------------------------------------------------------------------
+

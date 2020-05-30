@@ -1,6 +1,6 @@
 [DEFAULT]
 
-[GREEN]Tiphaine a-t-elle fait le bon choix d'allié ? Elle veut en avoir le coeur net.
+[GREEN]Tiphaine[DEFAULT] a-t-elle fait le bon choix d'allié ? Elle veut en avoir le coeur net.
 
 Dans un tiroir, elle trouve un courrier d'Antoine Triller qui confirme à [GREEN]David
 Holcman[DEFAULT] son soutien s'il veut demander la destitution de Daoult. Dans une autre

@@ -1,7 +1,8 @@
 [DEFAULT]
+
 [GREEN]Tiphaine[DEFAULT] ouvre doucement la porte du bureau de Lina et tente de lui expliquer sa situation.
 
-Lina jette un rapide coup d'oeil à sa feuille et annonce qu'elle a un RDV [RED]urgent[DEFAULT]
+Lina jette un rapide coup d'oeil à sa feuille et annonce qu'elle a un [RED]RDV urgent[DEFAULT]
 mais qu'elle sera de retour d'ici quelques minutes...
 
 [GREEN]Tiphaine[DEFAULT] patiente, en se rongeant les ongles, ce qui n'est [RED]pas conforme[DEFAULT]
@@ -10,16 +11,15 @@ au plan [BLUE]CovIBENS[DEFAULT]. D'ailleurs ses doigts ont le goût de [BLUE]gel
 Au bout d'un moment [RED]Lina[DEFAULT] revient, signe la feuille, lui donne une feuille
 et referme la porte derrière [GREEN]Tiphaine[DEFAULT] sans lui adresser la parole.
 
-LIna n'a pas l'air très [RED]sympa[DEFAULT], et cela a pris du [YELLOW]#TEMPS[DEFAULT].
+Lina n'a pas l'air très [RED]sympa[DEFAULT] et cela a pris du [GREEN]#TEMPS[DEFAULT].
 
 Peut-être que si Tiphaine était venue avec quelqu'un.e de bien rodé.e, cela
 aurait pu aller plus vite ?
 
-Tiphaine regarde la feuille que [RED]Lina[DEFAULT] vient de lui donner: C'est le
-[RED]formulaire A39[DEFAULT]
+Tiphaine regarde la feuille que [RED]Lina[DEFAULT] vient de lui donner : C'est le
+[RED]formulaire A39[DEFAULT] !
 
 --------------------------------------------------------------------------------
 
-[BOLD][YELLOW]Bon... AU moins j'ai le formulaire A39[DEFAULT]
+[BOLD][YELLOW]Bon... Au moins j'ai le formulaire A39[DEFAULT]
 
---------------------------------------------------------------------------------

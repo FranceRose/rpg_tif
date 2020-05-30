@@ -4,16 +4,15 @@ La manoeuvre de [GREEN]Tiphaine[DEFAULT] semble [GREEN]fonctionner[DEFAULT].
 
 [GREEN]Toni[DEFAULT] remercie [GREEN]Tiphaine[DEFAULT] de respecter les [BLUE]gestes barrières[DEFAULT].
 
-Aujourd'hui à part [RED]Pierre Vincent[DEFAULT], c'est rare de trouver des gens qui respectent [BLUE]CovIBENS[DEFAULT].
+Aujourd'hui à part [RED]Pierre Vincens[DEFAULT], c'est rare de trouver des gens qui respectent [BLUE]CovIBENS[DEFAULT].
 
 Même [RED]Auguste[DEFAULT] est venu au labo alors qu'il [RED]tousse[DEFAULT] !
 Si seulement on avait un [BLUE]endroit[DEFAULT] où se cacher d'[RED]Auguste[DEFAULT]...
 
 [GREEN]Tiphaine[DEFAULT] saute sur l'occasion pour faire du [RED]prosélytisme[DEFAULT]
-à propos de son [YELLOW]HAMAC[DEFAULT] et Toni est [GREEN]convaincu[DEFAULT]
+à propos de son [YELLOW]HAMAC[DEFAULT] et Toni est [GREEN]convaincu[DEFAULT].
 
 --------------------------------------------------------------------------------
 
 [YELLOW][BOLD]T'inquiète Toni, avec le #HAMAC tu pourras te cacher d'[RED]Auguste[YELLOW] n'importe quand ![DEFAULT]
 
---------------------------------------------------------------------------------

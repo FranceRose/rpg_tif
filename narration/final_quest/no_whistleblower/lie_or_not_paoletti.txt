@@ -1,0 +1,23 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] n’a pas fait fuiter les informations dans la presse.
+
+Avant 19h, [GREEN]Tiphaine[DEFAULT] se rend dans le laboratoire de [RED]Daoult[DEFAULT], accompagnée de [GREEN]Pierre
+Paoletti[DEFAULT]. Il est temps de faire tomber les masques.
+
+Avant d’entrer, [BOLD][UNDERLINE]elle discute avec lui[DEFAULT]. Il la remercie de lui avoir communiqué à
+temps les plans de Daoult et de l’avoir prévenu lui plutôt que [RED]David Holcman[DEFAULT].
+
+[YELLOW]Il lui demande si elle a bien fait fuiter les informations dans la presse ?[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[RED]MENTIR [DEFAULT]:
+
+
+[GREEN]DIRE LA VERITE[DEFAULT] :
+
+--------------------------------------------------------------------------------
+
+Mentir ? [T/F]
+

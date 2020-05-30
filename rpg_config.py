@@ -157,8 +157,8 @@ not_mbti_adoult_office_de = -20
 allie_is_evil_de         = -50
 
 # final quest
-confrontation_allie_de  = -50 
-daoult_proposition_de   = -5
+confrontation_allie_de  = -75
+daoult_proposition_de   = -20
 trust_daoult_energy_threshold = 20
 dont_trust_daoult_energy_threshold = 50
 lie_allie_fight_de       = -50

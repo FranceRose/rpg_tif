@@ -1,0 +1,13 @@
+[DEFAULT]
+
+Ni une, ni deux, elle se lance à la poursuite de Pierre Paoletti. Pas trop dur
+car elle a l'habitude de courir après ses chèvres au Pakistan !
+
+Elle confronte alors Pierre Paoletti pour savoir si Daoult dit vrai.
+
+[RED]Pierre Paoletti nie tout en bloc[DEFAULT] et lui rappelle que demain, [BLUE]Mediapart[DEFAULT] salira
+[RED]Daoult[DEFAULT] quoi qu’il arrive.
+
+[RED]Accablée[DEFAULT], [GREEN]Tiphaine[DEFAULT] revient sur ses pas. [BOLD][UNDERLINE]Elle n'a pas fini sa conversation avec
+Daoult ![DEFAULT]
+

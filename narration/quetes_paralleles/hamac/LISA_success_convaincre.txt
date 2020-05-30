@@ -4,7 +4,7 @@
 [YELLOW]#HAMAC[DEFAULT].
 
 [RED]Lisa[DEFAULT] hésite. Elle se souvient qu'elle avait un très beau [YELLOW]HAMAC[DEFAULT]
-quand elle a voyagé au Pérou, et elle a peur d'être [RED]déçue[DEFAULT] avec un [YELLOW]HAMAC[DEFAULT] qui
+quand elle a voyagé au Pérou et elle a peur d'être [RED]déçue[DEFAULT] avec un [YELLOW]HAMAC[DEFAULT] qui
 viendrait de [BLUE]Décathlon[DEFAULT].
 
 Elle [RED]hésite[DEFAULT], dit plusieurs fois [GREEN]OUI[DEFAULT] puis [RED]NON[DEFAULT]
@@ -12,10 +12,9 @@ Elle [RED]hésite[DEFAULT], dit plusieurs fois [GREEN]OUI[DEFAULT] puis [RED]NON
 Au final, elle pense que c'est une [RED]mauvaise idée[DEFAULT] pour la [GREEN]productivité[DEFAULT]
 
 Elle est un peu d'accord avec [GREEN]Auguste[DEFAULT] pour dire que [GREEN]Tiphaine[DEFAULT] a tendance
-à déjà beaucoup [RED]procrastiner[DEFAULT], et voterait plutôt [RED]contre[DEFAULT].
+à déjà beaucoup [RED]procrastiner[DEFAULT] et voterait plutôt [RED]contre[DEFAULT].
 
 --------------------------------------------------------------------------------
 
 [YELLOW][BOLD]Bah... Elle changera peut-être d'avis ?[DEFAULT]
 
---------------------------------------------------------------------------------

@@ -11,14 +11,14 @@ Elles lui proposent naturellement de manger avec elles.
 En plus comme la cantine est fermée dans le cadre de [BLUE]CovIBENS[DEFAULT], c'est parfait.
 
 Tout le monde s'installe pour manger dans la salle de pause.
-Des barrières en plastique permettent un respect strict des [BLUE]mesures barrière[DEFAULT].
+Des barrières en plastique permettent un respect strict des [BLUE]mesures barrières[DEFAULT].
 
 [GREEN]Tiphaine[DEFAULT] soupire mélancoliquement en évoquant le [YELLOW]HAMAC[DEFAULT].
-Cela semble émouvoir [GREEN]Solène [BLUE]Elise [DEFAULT] et [GREEN]Raphaël.
+Cela semble émouvoir [GREEN]Solène, [BLUE]Elise[DEFAULT] et [GREEN]Raphaël.
 
 Puis assez vite, [GREEN]Tiphaine[DEFAULT] profite du plat d'Elise pour dire:
 [BOLD]"Hey ! Mais puisque tu manges des champi [RED]dégueus[DEFAULT], tu penses que je devrais
-faire quoi avec [RED]mes champignons de doigts[DEFAULT] ?
+faire quoi avec [RED]mes champignons de doigts[DEFAULT] ?"
 
 [BLUE]Elise[DEFAULT] pense qu'il vaut mieux ne rien toucher. Elle lui propose à la limite
 un [GREEN]anti-inflammatoire[DEFAULT] pour calmer les démangeaisons du champignon de Tiph.
@@ -35,15 +35,14 @@ champignons.[DEFAULT]
 --------------------------------------------------------------------------------
 
 [BLUE]ECOUTER ELISE[DEFAULT]
-
-[BOLD][YELLOW]Elise a raison. Un anti-inflammatoire ça paraît moins risqué, c'est comme
-du doliprane pour la peau ![DEFAULT]
+Elise a raison. Un anti-inflammatoire ça paraît moins risqué, c'est comme
+du doliprane pour la peau !
 
 [GREEN]ECOUTER SOLENE[DEFAULT]
-
-[BOLD][YELLOW]Mieux vaut écouter Solène. Elle a l'habitude des histoires de dermato de
-sa soeur ![DEFAULT]
+Mieux vaut écouter Solène. Elle a l'habitude des histoires de dermato de
+sa soeur !
 
 --------------------------------------------------------------------------------
 
-Elise (0) ou Solene (1) ?
+Tu choisis le conseil d'Elise (0) ou de Solene (1) ?
+

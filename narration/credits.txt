@@ -1,0 +1,22 @@
+[DEFAULT]
+
+Jeu designé, créé et implementé par [BLUE][UNDERLINE]Biocomp Super Team - IBENS game production[DEFAULT] !!
+
+Sur une [YELLOW]idée originale[DEFAULT] de:
+        France et Dédé
+
+Un [GREEN]scénario[DEFAULT] de :
+        Dédé, France, Mathieu, Ouardia
+
+Une [RED]implémentation[DEFAULT] de :
+        France, Dédé, Maxime, Alexis
+
+Avec des [BLUE]tests nécessaires[DEFAULT] et des [RED]remarques vitales[DEFAULT] de :
+        Alexis, Amira, Elise, Mathieu
+
+Une [YELLOW]affiche[DEFAULT] de :
+        EL designero Felipe
+
+Et plein d'[RED]amour[DEFAULT] de :
+        [BOLD][YELLOW]T[BLUE]O[RED]U[GREEN].T[BLUE]E.[RED]S [YELLOW]!![DEFAULT]
+

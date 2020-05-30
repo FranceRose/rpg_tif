@@ -8,10 +8,10 @@ Le [YELLOW]#HAMAC[DEFAULT] est [RED]refusé[DEFAULT] à la séance extraordinair
 
 [GREEN]Tiphaine[DEFAULT] se [RED]tape la honte[DEFAULT].
 
-[GREEN]Mathieu[DEFAULT],prévoyant, avait déja commandé un [YELLOW]#CANAPE[DEFAULT] sur [BLUE]www.cnrs-commandes.com[DEFAULT].
+[GREEN]Mathieu[DEFAULT], prévoyant, avait déja commandé un [YELLOW]#CANAPE[DEFAULT] sur [BLUE]www.cnrs-commandes.com[DEFAULT].
 
 On installe le [RED]canapé[DEFAULT]. Il est [RED]tout dur[DEFAULT] et calibré pile pour que
-l'être humain moyen ne puisse pas s'y allonger. En plus, il [RED]gratte[DEFAULT].
+l'être humain moyen ne puisse pas s'y allonger. En plus, il [RED]gratte[DEFAULT] !! (True story)
 
 Tout semble fait pour qu'on ne l'utilise [RED]pas[DEFAULT].
 [RED]Auguste[DEFAULT] vient voir [GREEN]Tiphaine[DEFAULT] pour la consoler, mais elle est [RED]énervée[DEFAULT]
@@ -19,11 +19,10 @@ Tout semble fait pour qu'on ne l'utilise [RED]pas[DEFAULT].
 Comme [GREEN]Tiphaine[DEFAULT] ne respecte pas les [BLUE]gestes barrières[DEFAULT], elle
 ne peut esquiver quand [RED]Auguste[DEFAULT] lui [RED]tousse[DEFAULT] dessus.
 
-[BOLD][UNDERLINE]Si Tiphaine n'avais pas déja le [RED]COVID[DEFAULT], elle l'atttrape sûrement [RED]maintenant[DEFAULT].
+[BOLD][UNDERLINE]Si Tiphaine n'avait pas déja le [RED]COVID[DEFAULT], elle l'atttrape sûrement [RED]maintenant[DEFAULT].
 
 --------------------------------------------------------------------------------
 
-[YELLOW][BOLD]Un vieux canapé moisi, pas de HAMAC et maintenant le [RED]COVID[YELLOW]...
-Super !! C'est vraiment une journée de [RED]merde[DEFAULT]
+[YELLOW][BOLD]Un vieux canapé moisi, pas de HAMAC et maintenant le COVID...
+Super !! C'est vraiment une journée de merde[DEFAULT]
 
---------------------------------------------------------------------------------

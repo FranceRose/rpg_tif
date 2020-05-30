@@ -6,5 +6,5 @@ il doit avoir toute une organisation (post-it, carnets, etc).
 En enquêtant, elle découvre que Daoult a réuni des preuves montrant que [BOLD]son rival
 veut le destituer uniquement pour fabriquer du [RED]cola-corona à la place du corona-cola[DEFAULT].
 
-Peste ou choléra ! Destituer Daoult pour un autre ne servirait à rien !
+Peste ou choléra ! [YELLOW]Destituer Daoult[DEFAULT] pour un autre ne servirait à rien !
 

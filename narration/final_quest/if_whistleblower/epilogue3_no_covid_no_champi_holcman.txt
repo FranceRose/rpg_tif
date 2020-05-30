@@ -1,0 +1,19 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] contamine [RED]Daoult[DEFAULT] avec son champignon, il devient malade et sur son lit
+de mort nomme [RED]Pierre Paoletti[DEFAULT] comme successeur. Le [RED]cola-corona[DEFAULT] n’est plus produit,
+mais [YELLOW]Tiphaine a perdu sa lutte politique[DEFAULT]. Elle ne peut malheureusement rester à
+l’IBENS maintenant qu’elle s’aperçoit qu’elle n’a pas misé sur le bon cheval.
+[BLUE]Elle retourne au Pakistan.[DEFAULT]
+
+[YELLOW]Elle finit heureuse et a beaucoup d’enfants, au Pakistan.[DEFAULT] Elle meurt vieille mais aimée,
+dans le dénuement matériel le plus total, mais un amour ambiant tout aussi total. Après tout, elle
+a empêché la mort de milliers d’innocents en ne permettant pas à Daoult de
+commercialiser le corona-cola. Le [GREEN]vaccin[DEFAULT] est dévelopé entre temps, mais il est
+produit par [RED]Sanofi[DEFAULT] qui refuse de l’exporter au Pakistan. Il faut espérer que ses
+petits enfants survivront au virus...
+
+[UNDERLINE][BOLD]FIN[DEFAULT]
+
+--------------------------------------------------------------------------------
+

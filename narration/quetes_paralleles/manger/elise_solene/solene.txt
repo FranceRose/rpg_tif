@@ -17,3 +17,4 @@ En tout cas elle a [GREEN]bien mangé[DEFAULT]. Ça lui fait du [GREEN] bien.[DE
 Elle quitte Solène, Raphaël et Elise puis retourne à sa journée.
 
 Ce repas et le fait d'être débarassée de son [RED]champi[DEFAULT] font qu'elle gagne de l'[YELLOW]#NRJ[DEFAULT]
+

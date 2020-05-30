@@ -4,9 +4,9 @@
 d’[BLUE]Ayush et Aurélien[DEFAULT] qui prouvent la dangerosité du [RED]corona-cola[DEFAULT] sur les neurones.
 De plus, elle a réussi à [BOLD]télécharger les mails de [RED]Daoult[DEFAULT] sur son serveur, et elle
 a choisi un allié élu, [GREEN]Pierre Paoletti[DEFAULT], pressenti pour prendre
-la tête de l’institut lors  de la destitution de Daoult.
+la tête de l’institut lors de la destitution de Daoult.
 
-Avec le [BOLD][YELLOW]badge de Felipe[DEFAULT], elle prend conscience que tout l’institut lui
+Avec le [BOLD][BLUE]badge piraté de Felipe[DEFAULT], elle prend conscience que tout l’institut lui
 est accessible. [BOLD]Comment l'utiliser à bon escient ?[DEFAULT]
 
 --------------------------------------------------------------------------------

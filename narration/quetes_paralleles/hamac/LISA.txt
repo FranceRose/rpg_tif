@@ -10,18 +10,18 @@ Elle est contente de revoir [GREEN]Tiphaine[DEFAULT].
 Contrairement à [BLUE]Toni[DEFAULT], [RED]Lisa[DEFAULT] dit à propos du plan [BLUE]CovIBENS[DEFAULT]
 qu'on en a [RED]rien à faire[DEFAULT] d'un virus [RED]imaginaire[DEFAULT].
 
-Elle trouve que la [RED]germophobie[DEFAULT] de [BLUE]Toni[DEFAULT] est [RED]ridicule[DEFAULT].
+Elle trouve que la [RED]germophobie[DEFAULT] de [BLUE]Toni[DEFAULT] est [RED]RI-DI-CULE[DEFAULT].
 
 Elle est très [GREEN]contente[DEFAULT] de voir que [GREEN]Tiphaine[DEFAULT] revient et que
 la recherche [BLUE]fra[DEFAULT]nça[RED]ise[DEFAULT] redémarre.
 
+[BOLD]Que faire ?[DEFAULT]
+
 --------------------------------------------------------------------------------
 
-[BOLD][UNDERLINE]Que faire ?[DEFAULT]:
-
 [GREEN]ABONDER DANS SON SENS[DEFAULT]
-[YELLOW]"Tu as raison Lisa. La recherche en ce moment, c'est une activité de première
-nécessité"[DEFAULT]
+"Tu as raison Lisa. La recherche en ce moment, c'est une activité de première
+nécessité."
 
 [RED]APPELER DÉDÉ DANS LA CONVERSATION[DEFAULT]
 

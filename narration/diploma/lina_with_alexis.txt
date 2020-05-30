@@ -8,18 +8,17 @@ Ils entendent alors des bruits précipités et la porte s'ouvre.
 --------------------------------------------------------------------------------
 
 Lina, tout sourire s'exclame :
-Oh Bonjour vous deux, entrez entrez, que puis-je faire pour vous ?
+"Oh Bonjour vous deux, entrez entrez, que puis-je faire pour vous ?"
 
-[GREEN]Tiphaine[DEFAULT] commença à expliquer sa situation, mais [RED]Lina[DEFAULT] l'écoutait à peine,
-elle mourrait d'envie de partager ses derniers [GREEN]potins[DEFAULT] avec Alexis.
+[GREEN]Tiphaine[DEFAULT] commence à expliquer sa situation, mais [RED]Lina[DEFAULT] l'écoute à peine,
+elle meure d'envie de partager ses derniers [BLUE]potins[DEFAULT] avec Alexis.
 
-Il lui fit comprendre qu'ils étaient [RED]pressé[DEFAULT] et lui promis de revenir plus tard dans la journée.
-Lina accepta [GREEN]gentiment[DEFAULT] et signa le document que lui tendait [GREEN]Tiphaine[DEFAULT].
+Il lui fait comprendre qu'ielle étaient [RED]pressé.e.s[DEFAULT] et lui promet de revenir plus tard dans la journée.
+Lina accepte [GREEN]gentiment[DEFAULT] et signe le document que lui tend [GREEN]Tiphaine[DEFAULT].
 
 Elle lui donne en passant un papier: C'est le [RED]formulaire A39[DEFAULT]
 
 --------------------------------------------------------------------------------
 
-[BOLD][YELLOW]Bon... AU moins j'ai le formulaire A39[DEFAULT]
+[BOLD][YELLOW]Bon... Au moins j'ai le formulaire A39[DEFAULT]
 
---------------------------------------------------------------------------------

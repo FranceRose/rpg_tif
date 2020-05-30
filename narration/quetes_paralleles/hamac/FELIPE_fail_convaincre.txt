@@ -7,10 +7,9 @@
 En fait, il trouve qu'elle en fait un peu [RED]des caisses[DEFAULT].
 
 Il a même l'impression qu'elle se [RED]fout de sa gueule[DEFAULT] !
-La tentative [RED]foireuse[DEFAULT] de Tiphaine a [RED]lamentablement raté[DEFAULT]
+La tentative [RED]foireuse[DEFAULT] de Tiphaine a [RED]lamentablement raté[DEFAULT]...
 
 --------------------------------------------------------------------------------
 
 [BOLD][YELLOW]Avec un peu plus de chance, ça aurait pu marcher... Bien tenté ![DEFAULT]
 
---------------------------------------------------------------------------------

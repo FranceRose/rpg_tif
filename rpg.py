@@ -8,7 +8,10 @@ from os import system, name
 
 def credits():
     clear_screen()
-    input("A faire")
+    print(p_color("narration/credits.txt"))
+    input()
+    clear_screen()
+    return
 
 
 def launch_video():
@@ -28,15 +31,18 @@ def menu_principal(**kwargs):
         if menu_choice == "3":
             credits()
         if menu_choice == "4":
-            exit(0)
+            sys.exit(0)
         clear_screen()
 
 
 def die():
     clear_screen()
     print(p_color(
-        "[RED]CATASTROPHE ! \n[GREEN]Tiphaine[DEFAULT] a [RED]crevé[DEFAULT]. Elle a visiblement fait de très [RED]mauvais[DEFAULT] choix... Il faut recommencer"),
+        "[RED]CATASTROPHE ! \n[GREEN]Tiphaine[DEFAULT] a [RED]crevé[DEFAULT].\n"
+        "Elle a visiblement fait de très [RED]mauvais[DEFAULT] choix... Il faut recommencer"),
           file=False)
+    input()
+    clear_screen()
     menu_principal()
 
 
@@ -488,7 +494,8 @@ def game(DEBUG=False, **kwargs):
         clear_screen()
         print(p_color("narration/fail_checkpoint.txt"))
         input()
-        return
+        clear_screen()
+        return False
 
     ##########################################
     # PARALLEL QUESTS
@@ -587,7 +594,6 @@ def game(DEBUG=False, **kwargs):
                     print(p_color("narration/quetes_paralleles/hamac/LISA_fail_convaincre.txt"))
 
                 print_result_action(config.convince_lisa_dt, config.convince_lisa_de)
-                print_INFO(time, energy)
 
             else:
                 print(p_color("narration/quetes_paralleles/hamac/LISA_ignorer.txt"))
@@ -600,7 +606,6 @@ def game(DEBUG=False, **kwargs):
 
             if len(hamac_votes) >= config.n_people_hamac_vote:
                 print(p_color("narration/quetes_paralleles/hamac/final_success.txt"))
-                print(f'Quete HAMAC reussie !')
                 hamac_weapon = True
                 energy += config.winning_hamac_de
                 time += config.hamac_quest_dt
@@ -613,8 +618,6 @@ def game(DEBUG=False, **kwargs):
                 time += config.hamac_quest_dt
                 print_result_action(config.hamac_quest_dt, config.loosing_hamac_de)
 
-
-            print_INFO(time, energy)
             hamac_quest = True
 
             if DEBUG:
@@ -634,7 +637,9 @@ def game(DEBUG=False, **kwargs):
             if time >= config.diploma_deadline * 60:
                 # after 5 pm
                 print(p_color(diploma_dir + "vigile.txt"))
-                return
+                input()
+                clear_screen()
+                return False
 
             # Lina's signature sequence
             if alexis:
@@ -658,21 +663,6 @@ def game(DEBUG=False, **kwargs):
             input()
             clear_screen()
 
-            # Paoletti's signature sequence
-            if alexis:
-                time += config.if_alexis_paoletti_dt
-                energy += config.if_alexis_paoletti_de
-                print(p_color(diploma_dir + "paoletti_with_alexis.txt"))
-                print_result_action(config.if_alexis_paoletti_dt, config.if_alexis_paoletti_de)
-            else:
-                time += config.if_not_alexis_paoletti_dt
-                energy += config.if_not_alexis_paoletti_de
-                print(p_color(diploma_dir + "paoletti_wo_alexis.txt"))
-                print_result_action(config.if_not_alexis_paoletti_dt, config.if_not_alexis_paoletti_de)
-
-            print_INFO(time, energy)
-            input()
-            clear_screen()
 
             # Auguste's signature sequence
             if alexis:
@@ -690,6 +680,22 @@ def game(DEBUG=False, **kwargs):
             input()
             clear_screen()
 
+            # Paoletti's signature sequence
+            if alexis:
+                time += config.if_alexis_paoletti_dt
+                energy += config.if_alexis_paoletti_de
+                print(p_color(diploma_dir + "paoletti_with_alexis.txt"))
+                print_result_action(config.if_alexis_paoletti_dt, config.if_alexis_paoletti_de)
+            else:
+                time += config.if_not_alexis_paoletti_dt
+                energy += config.if_not_alexis_paoletti_de
+                print(p_color(diploma_dir + "paoletti_wo_alexis.txt"))
+                print_result_action(config.if_not_alexis_paoletti_dt, config.if_not_alexis_paoletti_de)
+
+            print_INFO(time, energy)
+            input()
+            clear_screen()
+
             # diploma quest achieved
             diploma = True
 
@@ -697,10 +703,8 @@ def game(DEBUG=False, **kwargs):
             # meet with Felipe
             felipe_badge = True
 
-            if DEBUG:
-                print('\nDIPLOMA')
-                print(f'diploma = {diploma}')
-                print(f'time = {time2hours(time)}; energy={energy}\n')
+            input()
+            clear_screen()
 
 
         # BABYFOOT
@@ -729,8 +733,8 @@ def game(DEBUG=False, **kwargs):
             print_result_action(config.baby_dt, 0)
             print_INFO(time, energy)
             input('')
-
             clear_screen()
+
             print(p_color("narration/quetes_paralleles/babyfoot/question_troll.txt"))
             input('')
             clear_screen()
@@ -741,7 +745,7 @@ def game(DEBUG=False, **kwargs):
 
             # choose between paoletti and holcman
             paoletti_vs_holcman = check_input(
-                'De Pierre Paloetti [0] et David Holcman [1], qui choisis-tu comme allie contre Daoult? [0/1]',
+                'De Pierre Paloetti [0] et David Holcman [1], qui choisis-tu comme allie contre Daoult? [0/1]\n\n',
                 ["0", "1"])
             if paoletti_vs_holcman == '0':
                 # choose paoletti
@@ -776,22 +780,21 @@ def game(DEBUG=False, **kwargs):
                 # eat with Solene and Elise
                 hamac_votes.extend(['elise', 'raphael', 'solene'])
                 # cure fungal infection?
-                print(p_color("narration/quetes_paralleles/manger/elise_solene/elise_solene.txt"))
-                fungal_choice = check_input(
-                    "Pour ton champignon, tu suis le conseil d'Elise [0] ou de Solene[1] ?",
-                    ["0", "1"])
+                fungal_choice = check_input(p_color("narration/quetes_paralleles/manger/elise_solene/elise_solene.txt"),
+                                            ["0", "1"])
                 if fungal_choice == '0':
                     # elise: the fungal infection grows worse
                     print(p_color("narration/quetes_paralleles/manger/elise_solene/elise.txt"))
                     fungus = True
+                    time += config.lunch_dt
+                    print_result_action(config.lunch_dt, 0)
                 else:
                     # solene: the fungal infection is cured
-                    print(p_color("narration/quetes_paralleles/manger/elise_solene/elise.txt"))
+                    print(p_color("narration/quetes_paralleles/manger/elise_solene/solene.txt"))
                     energy += config.fungal_de
-                    print_result_action(0, config.fungal_de)
+                    time += config.lunch_dt
+                    print_result_action(config.lunch_dt, config.fungal_de)
 
-            time += config.lunch_dt
-            print_result_action(config.lunch_dt, 0)
             print_INFO(time, energy)
             eaten = True
             input('')
@@ -800,7 +803,6 @@ def game(DEBUG=False, **kwargs):
             if DEBUG:
                 print('\nLUNCH')
                 print(f'hamac_votes = {hamac_votes}, selfie={selfie}')
-                print(f'time = {time2hours(time)}; energy={energy}\n')
 
         # NAP
         else:  # if menu_choice == '4':
@@ -810,15 +812,19 @@ def game(DEBUG=False, **kwargs):
             print_result_action(config.nap_dt, config.nap_de)
 
     if time >= config.end_hour * 60 or energy < 0:
-        print('GAME OVER ! Recommence !')
-        return
+        clear_screen()
+        print(p_color("narration/fail_checkpoint.txt"))
+        input()
+        clear_screen()
+        return False
 
     if not all([babyfoot, hamac_quest, diploma,
                 (covid or fungus or hamac_weapon)]):
         clear_screen()
         print(p_color("narration/fail_checkpoint_2.txt"))
         input()
-        return
+        clear_screen()
+        return False
 
     ########################################
     # WHISTLEBLOWER QUEST
@@ -879,13 +885,20 @@ def game(DEBUG=False, **kwargs):
     if whistleblower_choice == 'T':
         whistleblower = True
 
+    print_INFO(time, energy)
+    input('')
+    clear_screen()
+
     ##########################################
     # FINAL QUEST
     ##########################################
 
     if time >= config.end_hour * 60 or energy < 0:
-        print('GAME OVER ! Recommence !')
-        return
+        clear_screen()
+        print(p_color("narration/fail_checkpoint.txt"))
+        input()
+        clear_screen()
+        return False
 
     # get an appointment with Daoult
     if diploma:
@@ -894,69 +907,167 @@ def game(DEBUG=False, **kwargs):
     else:
         # appointment not valid
         print(
-            p_color("narration/final_quest/appointment_daoult_if_not_diploma.txt"))
+            p_color("narration/final_quest/appointment_daoult_if_no_diploma.txt"))
+        input()
+        clear_screen()
+        return False
 
+    print_NRJ(energy)
     input()
     clear_screen()
 
     if whistleblower:
-        allie_confrontation = check_input("Confrontes-tu ton allie ? [T/F]",
+        if paoletti:
+            allie_confrontation = check_input(p_color(
+                "narration/final_quest/if_whistleblower"
+                "/allie_confrontation_paoletti.txt"),
                                           ["T", "F"])
+        else:
+            allie_confrontation = check_input(p_color(
+                "narration/final_quest/if_whistleblower"
+                "/allie_confrontation_holcman.txt"),
+                ["T", "F"])
+
         if allie_confrontation == 'T':
             energy += config.confrontation_allie_de
+            if paoletti:
+                print(p_color(
+                    "narration/final_quest/if_whistlblower"
+                    "/confrontation_paoletti.txt"))
+            else:
+                print(p_color(
+                    "narration/final_quest/if_whistlblower"
+                    "/confrontation_paoletti.txt"))
+
+        print_NRJ(energy)
+        input()
+        clear_screen()
 
         if huel:
-            huel_choice = check_input("Veux-tu un peu de huel? [T/F]",
+            huel_choice = check_input(p_color("narration/final_quest/huel.txt"),
                                       ["T", "F"])
             if huel_choice == 'T':
                 energy = 100
+                print(p_color("narration/final_quest/huel_yes.txt"))
+                print_NRJ(energy)
+            else:
+                print(p_color("narration/final_quest/huel_no.txt"))
 
-        daoult_proposition = check_input(
-            "Daoult te propose un poste permanent avec mobilite. Tu acceptes ? [T/F]",
-            ["T", "F"])
+            input()
+            clear_screen()
+
+        if selfie:
+            daoult_proposition = check_input(
+                p_color("narration/final_quest/if_whistleblower"
+                        "/proposition_daoult_if_lydia.txt"),
+                ["0", "1", "2"])
+        else:
+            daoult_proposition = check_input(
+                p_color("narration/final_quest/if_whistleblower"
+                        "/proposition_daoult_no_lydia.txt"),
+                ["0", "1"])
+
         energy += config.daoult_proposition_de
-        if daoult_proposition == 'T':
+        print_result_action(0, config.daoult_proposition_de)
+
+        if daoult_proposition == '0':
+            # accepter
             if energy >= config.trust_daoult_energy_threshold:
                 # epilogue 1
-                print("Tu as gagne - Sort of")
-                return
-            else:
-                print("GAME OVER! Recommence !")
-                return
-        else:
-            if energy >= config.dont_trust_daoult_energy_threshold:
-                possible_weapons = daoult_attack(covid, hamac_weapon, fungus)
-                daoult_weapon_choice = check_input(
-                    "Tu attaques Daoult avec le " + ','.join(
-                        [f'{value} [{key}]' for key, value in
-                         possible_weapons.items()]),
-                    [str(c) for c in possible_weapons])
-                if daoult_weapon_choice == '0':
-                    print("Tu tues Daoult avec le covid")
-                # epilogue 2
-                elif daoult_weapon_choice == '1':
-                    print("Tu emprisonnes Daoult avec le piege hamac")
-                # epilogue 3
-                elif daoult_weapon_choice == '2':
-                    print("Tu contamines Daoult avec ton champignon")
-                    # epilogue 4
-
-                    allie_choice = check_input(
-                        "Choisis-tu de changer ton choix pour le prochain directeur d'institut ? [T/F]",
-                        ["T", "F"])
-                    if allie_choice == 'T':
-                        # exchange
-                        paoletti = not paoletti
-                        holcman = not holcman
-
-                    print("Tu as gagne - Sort of")
-                    input()
-                    return
-
-            else:
-                print("GAME OVER! Recommence !")
+                print(p_color("narration/final_quest/if_whistleblower"
+                    "/epilogue1_enough_energy.txt"))
                 input()
-                return
+                clear_screen()
+                return True
+            else:
+                clear_screen()
+                print(p_color(
+                    "narration/final_quest/if_whistleblower"
+                    "/epilogue1_not_enough_energy.txt"))
+                input()
+                clear_screen()
+                return False
+
+        elif daoult_proposition == '1':
+            # le confronter
+            if energy >= config.dont_trust_daoult_energy_threshold:
+                possible_keys, txt = daoult_attack(covid, hamac_weapon,
+                                                     fungus)
+                daoult_weapon_choice = check_input(p_color(txt, file=False),
+                    possible_keys)
+
+                if daoult_weapon_choice == '0':
+                    # epilogue 2
+                    if paoletti:
+                        if bike_fight:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue2_paoletti_bike.txt"))
+                        else:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue2_paoletti_nobike.txt"))
+                    else:
+                        if bike_fight:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue2_holcman_bike.txt"))
+                        else:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue2_paoletti_nobike.txt"))
+
+                elif daoult_weapon_choice == '1':
+                    # epilogue 4
+                    change_allie = check_input(p_color(
+                        "narration/final_quest/if_whistleblower"
+                        "/epilogue4_change_allie.txt"), ['T', 'F'])
+                    if change_allie == 'T':
+                        print(p_color(
+                            "narration/final_quest/if_whistleblower/epilogue4_change_allie.txt"))
+                    else:
+                        print(p_color(
+                            "narration/final_quest/if_whistleblower/epilogue4_no_change.txt"))
+
+                else:
+                    # champignon
+                    # epilogue 3
+                    if paoletti:
+                        if covid:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue3_if_covid_paoletti.txt"))
+                        elif fungus:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue3_no_covid_if_champi_paoletti.txt"))
+                        else:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue3_no_covid_no_champi_paoletti.txt"))
+                    else:
+                        if covid:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue3_if_covid_holcman.txt"))
+                        elif fungus:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue3_no_covid_if_champi_holcman.txt"))
+                        else:
+                            print(p_color(
+                                "narration/final_quest/if_whistleblower/epilogue3_no_covid_no_champi_holcman.txt"))
+                input()
+                clear_screen()
+                return True
+
+            else:
+                # not enough energy
+                clear_screen()
+                print(p_color("narration/final_quest/fail_energy.txt"))
+                input()
+                clear_screen()
+                return False
+        else:
+            # partage des gains avec lydia
+            assert selfie
+            # epilogue 5
+            print(p_color("narration/final_quest_if_whistleblower/epilogue5"
+                          ".txt"))
+            input()
+            clear_screen()
+            return True
 
     else:
         # not whistleblower
@@ -974,10 +1085,6 @@ def game(DEBUG=False, **kwargs):
         else:
             energy += config.dont_lie_allie_fight_de
 
-        if energy < 0:
-            print("GAME OVER! Recommence !")
-            input()
-            return
 
         if huel:
             huel_choice = check_input("Veux-tu un peu de huel? [T/F]",

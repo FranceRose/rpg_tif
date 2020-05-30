@@ -1,16 +1,16 @@
 Nikita et Maxime sont immédiatement remplacés par [GREEN]Amira[DEFAULT] et
 [GREEN]Ouardia[DEFAULT] sur le canapé.
 
-Il paraît que Tiph fait partie de [GREEN][BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT] ?
+Il paraît que Tiph fait partie de [GREEN][BOLD][UNDERLINE][GREEN]LA RÉSISTANCE !?[DEFAULT]
 
-Ouardia dit qu'elle n'a pas trop de temps de s'occuper de [BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]avec ses
+Ouardia dit qu'elle n'a pas trop de temps de s'occuper de [BOLD][UNDERLINE][GREEN]LA RÉSISTANCE [DEFAULT]avec ses
 trois enfants, mais qu'elle est admirative.
 
-Amira lui dit qu'elle fait aussi un peu partie de [GREEN][BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT].
+Amira lui dit qu'elle fait aussi un peu partie de [GREEN][BOLD][UNDERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
 Notamment, elle a eu accès au mot de passe secret de [RED]Daoult[DEFAULT] en lui envoyant
-un lien de [RED]phishing[DEFAULT] en se faisant passer pour [RED]Pierre-Vincent[DEFAULT].
+un lien de [RED]phishing[DEFAULT] en se faisant passer pour [RED]Pierre Vincens[DEFAULT].
 
-Tiph a désormais le mdp secret de [RED]Daoult[DEFAULT]: C'est [RED][BOLD]leConsusCestPét1[DEFAULT].
+Tiph a désormais le mdp secret de [RED]Daoult[DEFAULT]: C'est [RED][BOLD]LeConsensusCestPet1[DEFAULT].
 
 Apparemment, en totale contradiction du plan [BLUE]SécurIBENS[DEFAULT], [RED]Daoult[DEFAULT]
 utilise ce mdp aussi bien pour ses mails que ses serveurs de donnée de recherche.
@@ -19,4 +19,3 @@ utilise ce mdp aussi bien pour ses mails que ses serveurs de donnée de recherch
 
 [YELLOW][BOLD]Trop utile ! Merci Amira ![DEFAULT]
 
---------------------------------------------------------------------------------

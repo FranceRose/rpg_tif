@@ -10,7 +10,7 @@ Sur bios02, Tiphaine recopie également les données laissées par [RED]Daoult[D
 Parmi les fichiers qu'elle consulte, certains sont des [GREEN]tableaux excel[DEFAULT]
 contenant des pots de vin versés à des revues scientifiques pour accepter ses travaux,
 et d'autres des pots de vins versés à des agences de santé pour le laisser commercialiser
-le [RED]corona-cola ![DEFAULT].
+le [RED]corona-cola ![DEFAULT]
 
 D'ailleurs, les premières ventes aux hôpitaux de [RED]Daoult[DEFAULT] rien qu'en
 France sont [RED]super juteuses[DEFAULT] ! C'est juste [RED]scandaleux[DEFAULT].
@@ -21,7 +21,7 @@ Il faudra sûrement consacrer à ces données de longues études de
 [YELLOW]Big Data foireuses[DEFAULT].
 
 Après avoir maudit l'absence de port-USB sur son ordi, Tiph recopie tout sur une
-clé USB
+clé USB.
 
 --------------------------------------------------------------------------------
 
@@ -33,7 +33,7 @@ Elle sort ensuite et va pour rejoindre le tournoi de babyfoot afin de ne pas
 éveiller les soupçons...
 
 Alors qu'elle referme la porte, elle entend dans son dos [GREEN]Pierre Paoletti[DEFAULT]
-et [RED]David Holcman[DEFAULT] s'écharper dans le couloir: Ils parlent de [BOLD][UNDERLINE][GREEN]LA RESISTANCE![DEFAULT]
+et [RED]David Holcman[DEFAULT] s'écharper dans le couloir : Ils parlent de [BOLD][UNDERLINE][GREEN]LA RESISTANCE ![DEFAULT]
 
 Ils s'accusent mutuellement de vouloir profiter de ne vouloir renverser [RED]Daoult[DEFAULT]
 qu'à des fins personnelles.
@@ -51,4 +51,3 @@ remplacer [RED]Daoult[DEFAULT] après l'avoir fait [RED]destituer[DEFAULT].
 
 Qui aurait-t-elle tendance à croire ?
 
---------------------------------------------------------------------------------

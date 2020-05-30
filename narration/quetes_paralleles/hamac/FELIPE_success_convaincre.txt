@@ -12,4 +12,3 @@ S'il y a un vote, il voterait sûrement [GREEN]POUR[DEFAULT].
 
 [YELLOW][BOLD]Et encore une victoire contre les forces du mal ![DEFAULT]
 
---------------------------------------------------------------------------------

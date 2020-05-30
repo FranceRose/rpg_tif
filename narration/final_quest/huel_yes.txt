@@ -1,0 +1,7 @@
+[DEFAULT]
+
+[RED]Buerk, [YELLOW]buerk, [BLUE]buerk...[DEFAULT] C'est vraiment pas ouf ce truc ! Mais bon, si ça lui permet
+de mener à bien sa mission...
+
+[BOLD][YELLOW]Vite[DEFAULT] qu'elle aille retrouver son [GREEN]lit <3[DEFAULT]
+

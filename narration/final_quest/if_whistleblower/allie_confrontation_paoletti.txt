@@ -1,0 +1,44 @@
+[DEFAULT]
+
+Avant d’entrer, elle discute avec [GREEN]Pierre Paoletti[DEFAULT], le successeur de [RED]Daoult[DEFAULT]. Il la remercie de
+lui avoir communiqué à temps les plans de Daoult et de l’avoir prévenu lui
+plutôt que l’autre pressenti.  Il lui demande si elle a bien fait fuiter les
+données comme convenu, elle répond que oui et il la croit sur parole.
+
+Ils avancent ensuite vers le bureau de Daoult.
+
+[RED]Daoult[DEFAULT] l’accueille avec un rire machiavélique. [BOLD]Il a appris que les données ont
+fuité dans la presse.[DEFAULT] Ainsi donc, TIphaine a choisi de se rallier dans le camp
+des bien-pensants.... [YELLOW][BOLD]Mais le consensus… C’est Pétain ![DEFAULT] Elle l’accuse de vouloir
+s’enrichir à but personnel… Mais c’est de la [BLUE]SCIENCE-FICTION ![DEFAULT] Aujourd’hui il faut
+traiter tout le monde ! Sinon des millions de gens mourront ! Bien sûr, le [RED]corona-cola[DEFAULT]
+est dangereux. Tous les médicaments sont dangereux ! Mais le monde ne peut pas
+comprendre. Le grand public ne peut pas comprendre… Il faut cacher l’information
+de la toxicité même si elle est vraie.
+
+[RED][BOLD]Daoult tente de la convaincre[DEFAULT] : Il est encore temps d’arrêter la presse. Ce que
+Tiphaine ne sait pas, lui assure-t-il, c’est que [GREEN]Pierre Paoletti[DEFAULT] ne fait ce travail
+de sape que pour s’enrichir lui-même avec la même méthode, mais sans y croire vraiment.
+Tandis que Daoult, lui, essaye de sauver des vies !  Il lui montre les preuves, que
+[GREEN]Tiphaine[DEFAULT] a peut-être par ailleurs déjà vu dans le labo du successeur désigné :
+Elles sont [RED]accablantes[DEFAULT].
+
+Daoult a au moins un peu raison. Lui ou son successeur, ce serait la peste ou le choléra,
+car le [RED]cola-corona[DEFAULT] est très proche du [RED]corona-cola[DEFAULT] de toute façon.
+
+Pierre Paoletti prend alors la fuite.
+[BOLD][UNDERLINE]Que faire ?[DEFAULT]
+
+--------------------------------------------------------------------------------
+
+[RED]LE POURSUIVRE ?[DEFAULT]
+Tu veux en avoir le coeur net. Est-il coupable de ce que Daoult l'accuse ??
+
+[GREEN]LE LAISSER PARTIR ?[DEFAULT]
+Sa fuite est un aveu ! Bien sûr que Pierre Paoletti est coupable. Elle aurait dû
+s'en douter !
+
+--------------------------------------------------------------------------------
+
+Le poursuivre ? [T/F]
+

@@ -1,10 +1,10 @@
 [DEFAULT]
 
 [GREEN]Tiphaine[DEFAULT] et [GREEN]Alexis[DEFAULT] se dirigent vers le bureau de [GREEN]Pierre Paoletti[DEFAULT],
-munis du [RED]formulaire A39[DEFAULT], de la signature de [RED]Lina[DEFAULT] et celle
+munis du [RED]formulaire A39[DEFAULT], de la signature de [RED]Lina[DEFAULT] et de celle
 d'[RED]Auguste[DEFAULT].
 
-Ils croisent alors [GREEN]Benoit[DEFAULT] tenue de motard, en pleine discussion avec
+Ils croisent alors [GREEN]Benoît[DEFAULT] -- tenue de motard --, en pleine discussion avec
 [GREEN]Alice[DEFAULT] à propos de son deuxième [GREEN]bébé trop mignon[DEFAULT].
 
 La tentation est forte de se [RED]claquer une p'tite bise[DEFAULT] comme en 40, mais
@@ -15,14 +15,14 @@ ce serait contraires aux [RED]gestes barrière[DEFAULT] et au plan [BLUE]CovIBEN
 Dire qu'en deux ans au Pakistan, [GREEN]Tiphaine[DEFAULT] n'a pas encore pris le
 temps de faire des [GREEN]bébés trop choupis[DEFAULT] ! Elle avait pourtant donné
 un [RED]ultimatum[DEFAULT] à [GREEN]Moby[DEFAULT]. Il va falloir qu'ils s'y mettent
-sérieusement tous les deux dès que toutes ces [RED]©onneries[DEFAULT] de [RED]Covid22[DEFAULT]
+sérieusement tous les deux dès que toutes ces [RED]Conneries[DEFAULT] de [RED]Covid22[DEFAULT]
 seront terminées !
 
 Alors qu'elle part pour s'engager dans une longue conversation, [GREEN]Alexis[DEFAULT]
 lui rappelle qu'ils n'ont [RED]pas l'temps d'niaiser[DEFAULT].
 
 [GREEN]Alexis[DEFAULT] rappelle à [GREEN]Tiphaine[DEFAULT] que c'est déja lui qui a écrit
-les trois papiers dans [RED]Nature et Sciences[DEFAULT] dont elle peut se vanter,
+les trois papiers dans [RED]Nature[DEFAULT] et [RED]Science[DEFAULT] dont elle peut se vanter,
 et qu'il est encore en train de lui filer un coup de main [RED]administratif[DEFAULT]
 alors elle pourrait au moins se [RED]grouiller le cul[DEFAULT] pour qu'il n'y passe
 pas sa journée.
@@ -32,25 +32,23 @@ Avec Alexis, ils entrent alors dans le bureau de [GREEN]Pierre Paoletti[DEFAULT]
 
 La signature ne dure pas longtemps.
 [GREEN]Pierre Paoletti[DEFAULT] lui dit qu'il se doute que [GREEN]Tiphaine[DEFAULT]
-serait intéressée à l'idée de battre [DAOULT] et rejoindre [GREEN][BOLD][UNDERLINE]LA RÉSISTANCE![DEFAULT].
+serait intéressée à l'idée de battre [RED]Daoult[DEFAULT] et rejoindre [GREEN][BOLD][UNDERLINE]LA RÉSISTANCE ![DEFAULT]
 
 Il la met en garde que [RED]David Holcman[DEFAULT], tout en se revendiquant lui aussi
-de [GREEN][BOLD][UNDERLINE]LA RÉSISTANCE![DEFAULT] est en réalité juste intéressé comme
-[RED]Daoult[DEFAULT] à s'enrichir personnellement. Il faut se méfier des intentions de [RED]Holcman[DEFAULT]
+de [GREEN][BOLD][UNDERLINE]LA RÉSISTANCE ![DEFAULT] est en réalité juste intéressé comme
+[RED]Daoult[DEFAULT] à s'enrichir personnellement. Il faut autant se méfier des intentions de [RED]Holcman[DEFAULT]
 que de celles de [RED]Daoult[DEFAULT].
 
-Il espère que [GREEN]Tiphaine[DEFAULT] ne se trompera pas le moment venu
+Il espère que [GREEN]Tiphaine[DEFAULT] ne se trompera pas le moment venu.
 
 Pour le reste, la situation administrative de [GREEN]Tiphaine[DEFAULT] est réglée !
 
-Comme elle a le formulaire A39, la signature de Lina et Auguste et maintenant Paoletti
-lui donne le fameux [RED]laisser-passer A38[DEFAULT].
+Comme elle a le formulaire A39, les signatures de Lina, Auguste et maintenant Paoletti
+lui donnent le fameux [RED]laisser-passer A38[DEFAULT].
 
-[GREEN]Tiphaine[DEFAULT] remercie [GREEN]Alexis[DEFAULT]. Tout a été très vite grâce
-à lui !
+[GREEN]Tiphaine[DEFAULT] remercie [GREEN]Alexis[DEFAULT]. Tout a été très vite grâce à lui !
 
 --------------------------------------------------------------------------------
 
 [YELLOW][BOLD]Bon... C'était pas pire que s'inscrire à l'ED finalement[DEFAULT]
 
---------------------------------------------------------------------------------

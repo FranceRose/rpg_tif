@@ -6,26 +6,26 @@ comme elle le sait d'[RED]Auguste[DEFAULT] lui-même, il n'est [UNDERLINE]pas[DE
 Elle décide de se ranger de son côté dans la dispute qui l'oppose à [GREEN]Paoletti[DEFAULT].
 
 Elle rappelle à [GREEN]Paoletti[DEFAULT] que c'est précisément sa [RED]mauvaise gestion[DEFAULT] du
-[RED]COVID-21[DEFAULT] l'année dernière qu'il a dû céder sa place à [RED]Daoult[DEFAULT]
+[RED]COVID-21[DEFAULT] l'année dernière qu'il a dû céder sa place à [RED]Daoult[DEFAULT].
 
 Impossible de lui faire confiance !
 [RED]David Holcman[DEFAULT] au moins pourra reprendre les choses correctement en main
 D'ailleurs ses étudiants et anciens étudiants sont tous de parfaits membres de
-[BOLD][UDNERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
+[BOLD][UNDERLINE][GREEN]LA RÉSISTANCE ![DEFAULT]
 
 
-Une fois [GREEN]Paoletti[DEFAULT] parti, [GREEN]Tiphaine[DEFAULT] s'entretient brièvement
-avec [RED]David Holcman[DEFAULT].
+Une fois [RED]Paoletti[DEFAULT] parti, [GREEN]Tiphaine[DEFAULT] s'entretient brièvement
+avec [GREEN]David Holcman[DEFAULT].
 
 [GREEN]Tiphaine[DEFAULT] lui parle des données qu'elle a trouvées sur le serveur de
 [RED]Daoult[DEFAULT]
 
-[RED]Holcman[DEFAULT] veut à tout prix faire fuiter ces données immédiatement dans la presse.
+[GREEN]Holcman[DEFAULT] veut à tout prix faire fuiter ces données immédiatement dans la presse.
 [GREEN]Tiphaine[DEFAULT] refuse de les lui donner et dit qu'elle veut choisir elle-même quand
 et comment les révéler à la presse.
 
 [RED]Holcman[DEFAULT] accepte que ce soit [GREEN]Tiphaine[DEFAULT] qui choisisse comment
-et quand révéler l'affaire à la presse. APrès tout, peu importe tant que [RED]Daoult[DEFAULT]
+et quand révéler l'affaire à la presse. Après tout, peu importe tant que [RED]Daoult[DEFAULT]
 est destitué !
 
 Il lui demande de promettre qu'elle fera bien [BLUE]fuiter[DEFAULT] tout ça avant ce soir.
@@ -37,4 +37,3 @@ tranquillement. ELle n'est pas encore tout à fait sûr de devoir le faire.
 
 [BOLD][YELLOW]Quelle journée ![DEFAULT]
 
---------------------------------------------------------------------------------

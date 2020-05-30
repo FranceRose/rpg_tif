@@ -1,0 +1,29 @@
+[DEFAULT]
+
+[GREEN]Tiphaine[DEFAULT] comprend les arguments de [RED]Daoult[DEFAULT]. D’ailleurs elle n’apprécie pas l’idée
+que ses successeurs fassent simplement pareil que lui, en pire. [BOLD][UNDERLINE]Elle choisit de
+prendre le camp de Daoult.[DEFAULT]
+
+Ensemble, ils contactent Pierre Vincens : par chance le mail que Tiphaine a envoyé
+à [BLUE]Mediapart[DEFAULT] est resté dans le [GREEN]filtre anti-spam[DEFAULT]. Ils en rédigent alors un nouveau
+le soir même, en trafiquant les preuves à charge contre le successeur. [BLUE]Tiphaine
+accepte de mentir sur la toxicité du corona-cola et couvrir Daoult afin de pouvoir
+sauver le plus de personnes possibles[DEFAULT].
+
+Le successeur est évincé dès le lendemain, balayé par les révélations [BLUE]Médiapart[DEFAULT]
+à son encontre. [RED]Daoult[DEFAULT] est conforté dans sa position de chef de l’institut. Après
+une nuit blanche passée à travailler, [UNDERLINE][YELLOW]la production du corona-cola peut enfin être
+lancée à l’échelle mondiale comme prévu[DEFAULT].
+
+
+Tout de suite après la confirmation de Daoult au poste de directeur, [GREEN]elle obtient
+un poste de chercheur permanent à l’IBENS et ne retourne pas au Pakistan[DEFAULT]. Elle
+finit par développer un réel [GREEN]remède contre le COVID-22[DEFAULT]. Elle est certaine en tout
+cas d’avoir fait le bon choix. En ces temps de crise, il n’y a pas de temps pour
+faire dans la demi-mesure ! Quelques années plus tard, [BLUE]elle ira dans le Cantal avec
+Mobby[DEFAULT]. Un [YELLOW]vaccin[DEFAULT] aura été trouvé. Certain.e.s diront alors que le [RED]corona-cola[DEFAULT] a tué des
+milliers de personnes par sa [RED]toxitié neuronale[DEFAULT]. [GREEN]Tiphaine[DEFAULT] et Daoult, eux, maintiennent
+que [UNDERLINE]leur traitement a sauvé des vies...[DEFAULT]
+
+--------------------------------------------------------------------------------
+
