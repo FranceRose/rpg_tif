@@ -1084,7 +1084,7 @@ def game(DEBUG=False, **kwargs):
                 p_color("narration/final_quest/no_whistleblower"
                         "/lie_or_not_holcman.txt"),
                 ["T", "F"])
-        if lie_or_not == 'T':
+        if lie_or_not == 'F':
             # need to fight
             if paoletti:
                 print(p_color(

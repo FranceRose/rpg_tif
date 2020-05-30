@@ -3,7 +3,7 @@
 [GREEN]Tiphaine[DEFAULT] ne ment jamais !
 
 Elle répond qu'elle ne l’a pas fait parce qu’elle veut attendre avant d’être sûre,
-elle doit affronter la [RED]colère illégitime[DEFAULT] de son adversaire qui se sent trahi
+elle doit affronter la [RED]colère légitime[DEFAULT] de son adversaire qui se sent trahi
 (elle avait promis !) et n’a pas d’autre choix.
 
 [BOLD][UNDERLINE]En légitime défense, il lui faut neutraliser Pierre Paoletti ![DEFAULT]

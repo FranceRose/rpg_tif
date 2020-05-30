@@ -19,6 +19,6 @@ Pendant la pause, [BLUE]Toni[DEFAULT] apprend à [GREEN]Tiphaine[DEFAULT] commen
 
 --------------------------------------------------------------------------------
 
-[BOLD][YELLOW] Des super selfies ! C'est super-pratique pour déverrouiller des comptes [BLUE]Lydia[YELLOW] sans encombre
+[BOLD][YELLOW]Des super selfies ! C'est super-pratique pour déverrouiller des comptes [BLUE]Lydia[YELLOW] sans encombre
 Merci Toni ![DEFAULT]
 
