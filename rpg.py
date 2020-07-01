@@ -1196,4 +1196,4 @@ def game(DEBUG=False, **kwargs):
 
 
 if __name__ == '__main__':
-    menu_principal(DEBUG=True)
+    menu_principal(DEBUG=False)
